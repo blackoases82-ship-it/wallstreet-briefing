@@ -55,6 +55,39 @@ export type StockItem = {
   riskNote?: string;
 };
 
+// 미국 시가총액 Top 10
+export type MarketCapItem = {
+  rank: number;
+  ticker: string;
+  nameKo: string;
+  marketCap: string; // 예: "$5.10T"
+  changePercent: number | null;
+};
+
+// 세계 증시 주요 일정 (월별 → 주별)
+export type CalendarEvent = {
+  dateLabel: string; // 예: "7/28~29 (화~수)"
+  title: string;
+  category: "FOMC" | "지표" | "실적" | "정책" | "기타";
+  region: "US" | "KR" | "GLOBAL";
+  importance: "high" | "medium" | "low";
+};
+
+export type CalendarWeek = {
+  week: string; // 예: "6월 4주"
+  events: CalendarEvent[];
+};
+
+export type CalendarMonth = {
+  month: string; // 예: "2026년 6월"
+  weeks: CalendarWeek[];
+};
+
+export type EconomicCalendar = {
+  note?: string;
+  months: CalendarMonth[];
+};
+
 export type FinalAnalysis = {
   marketDiagnosis: string;
   sectorRotationAnalysis: string;
@@ -69,6 +102,8 @@ export type BriefingData = {
   title: string;
   generatedAt: string;
   oneLineConclusion: string;
+  economicCalendar?: EconomicCalendar;
+  usMarketCap?: { asOf: string; items: MarketCapItem[] };
   marketIndexes: MarketIndex[];
   macroIndicators: MacroIndicator[];
   sectorRotation: {
