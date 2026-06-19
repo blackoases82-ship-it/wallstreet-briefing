@@ -38,9 +38,9 @@ export default function StockRow({ stock }: { stock: StockItem }) {
   const cur = stock.currency;
 
   return (
-    <tr className="border-b border-gray-100 last:border-0 align-top">
+    <tr className="border-b border-line last:border-0 align-top">
       {/* 종목 (이름 + 티커) — 항상 먼저 보이게 sticky */}
-      <td className="sticky left-0 bg-white px-3 py-3 min-w-[120px]">
+      <td className="sticky left-0 bg-card px-3 py-3 min-w-[120px]">
         <p className="font-bold text-sm leading-tight">{stock.nameKo}</p>
         <p className="text-[11px] text-sub">{stock.ticker}</p>
         <p className="text-[11px] text-sub">{stock.sector}</p>
@@ -70,7 +70,7 @@ export default function StockRow({ stock }: { stock: StockItem }) {
         {margin == null ? (
           <span className="text-xs text-sub">계산 제외</span>
         ) : (
-          <span className="inline-block bg-marginBadge text-red-700 font-bold text-sm rounded-lg px-2 py-1">
+          <span className="inline-block bg-marginBadge text-red-300 font-bold text-sm rounded-lg px-2 py-1">
             {margin.toFixed(1)}%
           </span>
         )}
@@ -117,7 +117,7 @@ export default function StockRow({ stock }: { stock: StockItem }) {
       </td>
 
       {/* 핵심 뉴스 */}
-      <td className="px-3 py-3 text-xs text-gray-700 min-w-[200px]">
+      <td className="px-3 py-3 text-xs text-gray-300 min-w-[200px]">
         {stock.keyNews}
         {stock.riskNote && (
           <span className="block mt-1 text-[11px] text-red-600 font-semibold">

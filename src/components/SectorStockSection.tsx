@@ -28,7 +28,7 @@ export default function SectorStockSection({ stocks }: Props) {
         {Array.from(groups.entries()).map(([sector, items]) => (
           <div
             key={sector}
-            className="bg-white rounded-2xl shadow-card overflow-hidden"
+            className="bg-card rounded-2xl shadow-card overflow-hidden border border-line"
           >
             <div className="px-4 pt-3 pb-1">
               <h3 className="font-bold text-sm">{sector}</h3>
@@ -36,8 +36,8 @@ export default function SectorStockSection({ stocks }: Props) {
             <div className="scroll-x no-scrollbar">
               <table className="w-full text-left border-collapse">
                 <thead>
-                  <tr className="text-[11px] text-sub border-b border-gray-100">
-                    <th className="sticky left-0 bg-white px-3 py-2 font-medium">
+                  <tr className="text-[11px] text-sub border-b border-line">
+                    <th className="sticky left-0 bg-card px-3 py-2 font-medium">
                       종목
                     </th>
                     <th className="px-3 py-2 font-medium whitespace-nowrap">

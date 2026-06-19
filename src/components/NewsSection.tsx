@@ -12,19 +12,19 @@ const CATEGORY_LABEL: Record<NewsCategory, string> = {
   rumor: "미확인 월가 채터",
 };
 
-// 카테고리별 배경/테두리 톤
+// 다크모드: 카드 배경은 어둡게 통일하고 카테고리는 좌측 컬러 보더로 구분
 function cardTone(cat: NewsCategory): string {
   switch (cat) {
     case "official":
-      return "bg-newsPos border-emerald-200";
+      return "bg-card border-l-4 border-emerald-500 border border-line";
     case "analyst":
-      return "bg-white border-gray-200";
+      return "bg-card border-l-4 border-blue-500 border border-line";
     case "overseas":
-      return "bg-white border-gray-200";
+      return "bg-card border-l-4 border-sky-500 border border-line";
     case "chatter":
-      return "bg-newsWarn border-amber-200";
+      return "bg-card border-l-4 border-amber-500 border border-line";
     case "rumor":
-      return "bg-newsRisk border-red-300";
+      return "bg-newsRisk border-l-4 border-red-500 border border-red-900";
   }
 }
 
@@ -33,11 +33,11 @@ function badgeTone(cat: NewsCategory): string {
     case "official":
       return "bg-emerald-600 text-white";
     case "analyst":
-      return "bg-gray-800 text-white";
-    case "overseas":
       return "bg-blue-600 text-white";
+    case "overseas":
+      return "bg-sky-600 text-white";
     case "chatter":
-      return "bg-amber-500 text-white";
+      return "bg-amber-500 text-black";
     case "rumor":
       return "bg-red-600 text-white";
   }
@@ -50,7 +50,7 @@ function impactLabel(impact: NewsItem["impact"]): { text: string; cls: string } 
     case "negative":
       return { text: "영향: 부정", cls: "text-down" };
     case "mixed":
-      return { text: "영향: 혼조", cls: "text-amber-600" };
+      return { text: "영향: 혼조", cls: "text-amber-400" };
     default:
       return { text: "영향: 중립", cls: "text-sub" };
   }
@@ -70,7 +70,7 @@ export default function NewsSection({ news }: Props) {
           return (
             <article
               key={i}
-              className={`rounded-2xl shadow-card border px-4 py-3 ${cardTone(
+              className={`rounded-2xl shadow-card px-4 py-3 ${cardTone(
                 n.category
               )}`}
             >
@@ -90,10 +90,10 @@ export default function NewsSection({ news }: Props) {
                 )}
               </div>
 
-              <h3 className="mt-2 font-bold text-[15px] leading-snug">
+              <h3 className="mt-2 font-bold text-[15px] leading-snug text-ink">
                 {n.title}
               </h3>
-              <p className="mt-1 text-sm text-gray-700 leading-relaxed">
+              <p className="mt-1 text-sm text-gray-300 leading-relaxed">
                 {n.summaryKo}
               </p>
 
@@ -115,7 +115,7 @@ export default function NewsSection({ news }: Props) {
               </div>
 
               {n.category === "rumor" && (
-                <p className="mt-2 text-xs font-semibold text-red-700 bg-white/70 rounded-lg px-2 py-1">
+                <p className="mt-2 text-xs font-semibold text-red-300 bg-red-500/10 rounded-lg px-2 py-1">
                   ⚠️ 주의: 공식 확인 전 단독 매수 근거로 사용 금지
                 </p>
               )}
