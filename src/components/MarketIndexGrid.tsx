@@ -13,7 +13,7 @@ export default function MarketIndexGrid({ indexes }: Props) {
         {indexes.map((idx) => (
           <div
             key={idx.name}
-            className="bg-white rounded-2xl shadow-card px-4 py-3"
+            className="bg-card rounded-2xl shadow-card px-4 py-3 border border-line"
           >
             <p className="text-xs text-sub">{idx.name}</p>
             <p className="text-xl font-extrabold mt-1">

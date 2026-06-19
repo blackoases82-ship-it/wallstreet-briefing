@@ -17,7 +17,7 @@ function SectorList({
 }) {
   const color = tone === "up" ? "text-up" : "text-down";
   return (
-    <div className="bg-white rounded-2xl shadow-card px-4 py-3 flex-1">
+    <div className="bg-card rounded-2xl shadow-card px-4 py-3 flex-1 border border-line">
       <p className={`text-sm font-bold mb-2 ${color}`}>{title}</p>
       <ul className="space-y-1.5">
         {items.map((s) => (

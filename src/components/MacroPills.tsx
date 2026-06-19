@@ -18,7 +18,7 @@ export default function MacroPills({ indicators }: Props) {
         {indicators.map((m) => (
           <div
             key={m.name}
-            className="bg-white rounded-full shadow-card px-4 py-2 flex items-baseline gap-1.5"
+            className="bg-card rounded-full shadow-card px-4 py-2 flex items-baseline gap-1.5 border border-line"
             title={m.note ?? undefined}
           >
             <span className="text-xs text-sub">{m.name}</span>

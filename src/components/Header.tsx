@@ -5,7 +5,7 @@ type Props = {
 
 export default function Header({ title, generatedAt }: Props) {
   return (
-    <header className="bg-white rounded-2xl shadow-card px-5 py-4">
+    <header className="bg-card rounded-2xl shadow-card px-5 py-4 border border-line">
       <h1 className="text-2xl font-extrabold tracking-tight flex items-center gap-2">
         <span aria-hidden>🗽</span>
         <span>{title}</span>

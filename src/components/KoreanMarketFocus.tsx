@@ -39,7 +39,7 @@ export default function KoreanMarketFocus({ stocks }: Props) {
           return (
             <div
               key={s.ticker}
-              className="bg-white rounded-2xl shadow-card px-4 py-3"
+              className="bg-card rounded-2xl shadow-card px-4 py-3 border border-line"
             >
               <div className="flex items-center justify-between gap-2">
                 <p className="font-bold text-[15px]">{s.nameKo}</p>
@@ -64,14 +64,14 @@ export default function KoreanMarketFocus({ stocks }: Props) {
                   / 시간외 {formatAfterHours(s.afterHoursPrice, "KRW")}
                 </span>
                 {margin != null && (
-                  <span className="ml-2 inline-block bg-marginBadge text-red-700 font-bold rounded-lg px-2 py-0.5 text-xs">
+                  <span className="ml-2 inline-block bg-marginBadge text-red-300 font-bold rounded-lg px-2 py-0.5 text-xs">
                     안전마진 {margin.toFixed(1)}%
                   </span>
                 )}
               </p>
 
               {/* 목표가 저/평/고 */}
-              <p className="mt-1 text-xs text-gray-700">
+              <p className="mt-1 text-xs text-gray-300">
                 목표가 저/평/고 {formatPrice(s.targetLow ?? null, "KRW")} /{" "}
                 <span className="font-semibold">
                   {formatPrice(s.targetAverage ?? null, "KRW")}
