@@ -8,22 +8,25 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        bg: "#F6F7F9",
-        card: "#FFFFFF",
-        ink: "#111827",
-        sub: "#6B7280",
-        up: "#DC2626",
-        down: "#2563EB",
-        marginBadge: "#FEE2E2",
-        newsPos: "#ECFDF5",
-        newsWarn: "#FEF3C7",
-        newsRisk: "#FEE2E2",
+        // 다크 모드 팔레트
+        bg: "#0B0F19",
+        card: "#151B28",
+        cardHi: "#1C2434",
+        ink: "#E6E9EF",
+        sub: "#93A0B4",
+        line: "#252D3D",
+        up: "#F05252", // 한국 기준 상승 = 빨강 (다크용으로 밝게)
+        down: "#5C8DF6", // 하락 = 파랑
+        marginBadge: "#3A1F22", // 안전마진 배지 배경(다크)
+        newsPos: "#0F2A22",
+        newsWarn: "#2C2410",
+        newsRisk: "#33181B",
       },
       maxWidth: {
         app: "820px",
       },
       boxShadow: {
-        card: "0 1px 3px rgba(17, 24, 39, 0.08), 0 1px 2px rgba(17, 24, 39, 0.04)",
+        card: "0 1px 2px rgba(0,0,0,0.4), 0 1px 3px rgba(0,0,0,0.3)",
       },
     },
   },
