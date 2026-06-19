@@ -2,6 +2,110 @@
   "title": "나만의 월스트리트",
   "generatedAt": "2026. 6. 19. 오전 6:39 KST",
   "oneLineConclusion": "美-이란 평화협정 서명에 위험선호가 돌아오며 반도체가 슈퍼랠리를 펼쳤고(INTC +10.6%, MRVL +7.3%, TSM +6.9%), 연준 매파 점도표는 뒷전으로 밀렸습니다. 코스피는 사상 첫 9,000을 돌파(삼성전자·SK하이닉스 사상 최고)했으나, 반도체 쏠림(시총 비중 54%)과 동일가중 -3.7% 양극화는 과열 경계 신호입니다.",
+  "economicCalendar": {
+    "note": "※ 일정·날짜는 예정(추정) 기준이며 변동될 수 있습니다. 자동 갱신됩니다.",
+    "months": [
+      {
+        "month": "2026년 6월",
+        "weeks": [
+          {
+            "week": "6월 4주 (6/22~26)",
+            "events": [
+              { "dateLabel": "6/25 (목)", "title": "마이크론 실적 발표", "category": "실적", "region": "US", "importance": "high" },
+              { "dateLabel": "6/26 (금)", "title": "美 5월 PCE 물가지수", "category": "지표", "region": "US", "importance": "high" },
+              { "dateLabel": "6/22 (월)", "title": "한국 6월 수출(잠정)", "category": "지표", "region": "KR", "importance": "medium" }
+            ]
+          },
+          {
+            "week": "6월 5주 (6/29~7/3)",
+            "events": [
+              { "dateLabel": "7/1 (수)", "title": "美 ISM 제조업 PMI", "category": "지표", "region": "US", "importance": "medium" },
+              { "dateLabel": "7/3 (금)", "title": "美 6월 고용보고서(비농업)", "category": "지표", "region": "US", "importance": "high" }
+            ]
+          }
+        ]
+      },
+      {
+        "month": "2026년 7월",
+        "weeks": [
+          {
+            "week": "7월 2주 (7/6~10)",
+            "events": [
+              { "dateLabel": "7/8 (수)", "title": "삼성전자 2Q 잠정실적", "category": "실적", "region": "KR", "importance": "high" }
+            ]
+          },
+          {
+            "week": "7월 3주 (7/13~17)",
+            "events": [
+              { "dateLabel": "7/14 (화)", "title": "美 6월 CPI", "category": "지표", "region": "US", "importance": "high" },
+              { "dateLabel": "7/14~16", "title": "美 대형은행 실적(JPM·WFC 등)", "category": "실적", "region": "US", "importance": "medium" },
+              { "dateLabel": "7/16 (목)", "title": "한국은행 금통위(기준금리)", "category": "정책", "region": "KR", "importance": "high" }
+            ]
+          },
+          {
+            "week": "7월 4주 (7/20~24)",
+            "events": [
+              { "dateLabel": "7/22~23", "title": "테슬라·알파벳 실적", "category": "실적", "region": "US", "importance": "high" },
+              { "dateLabel": "7/24 (금)", "title": "SK하이닉스 2Q 실적", "category": "실적", "region": "KR", "importance": "high" }
+            ]
+          },
+          {
+            "week": "7월 5주 (7/27~31)",
+            "events": [
+              { "dateLabel": "7/28~29 (화~수)", "title": "美 FOMC 회의·금리 결정", "category": "FOMC", "region": "US", "importance": "high" },
+              { "dateLabel": "7/29~31", "title": "MS·메타·아마존·애플 실적", "category": "실적", "region": "US", "importance": "high" },
+              { "dateLabel": "7/31 (금)", "title": "삼성전자 확정실적", "category": "실적", "region": "KR", "importance": "medium" }
+            ]
+          }
+        ]
+      },
+      {
+        "month": "2026년 8월",
+        "weeks": [
+          {
+            "week": "8월 1주 (8/3~7)",
+            "events": [
+              { "dateLabel": "8/7 (금)", "title": "美 7월 고용보고서(비농업)", "category": "지표", "region": "US", "importance": "high" }
+            ]
+          },
+          {
+            "week": "8월 2주 (8/10~14)",
+            "events": [
+              { "dateLabel": "8/12 (수)", "title": "美 7월 CPI", "category": "지표", "region": "US", "importance": "high" }
+            ]
+          },
+          {
+            "week": "8월 3주 (8/17~21)",
+            "events": [
+              { "dateLabel": "8/20~22", "title": "잭슨홀 경제정책 심포지엄", "category": "정책", "region": "US", "importance": "high" }
+            ]
+          },
+          {
+            "week": "8월 4주 (8/24~28)",
+            "events": [
+              { "dateLabel": "8/26 (수)", "title": "엔비디아 분기 실적", "category": "실적", "region": "US", "importance": "high" },
+              { "dateLabel": "8/28 (금)", "title": "美 7월 PCE 물가지수", "category": "지표", "region": "US", "importance": "high" }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "usMarketCap": {
+    "asOf": "2026-06-19 장 마감 기준 · 추정 스냅샷 (자동 갱신)",
+    "items": [
+      { "rank": 1, "ticker": "NVDA", "nameKo": "엔비디아", "marketCap": "$5.10T", "changePercent": 3.0 },
+      { "rank": 2, "ticker": "GOOGL", "nameKo": "알파벳(구글)", "marketCap": "$4.40T", "changePercent": 1.2 },
+      { "rank": 3, "ticker": "AAPL", "nameKo": "애플", "marketCap": "$4.38T", "changePercent": 0.7 },
+      { "rank": 4, "ticker": "MSFT", "nameKo": "마이크로소프트", "marketCap": "$2.82T", "changePercent": -3.8 },
+      { "rank": 5, "ticker": "AMZN", "nameKo": "아마존", "marketCap": "$2.59T", "changePercent": 2.9 },
+      { "rank": 6, "ticker": "TSM", "nameKo": "TSMC", "marketCap": "$2.24T", "changePercent": 6.9 },
+      { "rank": 7, "ticker": "AVGO", "nameKo": "브로드컴", "marketCap": "$1.93T", "changePercent": 4.7 },
+      { "rank": 8, "ticker": "META", "nameKo": "메타", "marketCap": "$1.43T", "changePercent": 1.7 },
+      { "rank": 9, "ticker": "TSLA", "nameKo": "테슬라", "marketCap": "$1.27T", "changePercent": 1.0 },
+      { "rank": 10, "ticker": "BRK.B", "nameKo": "버크셔해서웨이", "marketCap": "$1.10T", "changePercent": null }
+    ]
+  },
   "marketIndexes": [
     { "name": "다우존스", "value": "51,790", "changePercent": 0.2 },
     { "name": "S&P 500", "value": "6,548", "changePercent": 1.8 },
@@ -514,20 +618,20 @@
     },
     {
       "ticker": "SPACEX",
-      "nameKo": "스페이스X(비상장)",
+      "nameKo": "스페이스X (신규상장)",
       "nameEn": "SpaceX",
       "sector": "우주",
-      "market": "PRIVATE",
+      "market": "US",
       "currency": "USD",
       "closePrice": null,
       "afterHoursPrice": null,
-      "changePercent": null,
+      "changePercent": -4.9,
       "targetLow": null,
       "targetAverage": null,
       "targetHigh": null,
-      "keyNews": "비상장 기준 항목 · 목표가 컨센서스 부족으로 계산 제외 (지수 편입 관련 보도는 뉴스 참고)",
-      "dataTime": "-",
-      "riskNote": "비상장: 안전마진 계산 제외"
+      "keyNews": "IPO 후 첫 조정 -4.9%(시총 아마존 하회). 상장 직후라 애널리스트 목표가 컨센서스 형성 전 → 안전마진 계산 제외",
+      "dataTime": "상장 직후",
+      "riskNote": "상장 직후 · 목표가 컨센서스 형성 전(계산 제외)"
     },
     {
       "ticker": "ASTS",
