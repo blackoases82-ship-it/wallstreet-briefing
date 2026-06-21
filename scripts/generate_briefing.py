@@ -168,6 +168,114 @@ def fmt_cap(v):
     return f"${v/1e9:.0f}B"
 
 
+# ---------------------------------------------------------------------------
+# (선택) 뉴스/분석 자동화: ANTHROPIC_API_KEY 가 있으면
+#   1) yfinance로 '실제 헤드라인'을 수집하고
+#   2) 그 헤드라인 + 오늘 수치만 근거로 Anthropic API가 한국어 뉴스/분석을 생성한다.
+#   => 모델이 사실을 지어내지 않도록, 제공된 헤드라인/수치 밖의 구체사실 생성을 금지한다.
+#   키가 없거나 실패하면 기존 news/finalAnalysis/oneLineConclusion 을 그대로 보존한다.
+# ---------------------------------------------------------------------------
+HEADLINE_TICKERS = [
+    "NVDA", "INTC", "TSM", "AVGO", "MRVL", "QCOM", "MSFT", "META",
+    "AMZN", "GOOGL", "AAPL", "PLTR", "TSLA", "SNDK", "005930.KS", "000660.KS",
+]
+
+
+def gather_headlines(symbols, per=5, limit=22):
+    items, seen = [], set()
+    for sym in symbols:
+        try:
+            news = yf.Ticker(sym).news or []
+        except Exception:
+            news = []
+        for n in news[:per]:
+            title = pub = date = None
+            content = n.get("content") if isinstance(n, dict) else None
+            if content:  # 신 스키마
+                title = content.get("title")
+                pub = (content.get("provider") or {}).get("displayName")
+                date = content.get("pubDate") or content.get("displayTime")
+            else:        # 구 스키마
+                title = n.get("title")
+                pub = n.get("publisher")
+                ts = n.get("providerPublishTime")
+                if ts:
+                    try:
+                        date = datetime.fromtimestamp(ts, KST).strftime("%Y-%m-%d")
+                    except Exception:
+                        date = None
+            if title and title not in seen:
+                seen.add(title)
+                items.append({"ticker": sym, "title": title, "publisher": pub, "date": date})
+    return items[:limit]
+
+
+def llm_generate(data, headlines):
+    api_key = os.environ.get("ANTHROPIC_API_KEY")
+    if not api_key:
+        return False
+    import requests
+    model = os.environ.get("BRIEFING_MODEL", "claude-sonnet-4-6")
+
+    idx = "; ".join(f"{i['name']} {i['value']} ({i.get('changePercent')}%)" for i in data.get("marketIndexes", []))
+    movers = sorted(
+        [s for s in data["stocks"] if isinstance(s.get("changePercent"), (int, float))],
+        key=lambda s: s["changePercent"],
+    )
+    top_up = "; ".join(f"{s['ticker']} {s['changePercent']:+.1f}%" for s in movers[-6:][::-1])
+    top_dn = "; ".join(f"{s['ticker']} {s['changePercent']:+.1f}%" for s in movers[:5])
+    macro = "; ".join(f"{m['name']} {m['value']} ({m.get('note', '')})" for m in data.get("macroIndicators", []))
+    strong = "; ".join(f"{x['sector']} {x['changePercent']:+.1f}%" for x in data["sectorRotation"]["strong"])
+    weak = "; ".join(f"{x['sector']} {x['changePercent']:+.1f}%" for x in data["sectorRotation"]["weak"])
+    heads = "\n".join(
+        f"- [{h['ticker']}] {h['title']} ({h.get('publisher') or ''}, {h.get('date') or ''})" for h in headlines
+    ) or "(수집된 헤드라인 없음 — 이 경우 뉴스는 비우고 분석만 작성)"
+
+    prompt = f"""당신은 한국어 투자 모닝 브리핑 에디터다. 아래 '오늘 데이터'와 '실제 헤드라인'에만 근거해 작성한다.
+규칙: 제공되지 않은 구체 사실(수치/계약/발언/날짜)은 절대 지어내지 말 것. 불확실한 소문은 confidence를 "low"로 하고 source 끝에 "(미확정)"을 붙인다. 시적이되 간결하게, 단정은 피한다.
+
+[기준일] {data['generatedAt']}
+[지수] {idx}
+[강세섹터] {strong}
+[약세섹터] {weak}
+[상승상위] {top_up}
+[하락상위] {top_dn}
+[거시] {macro}
+[실제 헤드라인]
+{heads}
+
+아래 JSON만 출력한다(코드펜스/설명 금지). 모든 텍스트는 한국어.
+{{
+  "oneLineConclusion": "한 줄 결론(지수/등락 수치 1~2개 포함)",
+  "news": [{{"category":"official|analyst|overseas|chatter|rumor","title":"제목","summaryKo":"2~3문장 한국어 요약","relatedTickers":["TICKER"],"impact":"positive|negative|neutral|mixed","confidence":"high|medium|low","source":"매체명","publishedAt":"YYYY-MM-DD"}}],
+  "finalAnalysis": {{"marketDiagnosis":"3~4문장","sectorRotationAnalysis":"2~3문장","koreanMarketStrategy":"3~4문장","usPortfolioStrategy":"3~4문장","topOpportunities":["3개 항목"],"topRisks":["3개 항목"],"actionPlan":["5개 항목"]}}
+}}
+news는 위 헤드라인을 근거로 5~7개. 헤드라인이 없으면 news는 빈 배열 []."""
+
+    try:
+        r = requests.post(
+            "https://api.anthropic.com/v1/messages",
+            headers={"x-api-key": api_key, "anthropic-version": "2023-06-01", "content-type": "application/json"},
+            json={"model": model, "max_tokens": 3500, "messages": [{"role": "user", "content": prompt}]},
+            timeout=120,
+        )
+        r.raise_for_status()
+        txt = "".join(b.get("text", "") for b in r.json().get("content", []) if b.get("type") == "text")
+        s, e = txt.find("{"), txt.rfind("}")
+        obj = json.loads(txt[s:e + 1])
+        if isinstance(obj.get("news"), list) and obj["news"]:
+            data["news"] = obj["news"]
+        if isinstance(obj.get("finalAnalysis"), dict) and obj["finalAnalysis"]:
+            data["finalAnalysis"] = obj["finalAnalysis"]
+        if obj.get("oneLineConclusion"):
+            data["oneLineConclusion"] = obj["oneLineConclusion"]
+        print(f"  LLM 뉴스/분석 갱신 완료 (model={model}, news={len(obj.get('news', []))})")
+        return True
+    except Exception as ex:  # noqa
+        print(f"  ! LLM 단계 실패 — 기존 뉴스/분석 보존: {ex}", file=sys.stderr)
+        return False
+
+
 def main():
     with open(JSON_PATH, "r", encoding="utf-8") as f:
         data = json.load(f)
@@ -283,8 +391,18 @@ def main():
 
     # --- 메타 ---
     data["generatedAt"] = stamp
-    # news / finalAnalysis / economicCalendar / title / oneLineConclusion : 기존 보존
-    # (확장: ANTHROPIC_API_KEY 가 있으면 여기서 LLM 으로 재생성하도록 추가 가능)
+
+    # 뉴스/분석: ANTHROPIC_API_KEY 있으면 실제 헤드라인+수치 기반으로 LLM 자동 생성,
+    # 없거나 실패하면 기존 news/finalAnalysis/oneLineConclusion 보존.
+    # economicCalendar / title 은 항상 기존 보존.
+    if os.environ.get("ANTHROPIC_API_KEY"):
+        print("[llm] 헤드라인 수집 + 뉴스/분석 자동 생성")
+        try:
+            heads = gather_headlines(HEADLINE_TICKERS)
+            print(f"  헤드라인 {len(heads)}건 수집")
+            llm_generate(data, heads)
+        except Exception as ex:  # noqa
+            print(f"  ! 뉴스/분석 자동화 건너뜀(기존 보존): {ex}", file=sys.stderr)
 
     with open(JSON_PATH, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
