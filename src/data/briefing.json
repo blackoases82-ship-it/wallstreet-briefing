@@ -1,6 +1,6 @@
 {
   "title": "나만의 월스트리트",
-  "generatedAt": "2026. 6. 25. 오후 5:40 KST",
+  "generatedAt": "2026. 6. 26. 오후 5:42 KST",
   "oneLineConclusion": "목요일 오전입니다. 간밤 마이크론이 사상 최대 분기 실적(매출 $41.46B·EPS $25.11, 컨센서스 16~23% 상회)과 강한 가이던스를 내놓으며 AI 메모리 피크아웃 우려를 단숨에 걷어냈고, 퀄컴도 투자자의 날에서 AI 데이터센터·메타 파트너십·2029년 데이터센터 매출 $15B 목표를 제시해 시간외에서 둘이 합쳐 AI칩 시총 $400B+를 되살렸습니다. 그 온기에 오늘 코스피는 +4~5% 급등해 8,800선을 돌파(매수 사이드카 발동)했고 SK하이닉스 +7.6%·삼성전자 +5.4%가 질주 중입니다. 다만 원/달러는 1,547원대로 나흘 연속 오르고 외국인은 5거래일 연속 순매도라 환율이 유일한 그늘입니다.",
   "economicCalendar": {
     "note": "※ 일정·날짜는 예정(추정) 기준이며 변동될 수 있습니다. 자동 갱신됩니다.",
@@ -192,130 +192,130 @@
     ]
   },
   "usMarketCap": {
-    "asOf": "美 직전 종가 기준 (자동·2026-06-25)",
+    "asOf": "美 직전 종가 기준 (자동·2026-06-26)",
     "items": [
       {
         "rank": 1,
         "ticker": "NVDA",
         "nameKo": "엔비디아",
-        "marketCap": "$4.82T",
-        "changePercent": -0.8
+        "marketCap": "$4.74T",
+        "changePercent": 0.5
       },
       {
         "rank": 2,
         "ticker": "GOOGL",
         "nameKo": "알파벳(구글)",
-        "marketCap": "$4.21T",
-        "changePercent": 0.9
+        "marketCap": "$4.19T",
+        "changePercent": -0.1
       },
       {
         "rank": 3,
         "ticker": "AAPL",
         "nameKo": "애플",
-        "marketCap": "$4.30T",
-        "changePercent": 0.8
+        "marketCap": "$4.04T",
+        "changePercent": -0.4
       },
       {
         "rank": 4,
         "ticker": "MSFT",
         "nameKo": "마이크로소프트",
-        "marketCap": "$2.71T",
-        "changePercent": 0.0
+        "marketCap": "$2.62T",
+        "changePercent": -0.7
       },
       {
         "rank": 5,
         "ticker": "AMZN",
         "nameKo": "아마존",
-        "marketCap": "$2.52T",
-        "changePercent": 0.5
+        "marketCap": "$2.44T",
+        "changePercent": -0.0
       },
       {
         "rank": 6,
         "ticker": "TSM",
         "nameKo": "TSMC",
-        "marketCap": "$2.29T",
-        "changePercent": -3.6
+        "marketCap": "$2.26T",
+        "changePercent": -0.2
       },
       {
         "rank": 7,
         "ticker": "AVGO",
         "nameKo": "브로드컴",
-        "marketCap": "$1.82T",
-        "changePercent": -1.9
+        "marketCap": "$1.80T",
+        "changePercent": -0.2
       },
       {
         "rank": 8,
         "ticker": "TSLA",
         "nameKo": "테슬라",
         "marketCap": "$1.41T",
-        "changePercent": -0.7
+        "changePercent": 0.2
       },
       {
         "rank": 9,
         "ticker": "META",
         "nameKo": "메타",
-        "marketCap": "$1.42T",
-        "changePercent": -0.2
+        "marketCap": "$1.38T",
+        "changePercent": -0.4
       },
       {
         "rank": 10,
         "ticker": "BRK-B",
         "nameKo": "버크셔해서웨이",
-        "marketCap": "$1.07T",
-        "changePercent": 0.3
+        "marketCap": "$1.05T",
+        "changePercent": -0.1
       }
     ]
   },
   "marketIndexes": [
     {
       "name": "다우존스",
-      "value": "51,849",
-      "changePercent": 0.35
+      "value": "51,921",
+      "changePercent": 0.14
     },
     {
       "name": "S&P 500",
-      "value": "7,358",
-      "changePercent": -0.1
+      "value": "7,357",
+      "changePercent": -0.01
     },
     {
       "name": "나스닥",
-      "value": "25,477",
-      "changePercent": -0.43
+      "value": "25,359",
+      "changePercent": -0.46
     },
     {
       "name": "러셀 2000",
-      "value": "2,987",
-      "changePercent": 0.37
+      "value": "3,008",
+      "changePercent": 0.71
     }
   ],
   "macroIndicators": [
     {
       "name": "원/달러",
-      "value": "1,539",
-      "direction": "flat",
-      "note": "전일比 -0.0%"
+      "value": "1,538",
+      "direction": "down",
+      "note": "전일比 -0.4%"
     },
     {
       "name": "금",
-      "value": "$4,011",
-      "direction": "flat",
-      "note": "-0.0%"
+      "value": "$4,050",
+      "direction": "up",
+      "note": "+0.8%"
     },
     {
       "name": "은",
       "value": "$58",
       "direction": "up",
-      "note": "+0.1%"
+      "note": "+3.1%"
     },
     {
       "name": "VIX",
-      "value": "18.0",
-      "direction": "down",
-      "note": "-3.3%"
+      "value": "19.7",
+      "direction": "up",
+      "note": "+4.4%"
     },
     {
       "name": "美10년물",
-      "value": "4.40%",
+      "value": "4.39%",
       "direction": "flat"
     },
     {
@@ -328,38 +328,38 @@
   "sectorRotation": {
     "strong": [
       {
-        "sector": "경기소비재(XLY)",
-        "changePercent": 1.5
-      },
-      {
-        "sector": "필수소비재(XLP)",
-        "changePercent": 0.8
-      },
-      {
-        "sector": "유틸리티(XLU)",
-        "changePercent": 0.4
+        "sector": "기술(XLK)",
+        "changePercent": 0.2
       },
       {
         "sector": "헬스케어(XLV)",
-        "changePercent": 0.4
+        "changePercent": -0.0
+      },
+      {
+        "sector": "산업재(XLI)",
+        "changePercent": -0.1
+      },
+      {
+        "sector": "에너지(XLE)",
+        "changePercent": -0.1
       }
     ],
     "weak": [
       {
-        "sector": "기술(XLK)",
-        "changePercent": -2.7
-      },
-      {
-        "sector": "산업재(XLI)",
-        "changePercent": -0.5
-      },
-      {
         "sector": "금융(XLF)",
-        "changePercent": -0.0
+        "changePercent": -0.4
       },
       {
-        "sector": "에너지(XLE)",
-        "changePercent": 0.2
+        "sector": "필수소비재(XLP)",
+        "changePercent": -0.3
+      },
+      {
+        "sector": "경기소비재(XLY)",
+        "changePercent": -0.3
+      },
+      {
+        "sector": "커뮤니케이션(XLC)",
+        "changePercent": -0.2
       }
     ]
   },
@@ -505,11 +505,11 @@
       "sector": "반도체",
       "market": "KR",
       "currency": "KRW",
-      "closePrice": 358500,
+      "closePrice": 339500,
       "afterHoursPrice": null,
-      "changePercent": 5.29,
+      "changePercent": -5.3,
       "targetLow": 205000,
-      "targetAverage": 443492,
+      "targetAverage": 454326,
       "targetHigh": 850000,
       "keyNews": "6/25 오전 마이크론 어닝서프라이즈에 +5.4%(35만9000원) 급등, 52주 신고가권(37만4500원)에 근접. 증권가는 2분기 영업익 90조 기대로 전망 상향. 평균목표가(44.3만 원) 대비 안전마진 약 19%로 여전히 매력 구간이나, 사흘 새 -12%→+10%→+5%로 변동성이 극심해 추격보다 분할·평단 관리 우선. 7/8 잠정실적이 다음 분수령",
       "dataTime": "韓 직전 종가 (자동)"
@@ -520,12 +520,12 @@
       "sector": "반도체",
       "market": "KR",
       "currency": "KRW",
-      "closePrice": 2917000,
+      "closePrice": 2673000,
       "afterHoursPrice": null,
-      "changePercent": 13.06,
+      "changePercent": -8.36,
       "targetLow": 1030000,
-      "targetAverage": 2962752,
-      "targetHigh": 4300000,
+      "targetAverage": 3048502,
+      "targetHigh": 4700000,
       "keyNews": "6/25 오전 +7.3%(약 277만 원)로 삼성전자를 능가하는 탄력, 52주 신고가(294.5만 원)에 근접. 마이크론 호실적 수혜에 더해 최대 45.45조 원 나스닥 ADR 추진(역대 최대) 소식이 밸류 재평가 재료. HBM 점유율 1위(58%). 평균목표가(296만 원) 대비 안전마진 약 7%로 좁아져, 추격은 자제하고 조정 시 분할 관점",
       "dataTime": "韓 직전 종가 (자동)"
     },
@@ -535,9 +535,9 @@
       "sector": "반도체",
       "market": "US",
       "currency": "USD",
-      "closePrice": 199.0,
+      "closePrice": 195.74,
       "afterHoursPrice": null,
-      "changePercent": -0.84,
+      "changePercent": 0.48,
       "targetLow": 180.0,
       "targetAverage": 298.93,
       "targetHigh": 500.0,
@@ -551,11 +551,11 @@
       "sector": "반도체",
       "market": "US",
       "currency": "USD",
-      "closePrice": 382.07,
+      "closePrice": 378.91,
       "afterHoursPrice": null,
-      "changePercent": -1.92,
+      "changePercent": -0.23,
       "targetLow": 215.88,
-      "targetAverage": 523.84,
+      "targetAverage": 523.73,
       "targetHigh": 650.0,
       "keyNews": "6/24 +0.5%(382.07달러)로 반등 시작, 마이크론 호재에 시간외 +2.0%(389.55달러)로 추가 상승. Apollo·Blackstone·Anthropic $35B AI XPV 플랫폼·JPMorgan '공격적 매수'·'AI 매출 분기 160억 달러 3배' 전망이 겹친 최선호 낙폭과대주. 안전마진 약 27%. 글로벌 반도체가 돌아선 만큼 분할 진입 매력 부각",
       "dataTime": "美 직전 종가 (자동)",
@@ -567,9 +567,9 @@
       "sector": "반도체",
       "market": "US",
       "currency": "USD",
-      "closePrice": 463.93,
+      "closePrice": 455.02,
       "afterHoursPrice": null,
-      "changePercent": -1.06,
+      "changePercent": 0.22,
       "targetLow": 403.85,
       "targetAverage": 563.74,
       "targetHigh": 650.0,
@@ -583,11 +583,11 @@
       "sector": "반도체",
       "market": "US",
       "currency": "USD",
-      "closePrice": 440.83,
+      "closePrice": 434.99,
       "afterHoursPrice": null,
-      "changePercent": -3.56,
+      "changePercent": -0.19,
       "targetLow": 354.0,
-      "targetAverage": 473.4,
+      "targetAverage": 478.95,
       "targetHigh": 700.0,
       "keyNews": "6/24 +1.0%(440.83달러)로 반등, 마이크론·퀄컴 호재에 시간외 +3.7%(457.13달러) 급등하며 52주 신고가(476.79달러) 재도전. 4대 억만장자 동시 매수 이력의 핵심 반도체주. 다만 현재가가 평균목표가(473달러)에 근접 → 추격은 자제, 분할 관점",
       "dataTime": "美 직전 종가 (자동)",
@@ -599,11 +599,11 @@
       "sector": "반도체",
       "market": "US",
       "currency": "USD",
-      "closePrice": 131.65,
+      "closePrice": 132.87,
       "afterHoursPrice": null,
-      "changePercent": -5.08,
+      "changePercent": 0.8,
       "targetLow": 45.0,
-      "targetAverage": 94.75,
+      "targetAverage": 96.07,
       "targetHigh": 160.0,
       "keyNews": "6/24 -0.5%(131.65달러), 마이크론 호재에 시간외 +5.3%(138.69달러) 급반등. 다만 현재가가 평균목표가(94.75달러)를 크게 상회·월가 'Hold' 2.6등급 → 시간외 급등은 낙폭과대 되돌림 성격, 추격 강한 주의",
       "dataTime": "美 직전 종가 (자동)",
@@ -615,11 +615,11 @@
       "sector": "반도체",
       "market": "US",
       "currency": "USD",
-      "closePrice": 197.41,
+      "closePrice": 204.9,
       "afterHoursPrice": null,
-      "changePercent": -11.32,
+      "changePercent": 0.56,
       "targetLow": 100.0,
-      "targetAverage": 186.5,
+      "targetAverage": 213.0,
       "targetHigh": 300.0,
       "keyNews": "6/24 정규장 -3.3%(197.41달러)로 약세였으나 투자자의 날 직후 시간외 +12.8%(222.62달러) 폭등 — AI 데이터센터칩 신규 라인업·메타 파트너십·2029년 데이터센터 매출 $15B 목표가 동력. 다만 시간외 급등으로 현재가가 평균목표가(186.5달러)를 크게 상회·월가 'Hold' 2.6등급 → 목표가 상향 확인 전 추격은 위험",
       "dataTime": "美 직전 종가 (자동)",
@@ -631,11 +631,11 @@
       "sector": "반도체",
       "market": "US",
       "currency": "USD",
-      "closePrice": 276.7,
+      "closePrice": 281.26,
       "afterHoursPrice": null,
-      "changePercent": -4.92,
+      "changePercent": 1.35,
       "targetLow": 110.0,
-      "targetAverage": 241.79,
+      "targetAverage": 242.5,
       "targetHigh": 385.0,
       "keyNews": "6/24 -0.8%(276.7달러), 마이크론·퀄컴 온기에 시간외 +5.2%(291.01달러) 반등. 커스텀 AI 칩 로드맵 기대는 유효하나 현재가가 평균목표가(241달러)를 여전히 상회 → 추격보다 비중·손절선 우선",
       "dataTime": "美 직전 종가 (자동)",
@@ -647,9 +647,9 @@
       "sector": "반도체",
       "market": "US",
       "currency": "USD",
-      "closePrice": 1914.46,
+      "closePrice": 2335.0,
       "afterHoursPrice": null,
-      "changePercent": -10.96,
+      "changePercent": 0.78,
       "targetLow": 1000.0,
       "targetAverage": 1751.32,
       "targetHigh": 3250.0,
@@ -664,11 +664,11 @@
       "sector": "기술",
       "market": "US",
       "currency": "USD",
-      "closePrice": 365.46,
+      "closePrice": 352.83,
       "afterHoursPrice": null,
-      "changePercent": 0.02,
+      "changePercent": -0.72,
       "targetLow": 400.0,
-      "targetAverage": 561.39,
+      "targetAverage": 561.11,
       "targetHigh": 870.0,
       "keyNews": "6/24 -2.3%(365.46달러)로 조정, 52주 저점권. 그러나 평균목표가(561달러) 대비 안전마진 약 35%로 메가캡 중 가장 넓음 → 낙폭과대 분할 관점 최우선 관찰. AI 자본지출 회수 논쟁의 중심이나 클라우드·코파일럿 현금흐름은 견조. 시간외 365.39달러 보합",
       "dataTime": "美 직전 종가 (자동)",
@@ -680,9 +680,9 @@
       "sector": "커뮤니케이션",
       "market": "US",
       "currency": "USD",
-      "closePrice": 557.67,
+      "closePrice": 542.87,
       "afterHoursPrice": null,
-      "changePercent": -0.18,
+      "changePercent": -0.39,
       "targetLow": 664.46,
       "targetAverage": 827.32,
       "targetHigh": 1015.0,
@@ -696,9 +696,9 @@
       "sector": "임의소비",
       "market": "US",
       "currency": "USD",
-      "closePrice": 234.27,
+      "closePrice": 227.01,
       "afterHoursPrice": null,
-      "changePercent": 0.52,
+      "changePercent": -0.0,
       "targetLow": 207.0,
       "targetAverage": 312.99,
       "targetHigh": 370.0,
@@ -712,9 +712,9 @@
       "sector": "커뮤니케이션",
       "market": "US",
       "currency": "USD",
-      "closePrice": 345.29,
+      "closePrice": 343.71,
       "afterHoursPrice": null,
-      "changePercent": 0.92,
+      "changePercent": -0.05,
       "targetLow": 340.0,
       "targetAverage": 432.83,
       "targetHigh": 515.0,
@@ -728,11 +728,11 @@
       "sector": "기술",
       "market": "US",
       "currency": "USD",
-      "closePrice": 293.08,
+      "closePrice": 275.15,
       "afterHoursPrice": null,
-      "changePercent": 0.78,
+      "changePercent": -0.41,
       "targetLow": 215.0,
-      "targetAverage": 314.42,
+      "targetAverage": 315.09,
       "targetHigh": 400.0,
       "keyNews": "6/24 -0.4%(293.08달러)로 방어, 서비스 매출 견조. 평균목표가(314달러) 대비 안전마진 약 7%로 좁음. 시간외 290.80달러",
       "dataTime": "美 직전 종가 (자동)",
@@ -744,9 +744,9 @@
       "sector": "커뮤니케이션",
       "market": "KR",
       "currency": "KRW",
-      "closePrice": 199700,
+      "closePrice": 196400,
       "afterHoursPrice": null,
-      "changePercent": 0.15,
+      "changePercent": -1.65,
       "targetLow": 237000,
       "targetAverage": 305815,
       "targetHigh": 400000,
@@ -759,9 +759,9 @@
       "sector": "기술",
       "market": "US",
       "currency": "USD",
-      "closePrice": 113.5,
+      "closePrice": 107.27,
       "afterHoursPrice": null,
-      "changePercent": -0.24,
+      "changePercent": -0.58,
       "targetLow": 70.0,
       "targetAverage": 182.75,
       "targetHigh": 255.0,
@@ -776,9 +776,9 @@
       "sector": "기술",
       "market": "US",
       "currency": "USD",
-      "closePrice": 157.53,
+      "closePrice": 152.46,
       "afterHoursPrice": null,
-      "changePercent": -1.13,
+      "changePercent": 0.7,
       "targetLow": 155.0,
       "targetAverage": 252.64,
       "targetHigh": 400.0,
@@ -792,9 +792,9 @@
       "sector": "기술",
       "market": "US",
       "currency": "USD",
-      "closePrice": 262.96,
+      "closePrice": 258.27,
       "afterHoursPrice": null,
-      "changePercent": 0.55,
+      "changePercent": 0.0,
       "targetLow": 195.0,
       "targetAverage": 293.89,
       "targetHigh": 390.0,
@@ -808,11 +808,11 @@
       "sector": "양자컴퓨팅",
       "market": "US",
       "currency": "USD",
-      "closePrice": 19.53,
+      "closePrice": 18.41,
       "afterHoursPrice": null,
-      "changePercent": -2.11,
-      "targetLow": 15.91,
-      "targetAverage": 29.24,
+      "changePercent": -0.26,
+      "targetLow": 20.0,
+      "targetAverage": 29.65,
       "targetHigh": 40.0,
       "keyNews": "6/24 -8.2%(19.53달러)로 양자 테마 동반 급락, 시간외 +2.2%(19.95달러) 소폭 반등. 평균목표가(29.24달러) 대비 안전마진 약 33%이나 매출 대비 밸류 부담 극심한 초고변동주",
       "dataTime": "美 직전 종가 (자동)",
@@ -825,9 +825,9 @@
       "sector": "양자컴퓨팅",
       "market": "US",
       "currency": "USD",
-      "closePrice": 53.6,
+      "closePrice": 50.56,
       "afterHoursPrice": null,
-      "changePercent": -2.46,
+      "changePercent": 0.28,
       "targetLow": 44.78,
       "targetAverage": 68.79,
       "targetHigh": 100.0,
@@ -842,9 +842,9 @@
       "sector": "우주",
       "market": "US",
       "currency": "USD",
-      "closePrice": 85.41,
+      "closePrice": 80.69,
       "afterHoursPrice": null,
-      "changePercent": -1.59,
+      "changePercent": -2.53,
       "targetLow": 60.0,
       "targetAverage": 106.92,
       "targetHigh": 150.0,
@@ -859,9 +859,9 @@
       "sector": "우주/통신",
       "market": "US",
       "currency": "USD",
-      "closePrice": 68.01,
+      "closePrice": 65.62,
       "afterHoursPrice": null,
-      "changePercent": -2.24,
+      "changePercent": -0.7,
       "targetLow": 41.2,
       "targetAverage": 81.47,
       "targetHigh": 108.0,
@@ -876,9 +876,9 @@
       "sector": "우주",
       "market": "US",
       "currency": "USD",
-      "closePrice": 154.54,
+      "closePrice": 153.0,
       "afterHoursPrice": null,
-      "changePercent": 0.35,
+      "changePercent": 0.13,
       "targetLow": 62.0,
       "targetAverage": 187.8,
       "targetHigh": 310.0,
@@ -893,9 +893,9 @@
       "sector": "산업/원전",
       "market": "KR",
       "currency": "KRW",
-      "closePrice": 87800,
+      "closePrice": 81100,
       "afterHoursPrice": null,
-      "changePercent": -3.09,
+      "changePercent": -7.63,
       "targetLow": 92000,
       "targetAverage": 139361,
       "targetHigh": 195000,
@@ -908,11 +908,11 @@
       "sector": "유틸리티/원전",
       "market": "US",
       "currency": "USD",
-      "closePrice": 267.97,
+      "closePrice": 268.69,
       "afterHoursPrice": null,
-      "changePercent": -0.5,
+      "changePercent": -0.48,
       "targetLow": 296.0,
-      "targetAverage": 360.0,
+      "targetAverage": 360.24,
       "targetHigh": 441.0,
       "keyNews": "6/24 -0.8%(267.97달러)로 상대적 방어. 데이터센터 전력공급 계약 기대로 현재가가 목표가 하단(296달러)도 하회 → 안전마진 약 26%. 시간외 269.32달러",
       "dataTime": "美 직전 종가 (자동)",
@@ -924,12 +924,12 @@
       "sector": "에너지",
       "market": "US",
       "currency": "USD",
-      "closePrice": 326.19,
+      "closePrice": 309.18,
       "afterHoursPrice": null,
-      "changePercent": -5.41,
+      "changePercent": 0.29,
       "targetLow": 55.0,
-      "targetAverage": 264.53,
-      "targetHigh": 335.0,
+      "targetAverage": 266.93,
+      "targetHigh": 380.0,
       "keyNews": "6/24 +1.3%(326.19달러), 시간외 +5.7%(344.86달러)로 추가 급등. 현재가가 평균목표가(264달러)를 크게 상회 → 극심한 변동성·추격 강한 주의. 데이터센터 전력 테마 수혜 기대는 유효하나 밸류 부담 큼",
       "dataTime": "美 직전 종가 (자동)",
       "nameEn": "Bloom Energy",
@@ -941,9 +941,9 @@
       "sector": "에너지",
       "market": "US",
       "currency": "USD",
-      "closePrice": 19.75,
+      "closePrice": 19.38,
       "afterHoursPrice": null,
-      "changePercent": -4.91,
+      "changePercent": 0.34,
       "targetLow": 9.0,
       "targetAverage": 18.59,
       "targetHigh": 28.0,
@@ -958,9 +958,9 @@
       "sector": "임의소비",
       "market": "KR",
       "currency": "KRW",
-      "closePrice": 503000,
+      "closePrice": 480500,
       "afterHoursPrice": null,
-      "changePercent": -1.18,
+      "changePercent": -4.47,
       "targetLow": 509415,
       "targetAverage": 748755,
       "targetHigh": 1200000,
@@ -973,9 +973,9 @@
       "sector": "임의소비",
       "market": "US",
       "currency": "USD",
-      "closePrice": 375.53,
+      "closePrice": 375.12,
       "afterHoursPrice": null,
-      "changePercent": -0.65,
+      "changePercent": 0.19,
       "targetLow": 123.0,
       "targetAverage": 421.16,
       "targetHigh": 600.0,
@@ -990,9 +990,9 @@
       "sector": "에너지/AI",
       "market": "US",
       "currency": "USD",
-      "closePrice": 50.3,
+      "closePrice": 47.74,
       "afterHoursPrice": null,
-      "changePercent": -4.19,
+      "changePercent": 0.02,
       "targetLow": 41.0,
       "targetAverage": 80.93,
       "targetHigh": 126.0,
