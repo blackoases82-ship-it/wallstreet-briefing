@@ -1,39 +1,32 @@
 name: Daily Briefing Update
-
-# 매일 평일 아침 06:30 KST(=전날 21:30 UTC)에 자동 실행 + 수동 실행 버튼
+# 매일(월~일) 07:00 KST + 21:00 KST 2회 자동 실행 + 수동 실행 버튼
 on:
   schedule:
-    - cron: "30 21 * * 0-4"   # UTC. Sun-Thu 21:30 = Mon-Fri 06:30 KST
-  workflow_dispatch: {}        # Actions 탭에서 "Run workflow"로 즉시 실행 가능
-
+    - cron: "0 22 * * *"  # 22:00 UTC = 07:00 KST 매일
+    - cron: "0 12 * * *"  # 12:00 UTC = 21:00 KST 매일
+  workflow_dispatch:  # Actions 탭에서 "Run workflow"로 즉시 실행 가능
 permissions:
-  contents: write              # briefing.json 커밋·푸시 권한
-
+  contents: write  # briefing.json 커밋·푸시 권한
 concurrency:
   group: daily-briefing
   cancel-in-progress: false
-
 jobs:
   update:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-
       - name: Install deps
         run: pip install --upgrade yfinance
-
       - name: Generate briefing.json
         env:
-          # 선택: 뉴스/분석까지 자동화하려면 저장소 Secrets에 ANTHROPIC_API_KEY 추가
+          # 뉴스/분석까지 자동화하려면 저장소 Secrets에 ANTHROPIC_API_KEY 추가
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python scripts/generate_briefing.py
-
       - name: Commit & push if changed
         run: |
           git config user.name "github-actions[bot]"
