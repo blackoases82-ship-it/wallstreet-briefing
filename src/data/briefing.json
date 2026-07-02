@@ -1,6 +1,6 @@
 {
   "title": "나만의 월스트리트",
-  "generatedAt": "2026. 7. 2. 오후 12:16 KST",
+  "generatedAt": "2026. 7. 2. 오후 5:36 KST",
   "oneLineConclusion": "목요일 점심, '메타발 반도체 쇼크'가 시장을 갈랐습니다. 메타가 남는 컴퓨팅 자원을 외부에 임대(자체 컴퓨팅 클라우드)하는 방안을 검토한다는 보도에 간밤 미국에선 마이크론·샌디스크가 -10%, 인텔 -9%, 마벨 -8.7%, TSMC -7%로 AI 반도체·인프라가 무너진 반면 정작 메타는 +8.8%, MS·애플·아마존은 상승해 '칩에서 플랫폼으로'의 이동이 극명했습니다. 오늘 코스피는 이 삭풍에 4% 넘게 급락해 장중 8,000선이 무너지고 7,700대까지 밀렸으며 매도 사이드카가 15번째로 발동, 삼성전자 -4.9%(29만9000원)·SK하이닉스 -5.9%(240만8000원), 외국인이 2조9000억 원을 팔았습니다. 그 와중에 KB금융(+8%대)·현대차(+1.9%)·네이버(+1.3%)는 순환매로 반등했고, 원/달러는 1,552원대에서 17년 최고권을 유지 중입니다.",
   "economicCalendar": {
     "note": "※ 일정·날짜는 예정(추정) 기준이며 변동될 수 있습니다. 자동 갱신됩니다.",
@@ -11,37 +11,103 @@
           {
             "week": "7월 1주 (6/29~7/3)",
             "events": [
-              { "dateLabel": "7/2 (목)", "title": "테슬라 Q2 인도량·로보택시 이벤트", "category": "실적", "region": "US", "importance": "high" },
-              { "dateLabel": "7/3 (금)", "title": "美 6월 고용보고서(비농업)", "category": "지표", "region": "US", "importance": "high" }
+              {
+                "dateLabel": "7/2 (목)",
+                "title": "테슬라 Q2 인도량·로보택시 이벤트",
+                "category": "실적",
+                "region": "US",
+                "importance": "high"
+              },
+              {
+                "dateLabel": "7/3 (금)",
+                "title": "美 6월 고용보고서(비농업)",
+                "category": "지표",
+                "region": "US",
+                "importance": "high"
+              }
             ]
           },
           {
             "week": "7월 2주 (7/6~10)",
             "events": [
-              { "dateLabel": "7/8 (수)", "title": "삼성전자 2Q 잠정실적", "category": "실적", "region": "KR", "importance": "high" }
+              {
+                "dateLabel": "7/8 (수)",
+                "title": "삼성전자 2Q 잠정실적",
+                "category": "실적",
+                "region": "KR",
+                "importance": "high"
+              }
             ]
           },
           {
             "week": "7월 3주 (7/13~17)",
             "events": [
-              { "dateLabel": "7/14 (화)", "title": "美 6월 CPI", "category": "지표", "region": "US", "importance": "high" },
-              { "dateLabel": "7/14~16", "title": "美 대형은행 실적(JPM·WFC 등)", "category": "실적", "region": "US", "importance": "medium" },
-              { "dateLabel": "7/16 (목)", "title": "한국은행 금통위(기준금리)", "category": "정책", "region": "KR", "importance": "high" }
+              {
+                "dateLabel": "7/14 (화)",
+                "title": "美 6월 CPI",
+                "category": "지표",
+                "region": "US",
+                "importance": "high"
+              },
+              {
+                "dateLabel": "7/14~16",
+                "title": "美 대형은행 실적(JPM·WFC 등)",
+                "category": "실적",
+                "region": "US",
+                "importance": "medium"
+              },
+              {
+                "dateLabel": "7/16 (목)",
+                "title": "한국은행 금통위(기준금리)",
+                "category": "정책",
+                "region": "KR",
+                "importance": "high"
+              }
             ]
           },
           {
             "week": "7월 4주 (7/20~24)",
             "events": [
-              { "dateLabel": "7/22~23", "title": "테슬라·알파벳 실적", "category": "실적", "region": "US", "importance": "high" },
-              { "dateLabel": "7/24 (금)", "title": "SK하이닉스 2Q 실적", "category": "실적", "region": "KR", "importance": "high" }
+              {
+                "dateLabel": "7/22~23",
+                "title": "테슬라·알파벳 실적",
+                "category": "실적",
+                "region": "US",
+                "importance": "high"
+              },
+              {
+                "dateLabel": "7/24 (금)",
+                "title": "SK하이닉스 2Q 실적",
+                "category": "실적",
+                "region": "KR",
+                "importance": "high"
+              }
             ]
           },
           {
             "week": "7월 5주 (7/27~31)",
             "events": [
-              { "dateLabel": "7/28~29 (화~수)", "title": "美 FOMC 회의·금리 결정", "category": "FOMC", "region": "US", "importance": "high" },
-              { "dateLabel": "7/29~31", "title": "MS·메타·아마존·애플 실적", "category": "실적", "region": "US", "importance": "high" },
-              { "dateLabel": "7/31 (금)", "title": "삼성전자 확정실적", "category": "실적", "region": "KR", "importance": "medium" }
+              {
+                "dateLabel": "7/28~29 (화~수)",
+                "title": "美 FOMC 회의·금리 결정",
+                "category": "FOMC",
+                "region": "US",
+                "importance": "high"
+              },
+              {
+                "dateLabel": "7/29~31",
+                "title": "MS·메타·아마존·애플 실적",
+                "category": "실적",
+                "region": "US",
+                "importance": "high"
+              },
+              {
+                "dateLabel": "7/31 (금)",
+                "title": "삼성전자 확정실적",
+                "category": "실적",
+                "region": "KR",
+                "importance": "medium"
+              }
             ]
           }
         ]
@@ -52,26 +118,56 @@
           {
             "week": "8월 1주 (8/3~7)",
             "events": [
-              { "dateLabel": "8/7 (금)", "title": "美 7월 고용보고서(비농업)", "category": "지표", "region": "US", "importance": "high" }
+              {
+                "dateLabel": "8/7 (금)",
+                "title": "美 7월 고용보고서(비농업)",
+                "category": "지표",
+                "region": "US",
+                "importance": "high"
+              }
             ]
           },
           {
             "week": "8월 2주 (8/10~14)",
             "events": [
-              { "dateLabel": "8/12 (수)", "title": "美 7월 CPI", "category": "지표", "region": "US", "importance": "high" }
+              {
+                "dateLabel": "8/12 (수)",
+                "title": "美 7월 CPI",
+                "category": "지표",
+                "region": "US",
+                "importance": "high"
+              }
             ]
           },
           {
             "week": "8월 3주 (8/17~21)",
             "events": [
-              { "dateLabel": "8/20~22", "title": "잭슨홀 경제정책 심포지엄", "category": "정책", "region": "US", "importance": "high" }
+              {
+                "dateLabel": "8/20~22",
+                "title": "잭슨홀 경제정책 심포지엄",
+                "category": "정책",
+                "region": "US",
+                "importance": "high"
+              }
             ]
           },
           {
             "week": "8월 4주 (8/24~28)",
             "events": [
-              { "dateLabel": "8/26 (수)", "title": "엔비디아 분기 실적", "category": "실적", "region": "US", "importance": "high" },
-              { "dateLabel": "8/28 (금)", "title": "美 7월 PCE 물가지수", "category": "지표", "region": "US", "importance": "high" }
+              {
+                "dateLabel": "8/26 (수)",
+                "title": "엔비디아 분기 실적",
+                "category": "실적",
+                "region": "US",
+                "importance": "high"
+              },
+              {
+                "dateLabel": "8/28 (금)",
+                "title": "美 7월 PCE 물가지수",
+                "category": "지표",
+                "region": "US",
+                "importance": "high"
+              }
             ]
           }
         ]
@@ -79,46 +175,175 @@
     ]
   },
   "usMarketCap": {
-    "asOf": "2026-07-02 오후 12:16 KST (美 7/1 종가 기준) · 자동 갱신",
+    "asOf": "美 직전 종가 기준 (자동·2026-07-02)",
     "items": [
-      { "rank": 1, "ticker": "NVDA", "nameKo": "엔비디아", "marketCap": "$4.79T", "changePercent": -1.3 },
-      { "rank": 2, "ticker": "GOOGL", "nameKo": "알파벳(구글)", "marketCap": "$4.41T", "changePercent": 1.1 },
-      { "rank": 3, "ticker": "AAPL", "nameKo": "애플", "marketCap": "$4.32T", "changePercent": 1.7 },
-      { "rank": 4, "ticker": "MSFT", "nameKo": "마이크로소프트", "marketCap": "$2.85T", "changePercent": 3.0 },
-      { "rank": 5, "ticker": "AMZN", "nameKo": "아마존", "marketCap": "$2.60T", "changePercent": 1.4 },
-      { "rank": 6, "ticker": "TSM", "nameKo": "TSMC", "marketCap": "$2.30T", "changePercent": -7.0 },
-      { "rank": 7, "ticker": "AVGO", "nameKo": "브로드컴", "marketCap": "$1.76T", "changePercent": -2.2 },
-      { "rank": 8, "ticker": "TSLA", "nameKo": "테슬라", "marketCap": "$1.60T", "changePercent": 1.1 },
-      { "rank": 9, "ticker": "META", "nameKo": "메타", "marketCap": "$1.56T", "changePercent": 8.8 },
-      { "rank": 10, "ticker": "BRK.B", "nameKo": "버크셔해서웨이", "marketCap": "$1.10T", "changePercent": null }
+      {
+        "rank": 1,
+        "ticker": "NVDA",
+        "nameKo": "엔비디아",
+        "marketCap": "$4.79T",
+        "changePercent": 0.3
+      },
+      {
+        "rank": 2,
+        "ticker": "GOOGL",
+        "nameKo": "알파벳(구글)",
+        "marketCap": "$4.41T",
+        "changePercent": 0.2
+      },
+      {
+        "rank": 3,
+        "ticker": "AAPL",
+        "nameKo": "애플",
+        "marketCap": "$4.32T",
+        "changePercent": -0.1
+      },
+      {
+        "rank": 4,
+        "ticker": "MSFT",
+        "nameKo": "마이크로소프트",
+        "marketCap": "$2.85T",
+        "changePercent": -0.2
+      },
+      {
+        "rank": 5,
+        "ticker": "AMZN",
+        "nameKo": "아마존",
+        "marketCap": "$2.60T",
+        "changePercent": -0.4
+      },
+      {
+        "rank": 6,
+        "ticker": "TSM",
+        "nameKo": "TSMC",
+        "marketCap": "$2.30T",
+        "changePercent": -0.9
+      },
+      {
+        "rank": 7,
+        "ticker": "AVGO",
+        "nameKo": "브로드컴",
+        "marketCap": "$1.76T",
+        "changePercent": 0.1
+      },
+      {
+        "rank": 8,
+        "ticker": "TSLA",
+        "nameKo": "테슬라",
+        "marketCap": "$1.60T",
+        "changePercent": 0.5
+      },
+      {
+        "rank": 9,
+        "ticker": "META",
+        "nameKo": "메타",
+        "marketCap": "$1.56T",
+        "changePercent": 0.1
+      },
+      {
+        "rank": 10,
+        "ticker": "BRK-B",
+        "nameKo": "버크셔해서웨이",
+        "marketCap": "$1.08T",
+        "changePercent": -0.0
+      }
     ]
   },
   "marketIndexes": [
-    { "name": "다우존스", "value": "52,305", "changePercent": 0.03 },
-    { "name": "S&P 500", "value": "6,544", "changePercent": -0.25 },
-    { "name": "나스닥", "value": "22,450", "changePercent": null },
-    { "name": "러셀 2000", "value": "2,410", "changePercent": null }
+    {
+      "name": "다우존스",
+      "value": "52,305",
+      "changePercent": -0.03
+    },
+    {
+      "name": "S&P 500",
+      "value": "7,483",
+      "changePercent": -0.22
+    },
+    {
+      "name": "나스닥",
+      "value": "26,040",
+      "changePercent": -0.66
+    },
+    {
+      "name": "러셀 2000",
+      "value": "3,013",
+      "changePercent": -0.39
+    }
   ],
   "macroIndicators": [
-    { "name": "원/달러", "value": "1,553", "direction": "up", "note": "7/1 주간거래 1,554.9원으로 마감하며 2009년 3월(1,568원) 이후 17년 만의 최고권. 오늘 7/2도 1,552원대에서 고공행진. 상반기(1/2~6/30) 원화가치는 약 -7%로 주요국 통화 중 두 번째 약세폭이었고, 외국인의 코스피 대규모 순매도(오늘 2.9조 원)가 원화를 짓누름. 교보증권은 '3분기 상단 1,600원'을 열어둘 것을 권고" },
-    { "name": "금", "value": "$4,384", "direction": "flat", "note": "안전자산 수요 유지 국면(확인 불가·기존값)" },
-    { "name": "은", "value": "$71", "direction": "flat", "note": "(확인 불가·기존값)" },
-    { "name": "VIX", "value": "16.5", "direction": "up", "note": "메타발 AI 반도체 쇼크로 위험회피가 재부각되며 변동성 확대(추정)" },
-    { "name": "美10년물", "value": "4.40%", "direction": "flat", "note": "금리 상단이 열리면 고밸류 기술주엔 부담이나, 오늘은 반도체 수급 이슈가 지수를 지배(추정·기존값)" },
-    { "name": "공포·탐욕", "value": "40", "direction": "down", "note": "메타발 반도체 쇼크·코스피 8,000선 붕괴·매도 사이드카 15번째·외인 2.9조 순매도로 위험선호가 탐욕→공포권으로 급랭(추정)" }
+    {
+      "name": "원/달러",
+      "value": "1,548",
+      "direction": "down",
+      "note": "전일比 -0.3%"
+    },
+    {
+      "name": "금",
+      "value": "$4,087",
+      "direction": "up",
+      "note": "+0.1%"
+    },
+    {
+      "name": "은",
+      "value": "$60",
+      "direction": "down",
+      "note": "-0.6%"
+    },
+    {
+      "name": "VIX",
+      "value": "16.9",
+      "direction": "up",
+      "note": "+1.7%"
+    },
+    {
+      "name": "美10년물",
+      "value": "4.47%",
+      "direction": "flat"
+    },
+    {
+      "name": "공포·탐욕",
+      "value": "40",
+      "direction": "down",
+      "note": "메타발 반도체 쇼크·코스피 8,000선 붕괴·매도 사이드카 15번째·외인 2.9조 순매도로 위험선호가 탐욕→공포권으로 급랭(추정)"
+    }
   ],
   "sectorRotation": {
     "strong": [
-      { "sector": "美 메가캡 플랫폼·소프트웨어(메타 +8.8%·MS +3.0%·애플 +1.7%·아마존 +1.4%)", "changePercent": 8.8 },
-      { "sector": "국내 금융지주 순환매(KB금융 +8%대·하나·신한 급등, 금리·주주환원 기대)", "changePercent": 8.0 },
-      { "sector": "美 AI 소프트웨어(팔란티어 +7.8%, 엔비디아 전략적 파트너십)", "changePercent": 7.8 },
-      { "sector": "국내 소외 대형주 반등(현대차 +1.9%·네이버 +1.3%)", "changePercent": 1.9 }
+      {
+        "sector": "경기소비재(XLY)",
+        "changePercent": 0.3
+      },
+      {
+        "sector": "금융(XLF)",
+        "changePercent": 0.2
+      },
+      {
+        "sector": "커뮤니케이션(XLC)",
+        "changePercent": 0.1
+      },
+      {
+        "sector": "기술(XLK)",
+        "changePercent": 0.0
+      }
     ],
     "weak": [
-      { "sector": "글로벌 메모리 반도체(마이크론·샌디스크 -10%·삼성전자 -4.9%·SK하이닉스 -5.9%)", "changePercent": -10.0 },
-      { "sector": "美 파운드리·칩(인텔 -9.0%·마벨 -8.7%·TSMC -7.0%)", "changePercent": -9.0 },
-      { "sector": "데이터센터 전력·원전(아이렌 -5.3%·컨스털레이션 -4.8%·블룸에너지 -4.4%)", "changePercent": -5.3 },
-      { "sector": "양자·우주 고변동주(아이온큐 -3.5%·리게티 -3.3%·AST -3.1%)", "changePercent": -3.5 }
+      {
+        "sector": "산업재(XLI)",
+        "changePercent": -0.7
+      },
+      {
+        "sector": "필수소비재(XLP)",
+        "changePercent": -0.1
+      },
+      {
+        "sector": "에너지(XLE)",
+        "changePercent": 0.0
+      },
+      {
+        "sector": "헬스케어(XLV)",
+        "changePercent": 0.0
+      }
     ]
   },
   "news": [
@@ -126,7 +351,12 @@
       "category": "overseas",
       "title": "'메타발 AI 컴퓨팅 쇼크'…메타 잉여 컴퓨팅 임대 검토 보도에 마이크론·샌디스크 -10%·인텔 -9%·마벨 -8.7%·TSMC -7% 급락, 정작 메타는 +8.8%",
       "summaryKo": "간밤(현지 7/1) 메타가 남는 컴퓨팅 자원을 외부 기업에 임대(자체 컴퓨팅 클라우드)하는 방안을 검토 중이라는 보도가 나오면서 AI 반도체·인프라 전반이 흔들렸습니다. 마이크론·샌디스크가 각각 -10%, 인텔 -9%, 마벨 -8.7%, TSMC -7%로 무너졌고 엔비디아(-1.3%)·브로드컴(-2.2%)도 약세였던 반면, 메타 자신은 신사업 기대로 +8.8% 급등하고 MS(+3.0%)·애플(+1.7%)·아마존(+1.4%)은 올라 '칩에서 플랫폼으로'의 자금 이동이 극명했습니다. AI 밸류체인의 공급 지형이 바뀔 수 있다는 경계가 커졌지만, 상당수 칩주가 단기 급등 뒤 차익실현이 겹친 성격도 있어 추격보다 확인이 필요한 국면입니다.",
-      "relatedTickers": ["META", "TSM", "INTC", "MRVL"],
+      "relatedTickers": [
+        "META",
+        "TSM",
+        "INTC",
+        "MRVL"
+      ],
       "impact": "negative",
       "confidence": "high",
       "source": "beincrypto / Motley Fool / 중기이코노미",
@@ -136,7 +366,10 @@
       "category": "official",
       "title": "코스피 '반도체 쇼크'에 장중 8,000선 붕괴·7,700대까지…매도 사이드카 15번째, 삼성 -4.9%·하이닉스 -5.9%, 외국인 2.9조 순매도",
       "summaryKo": "7/2 코스피가 간밤 미국 기술주 약세 여파로 장 초반 4% 넘게 급락해 8,000선이 무너지고 한때 7,700대까지 밀렸으며, 매도 사이드카가 15번째로 발동됐습니다. 시가총액 합산 비중 50%가 넘는 삼성전자(-4.9%·29만9000원)·SK하이닉스(-5.9%·240만8000원)가 동반 급락했고 외국인이 약 2조9000억 원을 순매도하며 지수를 끌어내렸습니다. 오전 중 낙폭을 다소 줄였으나 '반도체 피크아웃' 논쟁이 확산되는 등 투자심리는 위축된 상태입니다. 단기 변동성이 극심한 만큼 추격 매도·매수 모두 신중해야 합니다.",
-      "relatedTickers": ["삼성전자", "SK하이닉스"],
+      "relatedTickers": [
+        "삼성전자",
+        "SK하이닉스"
+      ],
       "impact": "negative",
       "confidence": "high",
       "source": "MBC / YTN / 헤럴드경제 / 겟뉴스",
@@ -146,7 +379,10 @@
       "category": "official",
       "title": "원/달러 1,554.9원 17년 최고 마감·상반기 원화 -7%…교보 \"3Q 환율 상단 1,600원 열어둬야\"",
       "summaryKo": "7/1 원/달러 환율이 주간거래에서 1,554.9원으로 마감해 2009년 3월(1,568원) 이후 17년 만의 최고 수준까지 치솟았고, 오늘 7/2도 1,552원대에서 고공행진 중입니다. 상반기(1/2~6/30) 원화가치는 약 7% 절하돼 주요국 통화 중 두 번째로 약했습니다. 교보증권은 외국인의 리밸런싱 매도가 당분간 이어질 가능성이 높아 '3분기 달러-원 상단을 1,600원까지 열어둬야 한다'고 조언했습니다. 고환율은 수출주엔 우호적이나 외국인 추가 이탈·환차손 위험을 키우는 양날의 검입니다.",
-      "relatedTickers": ["삼성전자", "현대차"],
+      "relatedTickers": [
+        "삼성전자",
+        "현대차"
+      ],
       "impact": "negative",
       "confidence": "high",
       "source": "연합인포맥스 / 세계일보 / 문화일보",
@@ -156,7 +392,10 @@
       "category": "analyst",
       "title": "팔란티어 +7.8% 급등…엔비디아 전략적 AI 파트너십 + 트럼프 대통령 지분 보유 공시",
       "summaryKo": "간밤 팔란티어가 +7.8% 급등했습니다. 엔비디아와의 전략적 AI 파트너십(주권 환경에서 NVIDIA AI·Nemotron 모델 구동 엔진 제공) 발표에, 트럼프 대통령이 상당한 지분을 보유했다는 재무공시가 더해진 영향입니다. 반도체가 무너진 날 AI 소프트웨어로 매수세가 쏠린 셈이나, 팔란티어는 PER이 130배를 웃도는 초고밸류주로 변동성이 큽니다. 파트너십·정치 이슈는 재료일 뿐 단독 매수 근거로 삼기보다 밸류 부담을 함께 봐야 합니다.",
-      "relatedTickers": ["PLTR", "NVDA"],
+      "relatedTickers": [
+        "PLTR",
+        "NVDA"
+      ],
       "impact": "positive",
       "confidence": "medium",
       "source": "Yahoo Finance / StockStory",
@@ -166,7 +405,10 @@
       "category": "analyst",
       "title": "반도체 급락 속 금융지주 순환매…KB금융 +8%대, 하나·신한 동반 급등",
       "summaryKo": "반도체 폭락으로 코스피가 요동치는 가운데 금리·실적·주주환원 기대에 힘입은 금융지주가 일제히 급등했습니다. KB금융이 +8%대, 하나·신한금융도 장중 크게 올랐습니다. 증권가는 'PBR 0.6배 수준의 가격 매력과 2026년 7%대 주주환원 수익률'을 근거로 제시했습니다. 반도체 쏠림이 풀릴 때 자금이 옮겨가는 순환매의 전형으로, 낙폭과대 소외주(현대차·네이버 반등도 같은 맥락)에 관심을 둘 국면이나 지수 방향성이 확인돼야 추세가 됩니다.",
-      "relatedTickers": ["현대차", "NAVER"],
+      "relatedTickers": [
+        "현대차",
+        "NAVER"
+      ],
       "impact": "positive",
       "confidence": "medium",
       "source": "서울경제 / 초이스경제",
@@ -176,7 +418,10 @@
       "category": "official",
       "title": "단일종목 레버리지ETF 장중 20% 급락…'2배 베팅' 빚투 경고 현실화",
       "summaryKo": "코스피 변동성이 커지면서 삼성전자·SK하이닉스를 기초자산으로 하는 단일종목 레버리지ETF가 장중 20% 안팎 급락했습니다. 상승장에서 '2배 베팅'으로 몰렸던 빚투 자금의 손실이 현실화된 것으로, 고배율·레버리지 상품의 위험이 재확인됐습니다. 추세가 흔들리는 지금 단일종목 레버리지·고배율 상품의 신규 진입은 반드시 피해야 하며, 반대매매·강제 청산 위험을 경계해야 합니다.",
-      "relatedTickers": ["삼성전자", "SK하이닉스"],
+      "relatedTickers": [
+        "삼성전자",
+        "SK하이닉스"
+      ],
       "impact": "negative",
       "confidence": "high",
       "source": "글로벌이코노믹 / 스타트업투데이",
@@ -186,7 +431,9 @@
       "category": "overseas",
       "title": "메타, 컴퓨팅 임대 신사업 기대에 +8.8% 급등…'AI 인프라 게임체인저' 평가",
       "summaryKo": "메타가 남는 컴퓨팅 자원을 외부에 임대하는 잠재적 신수익원 보도에 +8.8% 급등했습니다. 광고 현금흐름이 견조한 가운데 대규모 AI 자본지출을 수익화할 경로가 열릴 수 있다는 기대입니다. 다만 이 소식이 곧 AI 칩·인프라 업체엔 수요 지형 변화라는 악재로 작용해 반도체 급락의 방아쇠가 됐다는 점에서 '메타의 호재=칩의 악재'라는 비대칭이 나타났습니다. 현재가가 목표가 하단(664달러)도 하회해 밸류 매력은 넓으나 급등 직후 변동성은 유의해야 합니다.",
-      "relatedTickers": ["META"],
+      "relatedTickers": [
+        "META"
+      ],
       "impact": "positive",
       "confidence": "medium",
       "source": "Motley Fool / 247WallSt",
@@ -196,7 +443,10 @@
       "category": "rumor",
       "title": "'반도체 피크아웃' 논쟁 채터 확산…메모리 슈퍼사이클 고점 우려 vs 조정론",
       "summaryKo": "메타발 쇼크와 삼성·하이닉스 급락을 계기로 '반도체 피크아웃(고점 통과)' 우려가 채터로 번지고 있습니다. 그러나 이는 확정된 실적·수요 둔화가 아니라 단기 급등 뒤 수급·심리가 흔들린 조정 성격이라는 반론도 팽팽합니다. 7/8 삼성 잠정실적·7/24 SK하이닉스 실적 전까지는 미확인 전망이므로, 공포에 휩쓸린 투매나 성급한 저가매수 모두 근거가 약합니다. 실적·HBM 수주 확인이 선행돼야 합니다.",
-      "relatedTickers": ["삼성전자", "SK하이닉스"],
+      "relatedTickers": [
+        "삼성전자",
+        "SK하이닉스"
+      ],
       "impact": "mixed",
       "confidence": "low",
       "source": "미확인 (시장 채터·피크아웃 논쟁)"
@@ -209,14 +459,14 @@
       "sector": "반도체",
       "market": "KR",
       "currency": "KRW",
-      "closePrice": 299000,
+      "closePrice": 286000,
       "afterHoursPrice": null,
-      "changePercent": -4.9,
+      "changePercent": -9.06,
       "targetLow": 210000,
       "targetAverage": 461687,
       "targetHigh": 850000,
       "keyNews": "7/2 장중 -4.9%(29만9000원)로 메타발 반도체 쇼크에 급락, 매도 사이드카·외인 2.9조 순매도. 다만 평균목표가(46.2만 원) 대비 안전마진 약 35%로 종목 중 최상위이고 애널 36명 Strong Buy(1.4). 급락은 수급·심리 성격이 크므로 투매는 자제, 신규는 분할·소액부터. 7/8 잠정실적이 분수령",
-      "dataTime": "7/2 장중 (실데이터)"
+      "dataTime": "韓 직전 종가 (자동)"
     },
     {
       "ticker": "SK하이닉스",
@@ -224,44 +474,223 @@
       "sector": "반도체",
       "market": "KR",
       "currency": "KRW",
-      "closePrice": 2408000,
+      "closePrice": 2187000,
       "afterHoursPrice": null,
-      "changePercent": -5.9,
+      "changePercent": -14.57,
       "targetLow": 1030000,
-      "targetHigh": 4700000,
       "targetAverage": 3105259,
+      "targetHigh": 4700000,
       "keyNews": "7/2 장중 -5.9%(240만8000원)로 메모리 쇼크의 직격탄. 그러나 HBM 점유율 1위·평균목표가(310.5만 원) 대비 안전마진 약 22%가 다시 열렸고 애널 37명 Strong Buy(1.4). '피크아웃' 논쟁은 미확인이므로 추격 투매 자제, 조정 시 분할 관점. 7/24 2Q 실적 주목",
-      "dataTime": "7/2 장중 (실데이터)"
+      "dataTime": "韓 직전 종가 (자동)"
     },
     {
-      "ticker": "현대차",
-      "nameKo": "현대차",
+      "ticker": "NVDA",
+      "nameKo": "엔비디아",
+      "sector": "반도체",
+      "market": "US",
+      "currency": "USD",
+      "closePrice": 197.58,
+      "afterHoursPrice": null,
+      "changePercent": 0.27,
+      "targetLow": 180.0,
+      "targetAverage": 301.62,
+      "targetHigh": 500.0,
+      "keyNews": "7/1 -1.3%(197.58달러)로 메타발 쇼크에 200달러 반납, 시간외 197.04달러. 팔란티어와의 전략적 AI 파트너십은 호재. 애널 58명 Strong Buy(1.3)·평균목표가(301.6달러) 대비 안전마진 약 34%로 메가캡 중 매력 상위. 다만 'AI 인프라 지형 변화' 경계와 중국 수출 제약은 변수",
+      "dataTime": "美 직전 종가 (자동)",
+      "nameEn": "NVIDIA"
+    },
+    {
+      "ticker": "AVGO",
+      "nameKo": "브로드컴",
+      "sector": "반도체",
+      "market": "US",
+      "currency": "USD",
+      "closePrice": 369.34,
+      "afterHoursPrice": null,
+      "changePercent": 0.09,
+      "targetLow": 215.88,
+      "targetAverage": 523.73,
+      "targetHigh": 650.0,
+      "keyNews": "7/1 -2.2%(369.34달러)로 메타발 쇼크에 약세, 시간외 369.00달러. OpenAI용 추론칩 등 커스텀 실리콘 스토리는 유효하고 애널 45명 Strong Buy(1.3)·평균목표가(523.7달러) 대비 안전마진 약 29%. 낙폭과대 반도체 최선호로 분할 진입 매력, 다만 인프라 지형 변화 경계",
+      "dataTime": "美 직전 종가 (자동)",
+      "nameEn": "Broadcom"
+    },
+    {
+      "ticker": "SNPS",
+      "nameKo": "시놉시스",
+      "sector": "반도체",
+      "market": "US",
+      "currency": "USD",
+      "closePrice": 454.53,
+      "afterHoursPrice": null,
+      "changePercent": 0.27,
+      "targetLow": 403.85,
+      "targetAverage": 563.74,
+      "targetHigh": 650.0,
+      "keyNews": "7/1 +1.9%(454.53달러)로 칩 급락장에서 EDA는 선방, 시간외 453.30달러. 평균목표가(563.74달러) 대비 안전마진 약 19%로 낙폭과대 관찰. 설계자동화 구조적 수요는 유효",
+      "dataTime": "美 직전 종가 (자동)",
+      "nameEn": "Synopsys"
+    },
+    {
+      "ticker": "TSM",
+      "nameKo": "TSMC",
+      "sector": "반도체",
+      "market": "US",
+      "currency": "USD",
+      "closePrice": 444.23,
+      "afterHoursPrice": null,
+      "changePercent": -0.93,
+      "targetLow": 354.0,
+      "targetAverage": 487.56,
+      "targetHigh": 700.0,
+      "keyNews": "7/1 -7.0%(444.23달러)로 메타발 쇼크에 급락, 신고가(479달러) 근접 뒤 되돌림. 시간외 448.42달러로 소폭 반등. 핵심 파운드리 지위는 유효하나 평균목표가(487.6달러) 대비 안전마진 약 9%로 좁음. 급락 뒤 분할 관점, 추격은 자제",
+      "dataTime": "美 직전 종가 (자동)",
+      "nameEn": "Taiwan Semiconductor"
+    },
+    {
+      "ticker": "INTC",
+      "nameKo": "인텔",
+      "sector": "반도체",
+      "market": "US",
+      "currency": "USD",
+      "closePrice": 127.02,
+      "afterHoursPrice": null,
+      "changePercent": -0.13,
+      "targetLow": 45.0,
+      "targetAverage": 98.5,
+      "targetHigh": 160.0,
+      "keyNews": "7/1 -9.0%(127.02달러)로 메타발 쇼크에 급락(전일 급등분 반납). 1년간 +476% 폭등 뒤 되돌림. 현재가가 평균목표가(98.5달러)를 여전히 크게 상회·월가 'Hold' 2.6등급 → 과열·고변동 구간이라 추격은 강한 주의",
+      "dataTime": "美 직전 종가 (자동)",
+      "nameEn": "Intel"
+    },
+    {
+      "ticker": "QCOM",
+      "nameKo": "퀄컴",
+      "sector": "반도체",
+      "market": "US",
+      "currency": "USD",
+      "closePrice": 181.92,
+      "afterHoursPrice": null,
+      "changePercent": 0.12,
+      "targetLow": 100.0,
+      "targetAverage": 215.42,
+      "targetHigh": 300.0,
+      "keyNews": "7/1 -1.6%(181.92달러)로 약세, 시간외 181.70달러. 데이터센터 칩 진출 청사진은 동력이고 평균목표가(215.4달러) 대비 안전마진 약 16%이나 월가 'Hold' 2.5등급 → 추격은 신중",
+      "dataTime": "美 직전 종가 (자동)",
+      "nameEn": "Qualcomm"
+    },
+    {
+      "ticker": "MRVL",
+      "nameKo": "마벨테크놀로지",
+      "sector": "반도체",
+      "market": "US",
+      "currency": "USD",
+      "closePrice": 272.05,
+      "afterHoursPrice": null,
+      "changePercent": 0.5,
+      "targetLow": 110.0,
+      "targetAverage": 249.33,
+      "targetHigh": 385.0,
+      "keyNews": "7/1 -8.7%(272.05달러)로 메타발 쇼크에 급락, 시간외 270.69달러. 애널 41명 Strong Buy(1.5)이나 현재가가 평균목표가(249달러)를 여전히 상회 → 추격보다 비중·손절선 우선, 변동성 극심",
+      "dataTime": "美 직전 종가 (자동)",
+      "nameEn": "Marvell"
+    },
+    {
+      "ticker": "SNDK",
+      "nameKo": "샌디스크",
+      "sector": "반도체",
+      "market": "US",
+      "currency": "USD",
+      "closePrice": 2032.22,
+      "afterHoursPrice": null,
+      "changePercent": 0.89,
+      "targetLow": 1000.0,
+      "targetAverage": 1863.82,
+      "targetHigh": 3250.0,
+      "keyNews": "",
+      "dataTime": "美 직전 종가 (자동)",
+      "nameEn": "Sandisk",
+      "riskNote": "초고위험 변동성 종목"
+    },
+    {
+      "ticker": "MSFT",
+      "nameKo": "마이크로소프트",
+      "sector": "기술",
+      "market": "US",
+      "currency": "USD",
+      "closePrice": 384.28,
+      "afterHoursPrice": null,
+      "changePercent": -0.19,
+      "targetLow": 400.0,
+      "targetAverage": 561.11,
+      "targetHigh": 870.0,
+      "keyNews": "7/1 +3.0%(384.28달러)로 '칩에서 플랫폼으로' 이동의 수혜, 시간외 385.00달러. 현재가가 목표가 하단(400달러)도 하회 → 평균목표가(561달러) 대비 안전마진 약 32%로 메가캡 중 가장 넓음. 애널 55명 Strong Buy(1.3). 정규장 분할 관점 최우선 관찰, 7월 말 실적이 분수령",
+      "dataTime": "美 직전 종가 (자동)",
+      "nameEn": "Microsoft"
+    },
+    {
+      "ticker": "META",
+      "nameKo": "메타",
+      "sector": "커뮤니케이션",
+      "market": "US",
+      "currency": "USD",
+      "closePrice": 612.91,
+      "afterHoursPrice": null,
+      "changePercent": 0.13,
+      "targetLow": 664.46,
+      "targetAverage": 828.13,
+      "targetHigh": 1015.0,
+      "keyNews": "7/1 +8.8%(612.91달러) 급등 — 잉여 컴퓨팅 임대 신사업 기대(이 소식이 반도체 급락의 방아쇠). 시간외 612.10달러. 현재가가 목표가 하단(664달러)도 하회 → 안전마진 약 26%로 낙폭과대 매력 유지. 애널 58명 Strong Buy(1.3). 단, 급등 직후 변동성·AI 자본지출 부담은 유의",
+      "dataTime": "美 직전 종가 (자동)",
+      "nameEn": "Meta Platforms"
+    },
+    {
+      "ticker": "AMZN",
+      "nameKo": "아마존",
       "sector": "임의소비",
-      "market": "KR",
-      "currency": "KRW",
-      "closePrice": 497000,
+      "market": "US",
+      "currency": "USD",
+      "closePrice": 241.7,
       "afterHoursPrice": null,
-      "changePercent": 1.9,
-      "targetLow": 509415,
-      "targetAverage": 748755,
-      "targetHigh": 1200000,
-      "keyNews": "7/2 장중 +1.9%(49만7000원)로 반도체 급락장에서 순환매 수혜, 현재가가 목표가 하단(50.9만 원)도 소폭 하회하는 낙폭과대 구간. 평균목표가(74.9만 원) 대비 안전마진 약 34%이고 원/달러 1,550원 고환율은 수출 우호적. 반도체 쏠림이 풀릴 때 1순위 순환매 후보(노조 파업 변수 체크)",
-      "dataTime": "7/2 장중 (실데이터)"
+      "changePercent": -0.38,
+      "targetLow": 207.0,
+      "targetAverage": 312.99,
+      "targetHigh": 370.0,
+      "keyNews": "7/1 +1.4%(241.70달러)로 메가캡 강세에 동참, 시간외 242.63달러. AWS 성장·클라우드 기대가 동력. 애널 63명 Strong Buy(1.3)·평균목표가(313달러) 대비 안전마진 약 23%. 7월 말 실적 주목",
+      "dataTime": "美 직전 종가 (자동)",
+      "nameEn": "Amazon"
     },
     {
-      "ticker": "두산에너빌리티",
-      "nameKo": "두산에너빌리티",
-      "sector": "산업/원전",
-      "market": "KR",
-      "currency": "KRW",
-      "closePrice": 88200,
+      "ticker": "GOOGL",
+      "nameKo": "알파벳(구글)",
+      "sector": "커뮤니케이션",
+      "market": "US",
+      "currency": "USD",
+      "closePrice": 361.21,
       "afterHoursPrice": null,
-      "changePercent": -0.3,
-      "targetLow": 92000,
-      "targetAverage": 139599,
-      "targetHigh": 195000,
-      "keyNews": "7/2 장중 -0.3%(8만8200원)로 급락장에서 상대적 선방. 현재가가 목표가 하단(9.2만 원)도 하회해 안전마진 약 37%로 종목 중 최대. 美 전력·원전·AI 데이터센터 전력 병목 구조는 유효, 분할매수 관점 매력 유지(고변동 유의)",
-      "dataTime": "7/2 장중 (실데이터)"
+      "changePercent": 0.21,
+      "targetLow": 340.0,
+      "targetAverage": 432.65,
+      "targetHigh": 515.0,
+      "keyNews": "7/1 +1.1%(361.21달러), 1년간 +102% 급등. 검색·클라우드(AI 인프라) 실적 견조. 현재가가 목표가 하단(340달러)을 넘어선 구간으로 평균목표가(432.6달러) 대비 안전마진 약 16%. 단기 급등 부담은 유의",
+      "dataTime": "美 직전 종가 (자동)",
+      "nameEn": "Alphabet"
+    },
+    {
+      "ticker": "AAPL",
+      "nameKo": "애플",
+      "sector": "기술",
+      "market": "US",
+      "currency": "USD",
+      "closePrice": 294.38,
+      "afterHoursPrice": null,
+      "changePercent": -0.09,
+      "targetLow": 215.0,
+      "targetAverage": 315.09,
+      "targetHigh": 400.0,
+      "keyNews": "7/1 +1.7%(294.38달러)로 메가캡 강세에 동참, 시간외 294.64달러. 서비스 매출 견조. 평균목표가(315달러) 대비 안전마진 약 7%로 좁아짐. 월가 'Buy' 2.0등급. 원가 이슈는 변수",
+      "dataTime": "美 직전 종가 (자동)",
+      "nameEn": "Apple"
     },
     {
       "ticker": "NAVER",
@@ -269,424 +698,262 @@
       "sector": "커뮤니케이션",
       "market": "KR",
       "currency": "KRW",
-      "closePrice": 200000,
+      "closePrice": 199900,
       "afterHoursPrice": null,
-      "changePercent": 1.3,
+      "changePercent": 1.27,
       "targetLow": 237000,
       "targetAverage": 305815,
       "targetHigh": 400000,
       "keyNews": "7/2 장중 +1.3%(20만 원)로 순환매에 반등, 52주 저점권(19만300원)에서 회복 시도. 현재가가 목표가 하단(23.7만 원)을 크게 하회(안전마진 약 35%)하는 낙폭과대 구간. 반도체 쏠림이 풀리면 AI 검색·순환매 기대가 동력이나 실적 모멘텀 확인 필요",
-      "dataTime": "7/2 장중 (실데이터)"
-    },
-    {
-      "ticker": "NVDA",
-      "nameKo": "엔비디아",
-      "nameEn": "NVIDIA",
-      "sector": "반도체",
-      "market": "US",
-      "currency": "USD",
-      "closePrice": 197.58,
-      "afterHoursPrice": 197.04,
-      "changePercent": -1.3,
-      "targetLow": 180,
-      "targetAverage": 301.62,
-      "targetHigh": 500,
-      "keyNews": "7/1 -1.3%(197.58달러)로 메타발 쇼크에 200달러 반납, 시간외 197.04달러. 팔란티어와의 전략적 AI 파트너십은 호재. 애널 58명 Strong Buy(1.3)·평균목표가(301.6달러) 대비 안전마진 약 34%로 메가캡 중 매력 상위. 다만 'AI 인프라 지형 변화' 경계와 중국 수출 제약은 변수",
-      "dataTime": "美 7/1 종가·시간외 (실데이터)"
-    },
-    {
-      "ticker": "MSFT",
-      "nameKo": "마이크로소프트",
-      "nameEn": "Microsoft",
-      "sector": "기술",
-      "market": "US",
-      "currency": "USD",
-      "closePrice": 384.28,
-      "afterHoursPrice": 385.00,
-      "changePercent": 3.0,
-      "targetLow": 400,
-      "targetAverage": 561.11,
-      "targetHigh": 870,
-      "keyNews": "7/1 +3.0%(384.28달러)로 '칩에서 플랫폼으로' 이동의 수혜, 시간외 385.00달러. 현재가가 목표가 하단(400달러)도 하회 → 평균목표가(561달러) 대비 안전마진 약 32%로 메가캡 중 가장 넓음. 애널 55명 Strong Buy(1.3). 정규장 분할 관점 최우선 관찰, 7월 말 실적이 분수령",
-      "dataTime": "美 7/1 종가·시간외 (실데이터)"
-    },
-    {
-      "ticker": "META",
-      "nameKo": "메타",
-      "nameEn": "Meta Platforms",
-      "sector": "커뮤니케이션",
-      "market": "US",
-      "currency": "USD",
-      "closePrice": 612.91,
-      "afterHoursPrice": 612.10,
-      "changePercent": 8.8,
-      "targetLow": 664.46,
-      "targetAverage": 828.13,
-      "targetHigh": 1015,
-      "keyNews": "7/1 +8.8%(612.91달러) 급등 — 잉여 컴퓨팅 임대 신사업 기대(이 소식이 반도체 급락의 방아쇠). 시간외 612.10달러. 현재가가 목표가 하단(664달러)도 하회 → 안전마진 약 26%로 낙폭과대 매력 유지. 애널 58명 Strong Buy(1.3). 단, 급등 직후 변동성·AI 자본지출 부담은 유의",
-      "dataTime": "美 7/1 종가·시간외 (실데이터)"
+      "dataTime": "韓 직전 종가 (자동)"
     },
     {
       "ticker": "PLTR",
       "nameKo": "팔란티어",
-      "nameEn": "Palantir",
       "sector": "기술",
       "market": "US",
       "currency": "USD",
       "closePrice": 125.73,
-      "afterHoursPrice": 125.40,
-      "changePercent": 7.8,
-      "targetLow": 70,
+      "afterHoursPrice": null,
+      "changePercent": 0.26,
+      "targetLow": 70.0,
       "targetAverage": 182.75,
-      "targetHigh": 255,
+      "targetHigh": 255.0,
       "keyNews": "7/1 +7.8%(125.73달러) 급등 — 엔비디아 전략적 AI 파트너십 + 트럼프 대통령 지분 보유 공시. 시간외 125.40달러. 평균목표가(182.75달러) 대비 안전마진은 넓으나 PER 130배대 초고밸류·변동성 극심. 재료는 재료일 뿐 단독 매수 근거로 삼지 말 것",
-      "dataTime": "美 7/1 종가·시간외 (실데이터)",
+      "dataTime": "美 직전 종가 (자동)",
+      "nameEn": "Palantir",
       "riskNote": "초고위험 변동성 종목"
-    },
-    {
-      "ticker": "AMZN",
-      "nameKo": "아마존",
-      "nameEn": "Amazon",
-      "sector": "임의소비",
-      "market": "US",
-      "currency": "USD",
-      "closePrice": 241.70,
-      "afterHoursPrice": 242.63,
-      "changePercent": 1.4,
-      "targetLow": 207,
-      "targetAverage": 312.99,
-      "targetHigh": 370,
-      "keyNews": "7/1 +1.4%(241.70달러)로 메가캡 강세에 동참, 시간외 242.63달러. AWS 성장·클라우드 기대가 동력. 애널 63명 Strong Buy(1.3)·평균목표가(313달러) 대비 안전마진 약 23%. 7월 말 실적 주목",
-      "dataTime": "美 7/1 종가·시간외 (실데이터)"
-    },
-    {
-      "ticker": "GOOGL",
-      "nameKo": "알파벳(구글)",
-      "nameEn": "Alphabet",
-      "sector": "커뮤니케이션",
-      "market": "US",
-      "currency": "USD",
-      "closePrice": 361.21,
-      "afterHoursPrice": 360.47,
-      "changePercent": 1.1,
-      "targetLow": 340,
-      "targetAverage": 432.65,
-      "targetHigh": 515,
-      "keyNews": "7/1 +1.1%(361.21달러), 1년간 +102% 급등. 검색·클라우드(AI 인프라) 실적 견조. 현재가가 목표가 하단(340달러)을 넘어선 구간으로 평균목표가(432.6달러) 대비 안전마진 약 16%. 단기 급등 부담은 유의",
-      "dataTime": "美 7/1 종가·시간외 (실데이터)"
-    },
-    {
-      "ticker": "AAPL",
-      "nameKo": "애플",
-      "nameEn": "Apple",
-      "sector": "기술",
-      "market": "US",
-      "currency": "USD",
-      "closePrice": 294.38,
-      "afterHoursPrice": 294.64,
-      "changePercent": 1.7,
-      "targetLow": 215,
-      "targetAverage": 315.09,
-      "targetHigh": 400,
-      "keyNews": "7/1 +1.7%(294.38달러)로 메가캡 강세에 동참, 시간외 294.64달러. 서비스 매출 견조. 평균목표가(315달러) 대비 안전마진 약 7%로 좁아짐. 월가 'Buy' 2.0등급. 원가 이슈는 변수",
-      "dataTime": "美 7/1 종가·시간외 (실데이터)"
-    },
-    {
-      "ticker": "TSLA",
-      "nameKo": "테슬라",
-      "nameEn": "Tesla",
-      "sector": "임의소비",
-      "market": "US",
-      "currency": "USD",
-      "closePrice": 425.30,
-      "afterHoursPrice": 423.19,
-      "changePercent": 1.1,
-      "targetLow": 123,
-      "targetAverage": 421.16,
-      "targetHigh": 600,
-      "keyNews": "7/1 +1.1%(425.30달러), 시간외 423.19달러. 현재가가 평균목표가(421달러)를 이미 넘어서 안전마진 약 0%로 추격은 위험. 오늘 7/2 Q2 인도량·로보택시 이벤트가 분수령(컨센서스 하회 가능성 경계). 월가 'Buy' 2.3등급",
-      "dataTime": "美 7/1 종가·시간외 (실데이터)",
-      "riskNote": "변동성 큰 종목"
     },
     {
       "ticker": "ORCL",
       "nameKo": "오라클",
-      "nameEn": "Oracle",
       "sector": "기술",
       "market": "US",
       "currency": "USD",
-      "closePrice": 142.50,
-      "afterHoursPrice": 143.39,
-      "changePercent": -2.8,
-      "targetLow": 155,
+      "closePrice": 142.5,
+      "afterHoursPrice": null,
+      "changePercent": -0.62,
+      "targetLow": 155.0,
       "targetAverage": 252.92,
-      "targetHigh": 400,
+      "targetHigh": 400.0,
       "keyNews": "7/1 -2.8%(142.50달러)로 52주 저점권. OCI 클라우드·AI 인프라 수주 펀더멘털은 유효, 평균목표가(252.9달러) 대비 안전마진 약 44%로 종목 중 최대 낙폭과대. 월가 'Buy' 1.5등급. 시간외 143.39달러",
-      "dataTime": "美 7/1 종가·시간외 (실데이터)"
+      "dataTime": "美 직전 종가 (자동)",
+      "nameEn": "Oracle"
     },
     {
       "ticker": "IBM",
       "nameKo": "아이비엠",
-      "nameEn": "IBM",
       "sector": "기술",
       "market": "US",
       "currency": "USD",
       "closePrice": 286.25,
-      "afterHoursPrice": 285.50,
-      "changePercent": 1.8,
-      "targetLow": 195,
-      "targetAverage": 293.89,
-      "targetHigh": 390,
-      "keyNews": "7/1 +1.8%(286.25달러)로 강세. 하이브리드 클라우드·AI·양자 테마가 동력. 평균목표가(293.89달러) 대비 안전마진 약 3%로 좁음. 시간외 285.50달러",
-      "dataTime": "美 7/1 종가·시간외 (실데이터)"
-    },
-    {
-      "ticker": "AVGO",
-      "nameKo": "브로드컴",
-      "nameEn": "Broadcom",
-      "sector": "반도체",
-      "market": "US",
-      "currency": "USD",
-      "closePrice": 369.34,
-      "afterHoursPrice": 369.00,
-      "changePercent": -2.2,
-      "targetLow": 215.88,
-      "targetAverage": 523.73,
-      "targetHigh": 650,
-      "keyNews": "7/1 -2.2%(369.34달러)로 메타발 쇼크에 약세, 시간외 369.00달러. OpenAI용 추론칩 등 커스텀 실리콘 스토리는 유효하고 애널 45명 Strong Buy(1.3)·평균목표가(523.7달러) 대비 안전마진 약 29%. 낙폭과대 반도체 최선호로 분할 진입 매력, 다만 인프라 지형 변화 경계",
-      "dataTime": "美 7/1 종가·시간외 (실데이터)"
-    },
-    {
-      "ticker": "TSM",
-      "nameKo": "TSMC",
-      "nameEn": "Taiwan Semiconductor",
-      "sector": "반도체",
-      "market": "US",
-      "currency": "USD",
-      "closePrice": 444.23,
-      "afterHoursPrice": 448.42,
-      "changePercent": -7.0,
-      "targetLow": 354,
-      "targetAverage": 487.56,
-      "targetHigh": 700,
-      "keyNews": "7/1 -7.0%(444.23달러)로 메타발 쇼크에 급락, 신고가(479달러) 근접 뒤 되돌림. 시간외 448.42달러로 소폭 반등. 핵심 파운드리 지위는 유효하나 평균목표가(487.6달러) 대비 안전마진 약 9%로 좁음. 급락 뒤 분할 관점, 추격은 자제",
-      "dataTime": "美 7/1 종가·시간외 (실데이터)"
-    },
-    {
-      "ticker": "SNPS",
-      "nameKo": "시놉시스",
-      "nameEn": "Synopsys",
-      "sector": "반도체",
-      "market": "US",
-      "currency": "USD",
-      "closePrice": 454.53,
-      "afterHoursPrice": 453.30,
-      "changePercent": 1.9,
-      "targetLow": 403.85,
-      "targetAverage": 563.74,
-      "targetHigh": 650,
-      "keyNews": "7/1 +1.9%(454.53달러)로 칩 급락장에서 EDA는 선방, 시간외 453.30달러. 평균목표가(563.74달러) 대비 안전마진 약 19%로 낙폭과대 관찰. 설계자동화 구조적 수요는 유효",
-      "dataTime": "美 7/1 종가·시간외 (실데이터)"
-    },
-    {
-      "ticker": "INTC",
-      "nameKo": "인텔",
-      "nameEn": "Intel",
-      "sector": "반도체",
-      "market": "US",
-      "currency": "USD",
-      "closePrice": 127.02,
-      "afterHoursPrice": 127.18,
-      "changePercent": -9.0,
-      "targetLow": 45,
-      "targetAverage": 98.50,
-      "targetHigh": 160,
-      "keyNews": "7/1 -9.0%(127.02달러)로 메타발 쇼크에 급락(전일 급등분 반납). 1년간 +476% 폭등 뒤 되돌림. 현재가가 평균목표가(98.5달러)를 여전히 크게 상회·월가 'Hold' 2.6등급 → 과열·고변동 구간이라 추격은 강한 주의",
-      "dataTime": "美 7/1 종가·시간외 (실데이터)"
-    },
-    {
-      "ticker": "MRVL",
-      "nameKo": "마벨테크놀로지",
-      "nameEn": "Marvell",
-      "sector": "반도체",
-      "market": "US",
-      "currency": "USD",
-      "closePrice": 272.05,
-      "afterHoursPrice": 270.69,
-      "changePercent": -8.7,
-      "targetLow": 110,
-      "targetAverage": 249.33,
-      "targetHigh": 385,
-      "keyNews": "7/1 -8.7%(272.05달러)로 메타발 쇼크에 급락, 시간외 270.69달러. 애널 41명 Strong Buy(1.5)이나 현재가가 평균목표가(249달러)를 여전히 상회 → 추격보다 비중·손절선 우선, 변동성 극심",
-      "dataTime": "美 7/1 종가·시간외 (실데이터)"
-    },
-    {
-      "ticker": "QCOM",
-      "nameKo": "퀄컴",
-      "nameEn": "Qualcomm",
-      "sector": "반도체",
-      "market": "US",
-      "currency": "USD",
-      "closePrice": 181.92,
-      "afterHoursPrice": 181.70,
-      "changePercent": -1.6,
-      "targetLow": 100,
-      "targetAverage": 215.42,
-      "targetHigh": 300,
-      "keyNews": "7/1 -1.6%(181.92달러)로 약세, 시간외 181.70달러. 데이터센터 칩 진출 청사진은 동력이고 평균목표가(215.4달러) 대비 안전마진 약 16%이나 월가 'Hold' 2.5등급 → 추격은 신중",
-      "dataTime": "美 7/1 종가·시간외 (실데이터)"
-    },
-    {
-      "ticker": "CEG",
-      "nameKo": "컨스털레이션에너지",
-      "nameEn": "Constellation Energy",
-      "sector": "유틸리티/원전",
-      "market": "US",
-      "currency": "USD",
-      "closePrice": 236.50,
-      "afterHoursPrice": 236.34,
-      "changePercent": -4.8,
-      "targetLow": 296,
-      "targetAverage": 357.81,
-      "targetHigh": 441,
-      "keyNews": "7/1 -4.8%(236.50달러)로 52주 저점권. 데이터센터 전력 수요 지형이 흔들린다는 경계에 하락, 현재가가 목표가 하단(296달러)도 크게 하회 → 안전마진 약 34%. 월가 'Buy' 1.5등급. 시간외 236.34달러",
-      "dataTime": "美 7/1 종가·시간외 (실데이터)"
-    },
-    {
-      "ticker": "IREN",
-      "nameKo": "아이렌",
-      "nameEn": "IREN",
-      "sector": "에너지/AI",
-      "market": "US",
-      "currency": "USD",
-      "closePrice": 43.32,
-      "afterHoursPrice": 43.22,
-      "changePercent": -5.3,
-      "targetLow": 41,
-      "targetAverage": 80.93,
-      "targetHigh": 126,
-      "keyNews": "7/1 -5.3%(43.32달러)로 AI 인프라 쇼크에 급락, 비트코인 채굴 병행으로 변동성 극심. 시간외 43.22달러. AI 컴퓨팅·전력 전환 기대는 유지, 평균목표가(80.93달러) 대비 안전마진 약 47%",
-      "dataTime": "美 7/1 종가·시간외 (실데이터)",
-      "riskNote": "변동성 큰 종목"
-    },
-    {
-      "ticker": "BE",
-      "nameKo": "블룸에너지",
-      "nameEn": "Bloom Energy",
-      "sector": "에너지",
-      "market": "US",
-      "currency": "USD",
-      "closePrice": 289.50,
-      "afterHoursPrice": 294.50,
-      "changePercent": -4.4,
-      "targetLow": 55,
-      "targetAverage": 275.85,
-      "targetHigh": 390,
-      "keyNews": "7/1 -4.4%(289.50달러)로 데이터센터 전력 테마 조정, 시간외 294.50달러(+1.7%). 현재가가 평균목표가(275.9달러)를 웃돌아 밸류 부담·극심한 변동성 → 추격 강한 주의",
-      "dataTime": "美 7/1 종가·시간외 (실데이터)",
-      "riskNote": "초고위험 변동성 종목"
-    },
-    {
-      "ticker": "FLNC",
-      "nameKo": "플루언스에너지",
-      "nameEn": "Fluence Energy",
-      "sector": "에너지",
-      "market": "US",
-      "currency": "USD",
-      "closePrice": 18.36,
-      "afterHoursPrice": 18.40,
-      "changePercent": -7.6,
-      "targetLow": 9,
-      "targetAverage": 18.59,
-      "targetHigh": 28,
-      "keyNews": "7/1 -7.6%(18.36달러)로 급락, 시간외 18.40달러. 현재가가 평균목표가(18.6달러)에 근접해 상단 여력 제한적, 변동성 극심. 월가 'Hold' 2.8등급",
-      "dataTime": "美 7/1 종가·시간외 (실데이터)",
-      "riskNote": "초고위험 변동성 종목"
-    },
-    {
-      "ticker": "SPACEX",
-      "nameKo": "스페이스X (신규상장)",
-      "nameEn": "SpaceX",
-      "sector": "우주",
-      "market": "US",
-      "currency": "USD",
-      "closePrice": null,
       "afterHoursPrice": null,
-      "changePercent": null,
-      "targetLow": null,
-      "targetAverage": null,
-      "targetHigh": null,
-      "keyNews": "외신은 'SpaceX가 2029년까지 잉여현금흐름 흑자가 어렵고 이미 250억 달러 부채를 떠안는다'며 IPO 흥분보다 위험·보상 현실 평가를 권고. 상장 직후라 컨센서스 형성 전 → 안전마진 계산 제외. 락업 해제 변동성 경고 잔존",
-      "dataTime": "상장 직후",
-      "riskNote": "상장 직후 · 목표가 컨센서스 형성 전(계산 제외)"
+      "changePercent": 0.26,
+      "targetLow": 195.0,
+      "targetAverage": 293.89,
+      "targetHigh": 390.0,
+      "keyNews": "7/1 +1.8%(286.25달러)로 강세. 하이브리드 클라우드·AI·양자 테마가 동력. 평균목표가(293.89달러) 대비 안전마진 약 3%로 좁음. 시간외 285.50달러",
+      "dataTime": "美 직전 종가 (자동)",
+      "nameEn": "IBM"
     },
     {
-      "ticker": "ASTS",
-      "nameKo": "AST스페이스모바일",
-      "nameEn": "AST SpaceMobile",
-      "sector": "우주/통신",
+      "ticker": "RGTI",
+      "nameKo": "리게티컴퓨팅",
+      "sector": "양자컴퓨팅",
       "market": "US",
       "currency": "USD",
-      "closePrice": 86.10,
-      "afterHoursPrice": 86.80,
-      "changePercent": -3.1,
-      "targetLow": 41.2,
-      "targetAverage": 81.47,
-      "targetHigh": 108,
-      "keyNews": "7/1 -3.1%(86.10달러)로 위험회피에 조정, 시간외 86.80달러. 위성-스마트폰 직접 통신 상용화 기대는 동력이나 초고변동. 현재가가 평균목표가(81.47달러)를 상회 → 추격 매수 강한 주의",
-      "dataTime": "美 7/1 종가·시간외 (실데이터)",
-      "riskNote": "초고위험 변동성 종목"
-    },
-    {
-      "ticker": "RKLB",
-      "nameKo": "로켓랩",
-      "nameEn": "Rocket Lab",
-      "sector": "우주",
-      "market": "US",
-      "currency": "USD",
-      "closePrice": 100.07,
-      "afterHoursPrice": 100.02,
-      "changePercent": -1.6,
-      "targetLow": 60,
-      "targetAverage": 111.86,
-      "targetHigh": 150,
-      "keyNews": "7/1 -1.6%(100.07달러)로 100달러선 지지 시도, 시간외 100.02달러. 뉴트론 발사체·위성 성장 스토리는 유효하나 변동성 극심. 평균목표가(111.9달러) 대비 안전마진 약 11%",
-      "dataTime": "美 7/1 종가·시간외 (실데이터)",
+      "closePrice": 18.68,
+      "afterHoursPrice": null,
+      "changePercent": -0.16,
+      "targetLow": 20.0,
+      "targetAverage": 29.65,
+      "targetHigh": 40.0,
+      "keyNews": "7/1 -3.3%(18.68달러)로 양자 테마 약세, 시간외 18.71달러. 현재가가 목표가 하단(20달러)도 하회해 안전마진은 넓으나(평균목표가 29.65달러) 매출 대비 밸류 부담 극심한 초고변동주",
+      "dataTime": "美 직전 종가 (자동)",
+      "nameEn": "Rigetti Computing",
       "riskNote": "초고위험 변동성 종목"
     },
     {
       "ticker": "IONQ",
       "nameKo": "아이온큐",
-      "nameEn": "IonQ",
       "sector": "양자컴퓨팅",
       "market": "US",
       "currency": "USD",
-      "closePrice": 51.40,
-      "afterHoursPrice": 51.40,
-      "changePercent": -3.5,
+      "closePrice": 51.4,
+      "afterHoursPrice": null,
+      "changePercent": 0.0,
       "targetLow": 44.78,
       "targetAverage": 68.79,
-      "targetHigh": 100,
+      "targetHigh": 100.0,
       "keyNews": "7/1 -3.5%(51.40달러)로 위험회피에 양자 테마 약세, 시간외 51.40달러. 애널 13명 Strong Buy(1.4)·평균목표가(68.79달러) 대비 안전마진 약 25%이나 실적 대비 밸류 부담 큰 초고변동주",
-      "dataTime": "美 7/1 종가·시간외 (실데이터)",
+      "dataTime": "美 직전 종가 (자동)",
+      "nameEn": "IonQ",
       "riskNote": "초고위험 변동성 종목"
     },
     {
-      "ticker": "RGTI",
-      "nameKo": "리게티컴퓨팅",
-      "nameEn": "Rigetti Computing",
-      "sector": "양자컴퓨팅",
+      "ticker": "RKLB",
+      "nameKo": "로켓랩",
+      "sector": "우주",
       "market": "US",
       "currency": "USD",
-      "closePrice": 18.68,
-      "afterHoursPrice": 18.71,
-      "changePercent": -3.3,
-      "targetLow": 20,
-      "targetAverage": 29.65,
-      "targetHigh": 40,
-      "keyNews": "7/1 -3.3%(18.68달러)로 양자 테마 약세, 시간외 18.71달러. 현재가가 목표가 하단(20달러)도 하회해 안전마진은 넓으나(평균목표가 29.65달러) 매출 대비 밸류 부담 극심한 초고변동주",
-      "dataTime": "美 7/1 종가·시간외 (실데이터)",
+      "closePrice": 100.07,
+      "afterHoursPrice": null,
+      "changePercent": 0.05,
+      "targetLow": 60.0,
+      "targetAverage": 111.86,
+      "targetHigh": 150.0,
+      "keyNews": "7/1 -1.6%(100.07달러)로 100달러선 지지 시도, 시간외 100.02달러. 뉴트론 발사체·위성 성장 스토리는 유효하나 변동성 극심. 평균목표가(111.9달러) 대비 안전마진 약 11%",
+      "dataTime": "美 직전 종가 (자동)",
+      "nameEn": "Rocket Lab",
       "riskNote": "초고위험 변동성 종목"
+    },
+    {
+      "ticker": "ASTS",
+      "nameKo": "AST스페이스모바일",
+      "sector": "우주/통신",
+      "market": "US",
+      "currency": "USD",
+      "closePrice": 86.1,
+      "afterHoursPrice": null,
+      "changePercent": -0.81,
+      "targetLow": 41.2,
+      "targetAverage": 81.47,
+      "targetHigh": 108.0,
+      "keyNews": "7/1 -3.1%(86.10달러)로 위험회피에 조정, 시간외 86.80달러. 위성-스마트폰 직접 통신 상용화 기대는 동력이나 초고변동. 현재가가 평균목표가(81.47달러)를 상회 → 추격 매수 강한 주의",
+      "dataTime": "美 직전 종가 (자동)",
+      "nameEn": "AST SpaceMobile",
+      "riskNote": "초고위험 변동성 종목"
+    },
+    {
+      "ticker": "SPCX",
+      "nameKo": "스페이스X",
+      "sector": "우주",
+      "market": "US",
+      "currency": "USD",
+      "closePrice": 157.54,
+      "afterHoursPrice": null,
+      "changePercent": -0.23,
+      "targetLow": 62.0,
+      "targetAverage": 188.17,
+      "targetHigh": 310.0,
+      "keyNews": "",
+      "dataTime": "美 직전 종가 (자동)",
+      "nameEn": "SpaceX",
+      "riskNote": "상장 직후 · 컨센서스 형성 초기"
+    },
+    {
+      "ticker": "두산에너빌리티",
+      "nameKo": "두산에너빌리티",
+      "sector": "산업/원전",
+      "market": "KR",
+      "currency": "KRW",
+      "closePrice": 86000,
+      "afterHoursPrice": null,
+      "changePercent": -2.82,
+      "targetLow": 92000,
+      "targetAverage": 139599,
+      "targetHigh": 195000,
+      "keyNews": "7/2 장중 -0.3%(8만8200원)로 급락장에서 상대적 선방. 현재가가 목표가 하단(9.2만 원)도 하회해 안전마진 약 37%로 종목 중 최대. 美 전력·원전·AI 데이터센터 전력 병목 구조는 유효, 분할매수 관점 매력 유지(고변동 유의)",
+      "dataTime": "韓 직전 종가 (자동)"
+    },
+    {
+      "ticker": "CEG",
+      "nameKo": "컨스털레이션에너지",
+      "sector": "유틸리티/원전",
+      "market": "US",
+      "currency": "USD",
+      "closePrice": 236.5,
+      "afterHoursPrice": null,
+      "changePercent": 0.07,
+      "targetLow": 296.0,
+      "targetAverage": 357.81,
+      "targetHigh": 441.0,
+      "keyNews": "7/1 -4.8%(236.50달러)로 52주 저점권. 데이터센터 전력 수요 지형이 흔들린다는 경계에 하락, 현재가가 목표가 하단(296달러)도 크게 하회 → 안전마진 약 34%. 월가 'Buy' 1.5등급. 시간외 236.34달러",
+      "dataTime": "美 직전 종가 (자동)",
+      "nameEn": "Constellation Energy"
+    },
+    {
+      "ticker": "BE",
+      "nameKo": "블룸에너지",
+      "sector": "에너지",
+      "market": "US",
+      "currency": "USD",
+      "closePrice": 289.5,
+      "afterHoursPrice": null,
+      "changePercent": -1.7,
+      "targetLow": 55.0,
+      "targetAverage": 275.85,
+      "targetHigh": 390.0,
+      "keyNews": "7/1 -4.4%(289.50달러)로 데이터센터 전력 테마 조정, 시간외 294.50달러(+1.7%). 현재가가 평균목표가(275.9달러)를 웃돌아 밸류 부담·극심한 변동성 → 추격 강한 주의",
+      "dataTime": "美 직전 종가 (자동)",
+      "nameEn": "Bloom Energy",
+      "riskNote": "초고위험 변동성 종목"
+    },
+    {
+      "ticker": "FLNC",
+      "nameKo": "플루언스에너지",
+      "sector": "에너지",
+      "market": "US",
+      "currency": "USD",
+      "closePrice": 18.36,
+      "afterHoursPrice": null,
+      "changePercent": -0.22,
+      "targetLow": 9.0,
+      "targetAverage": 18.59,
+      "targetHigh": 28.0,
+      "keyNews": "7/1 -7.6%(18.36달러)로 급락, 시간외 18.40달러. 현재가가 평균목표가(18.6달러)에 근접해 상단 여력 제한적, 변동성 극심. 월가 'Hold' 2.8등급",
+      "dataTime": "美 직전 종가 (자동)",
+      "nameEn": "Fluence Energy",
+      "riskNote": "초고위험 변동성 종목"
+    },
+    {
+      "ticker": "현대차",
+      "nameKo": "현대차",
+      "sector": "임의소비",
+      "market": "KR",
+      "currency": "KRW",
+      "closePrice": 482000,
+      "afterHoursPrice": null,
+      "changePercent": -1.13,
+      "targetLow": 509415,
+      "targetAverage": 748755,
+      "targetHigh": 1200000,
+      "keyNews": "7/2 장중 +1.9%(49만7000원)로 반도체 급락장에서 순환매 수혜, 현재가가 목표가 하단(50.9만 원)도 소폭 하회하는 낙폭과대 구간. 평균목표가(74.9만 원) 대비 안전마진 약 34%이고 원/달러 1,550원 고환율은 수출 우호적. 반도체 쏠림이 풀릴 때 1순위 순환매 후보(노조 파업 변수 체크)",
+      "dataTime": "韓 직전 종가 (자동)"
+    },
+    {
+      "ticker": "TSLA",
+      "nameKo": "테슬라",
+      "sector": "임의소비",
+      "market": "US",
+      "currency": "USD",
+      "closePrice": 425.3,
+      "afterHoursPrice": null,
+      "changePercent": 0.5,
+      "targetLow": 123.0,
+      "targetAverage": 421.16,
+      "targetHigh": 600.0,
+      "keyNews": "7/1 +1.1%(425.30달러), 시간외 423.19달러. 현재가가 평균목표가(421달러)를 이미 넘어서 안전마진 약 0%로 추격은 위험. 오늘 7/2 Q2 인도량·로보택시 이벤트가 분수령(컨센서스 하회 가능성 경계). 월가 'Buy' 2.3등급",
+      "dataTime": "美 직전 종가 (자동)",
+      "nameEn": "Tesla",
+      "riskNote": "변동성 큰 종목"
+    },
+    {
+      "ticker": "IREN",
+      "nameKo": "아이렌",
+      "sector": "에너지/AI",
+      "market": "US",
+      "currency": "USD",
+      "closePrice": 43.32,
+      "afterHoursPrice": null,
+      "changePercent": 0.23,
+      "targetLow": 41.0,
+      "targetAverage": 80.93,
+      "targetHigh": 126.0,
+      "keyNews": "7/1 -5.3%(43.32달러)로 AI 인프라 쇼크에 급락, 비트코인 채굴 병행으로 변동성 극심. 시간외 43.22달러. AI 컴퓨팅·전력 전환 기대는 유지, 평균목표가(80.93달러) 대비 안전마진 약 47%",
+      "dataTime": "美 직전 종가 (자동)",
+      "nameEn": "IREN",
+      "riskNote": "변동성 큰 종목"
     }
   ],
   "finalAnalysis": {
