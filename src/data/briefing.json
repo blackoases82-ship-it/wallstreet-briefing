@@ -1,6 +1,6 @@
 {
   "title": "나만의 월스트리트",
-  "generatedAt": "2026. 7. 11. 오후 3:26 KST",
+  "generatedAt": "2026. 7. 12. 오전 12:33 KST",
   "oneLineConclusion": "화요일 저녁, 시장은 잔인한 역설을 보여줬습니다. 삼성전자가 분기 영업익 '세계 1위'(엔비디아 추월) 사상 최대 실적을 발표했는데도 주가는 -6.9%(29만6000원), 코스피는 -4.91% 급락한 7,656.31로 마감하며 장중 8% 넘게 밀려 매도 사이드카에 이어 역대 12번째 서킷브레이커까지 발동됐습니다. 반면 간밤 뉴욕은 다우가 53,056으로 사상 최고 마감(+0.3%), 나스닥 +1.1%, TSMC +4.1%·브로드컴 +3.7%(애플과 2031년까지 칩 공급 계약)로 반도체가 반등했습니다. '실적의 정점에서 파는' 셀온과 레버리지 ETF발 수급 붕괴가 겹친 서울, 축포를 쏘는 뉴욕 — 같은 반도체를 두고 정반대의 해석이 충돌한 하루였고, 원/달러는 1,513원대로 급락(원화 강세)하며 한 줄기 숨통이 트였습니다.",
   "economicCalendar": {
     "note": "※ 일정·날짜는 예정(추정) 기준이며 변동될 수 있습니다. 자동 갱신됩니다.",
@@ -163,27 +163,27 @@
     ]
   },
   "usMarketCap": {
-    "asOf": "美 직전 종가 기준 (자동·2026-07-11)",
+    "asOf": "美 직전 종가 기준 (자동·2026-07-12)",
     "items": [
       {
         "rank": 1,
         "ticker": "NVDA",
         "nameKo": "엔비디아",
-        "marketCap": "$4.91T",
+        "marketCap": "$5.11T",
         "changePercent": 4.3
       },
       {
         "rank": 2,
         "ticker": "GOOGL",
         "nameKo": "알파벳(구글)",
-        "marketCap": "$4.38T",
+        "marketCap": "$4.36T",
         "changePercent": -0.1
       },
       {
         "rank": 3,
         "ticker": "AAPL",
         "nameKo": "애플",
-        "marketCap": "$4.64T",
+        "marketCap": "$4.63T",
         "changePercent": 0.0
       },
       {
@@ -197,21 +197,21 @@
         "rank": 5,
         "ticker": "AMZN",
         "nameKo": "아마존",
-        "marketCap": "$2.66T",
+        "marketCap": "$2.64T",
         "changePercent": -0.3
       },
       {
         "rank": 6,
         "ticker": "TSM",
         "nameKo": "TSMC",
-        "marketCap": "$2.27T",
+        "marketCap": "$2.25T",
         "changePercent": -1.2
       },
       {
         "rank": 7,
         "ticker": "AVGO",
         "nameKo": "브로드컴",
-        "marketCap": "$1.91T",
+        "marketCap": "$1.90T",
         "changePercent": -0.2
       },
       {
@@ -225,7 +225,7 @@
         "rank": 9,
         "ticker": "META",
         "nameKo": "메타",
-        "marketCap": "$1.72T",
+        "marketCap": "$1.70T",
         "changePercent": 4.6
       },
       {
