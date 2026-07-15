@@ -219,6 +219,11 @@ def llm_generate(data, headlines, weekday_ko="", kr_data_date="", us_data_date="
     macro = "; ".join(f"{m['name']} {m['value']} ({m.get('note', '')})" for m in data.get("macroIndicators", []))
     strong = "; ".join(f"{x['sector']} {x['changePercent']:+.1f}%" for x in data["sectorRotation"]["strong"])
     weak = "; ".join(f"{x['sector']} {x['changePercent']:+.1f}%" for x in data["sectorRotation"]["weak"])
+    kr_actual = "; ".join(
+        f"{s['ticker']} {s['closePrice']:,}원 ({s.get('changePercent') or 0:+.1f}%)"
+        for s in data.get("stocks", [])
+        if s.get("market") == "KR" and s.get("closePrice") is not None
+    )
     heads = "\n".join(
         f"- [{h['ticker']}] {h['title']} ({h.get('publisher') or ''}, {h.get('date') or ''})" for h in headlines
     ) or "(수집된 헤드라인 없음 — 이 경우 뉴스는 비우고 분석만 작성)"
@@ -230,7 +235,7 @@ def llm_generate(data, headlines, weekday_ko="", kr_data_date="", us_data_date="
 
     prompt = f"""당신은 한국어 투자 모닝 브리핑 에디터다. 아래 '오늘 데이터'와 '실제 헤드라인'에만 근거해 작성한다.
 규칙: 제공되지 않은 구체 사실(수치/계약/발언/날짜)은 절대 지어내지 말 것. 불확실한 소문은 confidence를 "low"로 하고 source 끝에 "(미확정)"을 붙인다. 시적이되 간결하게, 단정은 피한다.
-요일 규칙: 오늘은 반드시 {weekday_ko if weekday_ko else '(요일정보없음)'}이다. oneLineConclusion은 반드시 "{weekday_ko if weekday_ko else '오늘'} "로 시작해야 한다. 절대로 다른 요일을 쓰지 말 것.
+★★★ 요일 규칙(절대 최우선) ★★★: 이 브리핑을 읽는 독자의 요일은 반드시 {weekday_ko if weekday_ko else '(요일정보없음)'}이다. oneLineConclusion의 첫 단어는 반드시 "{weekday_ko if weekday_ko else '오늘'}"이어야 한다. 시장 이벤트가 전날 발생했어도 독자 기준 요일({weekday_ko if weekday_ko else '오늘'})로 시작한다. 올바른 예: "{weekday_ko if weekday_ko else '오늘'} 아침, 어제 시장은...". 절대 금지: "{weekday_ko if weekday_ko else '오늘'}"이 아닌 다른 요일 단어로 시작하는 것.
 
 [한국시장 기준일] {kr_date_line} {weekday_line}
 [미국시장 기준일] {us_date_line} (직전 미국 종가)
@@ -240,6 +245,8 @@ def llm_generate(data, headlines, weekday_ko="", kr_data_date="", us_data_date="
 [상승상위] {top_up}
 [하락상위] {top_dn}
 [거시] {macro}
+[한국주요주가·실측치(이 수치만 기사에 사용, 날조 금지)]
+{kr_actual}
 [실제 헤드라인]
 {heads}
 
@@ -267,7 +274,21 @@ news는 위 헤드라인을 근거로 5~7개. 헤드라인이 없으면 news는 
         if isinstance(obj.get("finalAnalysis"), dict) and obj["finalAnalysis"]:
             data["finalAnalysis"] = obj["finalAnalysis"]
         if obj.get("oneLineConclusion"):
-            data["oneLineConclusion"] = obj["oneLineConclusion"]
+            conclusion = obj["oneLineConclusion"]
+            # 요일 강제 교정: LLM이 규칙을 무시해도 코드로 보정
+            if weekday_ko and not conclusion.startswith(weekday_ko):
+                _days = ["월요일","화요일","수요일","목요일","금요일","토요일","일요일"]
+                replaced = False
+                for d in _days:
+                    if conclusion.startswith(d):
+                        conclusion = weekday_ko + conclusion[len(d):]
+                        replaced = True
+                        print(f" ⚠ 요일 교정: {d} → {weekday_ko}")
+                        break
+                if not replaced:
+                    conclusion = f"{weekday_ko} 아침, " + conclusion
+                    print(f" ⚠ 요일 접두 추가: {weekday_ko}")
+            data["oneLineConclusion"] = conclusion
         print(f"  LLM 뉴스/분석 갱신 완료 (model={model}, news={len(obj.get('news', []))})")
         return True
     except Exception as ex:  # noqa
@@ -300,6 +321,18 @@ def main():
     for meta in STOCKS:
         sym = meta["yf"]
         print(f"[stock] {meta['ticker']} ({sym})")
+        # SPCX(SpaceX): 비상장 — yfinance 호출 금지, null 유지
+        if meta.get("ticker") == "SPCX":
+            old_item = prev_stocks.get("SPCX", {})
+            new_stocks.append({
+                "ticker": "SPCX", "nameKo": meta["nameKo"], "nameEn": meta.get("nameEn",""),
+                "sector": meta["sector"], "market": meta["market"], "currency": meta.get("currency","USD"),
+                "closePrice": None, "afterHoursPrice": None, "changePercent": None,
+                "targetLow": None, "targetAverage": None, "targetHigh": None,
+                "keyNews": old_item.get("keyNews",""), "dataTime": old_item.get("dataTime",""),
+                "riskNote": meta.get("riskNote", old_item.get("riskNote")),
+            })
+            continue
         price, _, chg = quote(sym)
         tlow, tmean, thigh, _, info_chg = info_targets(sym)
         if chg is None:
