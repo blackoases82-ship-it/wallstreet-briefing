@@ -295,6 +295,40 @@ news는 위 헤드라인을 근거로 5~7개. 헤드라인이 없으면 news는 
         print(f"  ! LLM 단계 실패 — 기존 뉴스/분석 보존: {ex}", file=sys.stderr)
         return False
 
+def auto_one_liner(data, weekday_ko):
+    """LLM 없이 데이터 기반 자동 생성 — API 키 불필요, 항상 정확한 요일/수치"""
+    idx = {i["name"]: i for i in data.get("marketIndexes", [])}
+    sp = idx.get("S&P 500", {})
+    nasdaq = idx.get("나스닥", {})
+    dow = idx.get("다우존스", {})
+    kr = {s["ticker"]: s for s in data.get("stocks", []) if s.get("market") == "KR"}
+    us = {s["ticker"]: s for s in data.get("stocks", []) if s.get("market") == "US"}
+    samsung = kr.get("삼성전자", {})
+    nvda = us.get("NVDA", {})
+    macro = {m["name"]: m for m in data.get("macroIndicators", [])}
+    krw = macro.get("원/달러", {}).get("value", "-")
+    sp_chg = sp.get("changePercent") or 0
+    nasdaq_chg = nasdaq.get("changePercent") or 0
+    dow_chg = dow.get("changePercent") or 0
+    strong = data.get("sectorRotation", {}).get("strong", [])
+    weak = data.get("sectorRotation", {}).get("weak", [])
+    strong_txt = "·".join(s["sector"].split("(")[0] for s in strong[:2]) if strong else ""
+    weak_txt = "·".join(s["sector"].split("(")[0] for s in weak[:2]) if weak else ""
+    sam_p = f"{samsung.get('closePrice', 0):,}" if samsung.get("closePrice") else "-"
+    sam_c = f"{samsung.get('changePercent', 0):+.2f}%" if samsung.get("changePercent") is not None else ""
+    nvda_c = f"{nvda.get('changePercent', 0):+.2f}%" if nvda.get("changePercent") is not None else ""
+    parts = [f"{weekday_ko} 브리핑 — S&P500 {sp.get('value','-')} ({sp_chg:+.2f}%), 나스닥 ({nasdaq_chg:+.2f}%), 다우 ({dow_chg:+.2f}%)."]
+    if samsung.get("closePrice"):
+        parts.append(f"삼성전자 {sam_p}원 ({sam_c}), 엔비디아 ({nvda_c}).")
+    if krw != "-":
+        parts.append(f"원/달러 {krw}원.")
+    if strong_txt:
+        parts.append(f"강세: {strong_txt}.")
+    if weak_txt:
+        parts.append(f"약세: {weak_txt}.")
+    return " ".join(parts)
+
+
 def main():
     with open(JSON_PATH, "r", encoding="utf-8") as f:
         data = json.load(f)
@@ -444,6 +478,12 @@ def main():
             llm_generate(data, heads, weekday_ko=weekday_ko, kr_data_date=kr_data_date, us_data_date=us_data_date)
         except Exception as ex:  # noqa
             print(f"  ! 뉴스/분석 자동화 건너뜀(기존 보존): {ex}", file=sys.stderr)
+
+    # --- oneLineConclusion: LLM 없어도 항상 오늘 요일·실데이터로 자동 갱신 ---
+    olc = data.get("oneLineConclusion", "")
+    if not olc or not olc.startswith(weekday_ko):
+        data["oneLineConclusion"] = auto_one_liner(data, weekday_ko)
+        print(f" ✅ oneLineConclusion 자동 생성: {weekday_ko}")
 
     # --- 메타 (LLM 호출 이후에 기록해 정확한 완료 시각 반영) ---
     data["generatedAt"] = stamp
