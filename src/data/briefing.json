@@ -1,6 +1,6 @@
 {
   "title": "나만의 월스트리트",
-  "generatedAt": "2026. 8. 9. 오전 7:27 KST",
+  "generatedAt": "2026. 8. 9. 오후 10:04 KST",
   "oneLineConclusion": "일요일 브리핑 — S&P500 7,758 (+0.62%), 나스닥 (+1.30%), 다우 (+0.28%). 삼성전자 231,000원 (+0.22%), 엔비디아 (+2.07%). 원/달러 1,407원. 강세: 경기소비재·기술. 약세: 에너지·금융.",
   "economicCalendar": {
     "note": "※ 일정·날짜는 예정(추정) 기준이며 변동될 수 있습니다. 자동 갱신됩니다.",
@@ -262,21 +262,21 @@
   "macroIndicators": [
     {
       "name": "원/달러",
-      "value": "1,407",
+      "value": "1,416",
       "direction": "down",
-      "note": "전일比 -1.1%"
+      "note": "전일比 -0.5%"
     },
     {
       "name": "금",
-      "value": "$4,341",
+      "value": "$4,400",
       "direction": "up",
-      "note": "+0.4%"
+      "note": "+1.8%"
     },
     {
       "name": "은",
       "value": "$63",
       "direction": "up",
-      "note": "+1.2%"
+      "note": "+1.5%"
     },
     {
       "name": "VIX",
@@ -594,7 +594,7 @@
       "afterHoursPrice": null,
       "changePercent": -4.92,
       "targetLow": 1000.0,
-      "targetAverage": 2116.64,
+      "targetAverage": 2106.64,
       "targetHigh": 3169.0,
       "keyNews": "",
       "dataTime": "美 직전 종가 (자동)",
@@ -611,7 +611,7 @@
       "afterHoursPrice": null,
       "changePercent": 0.2,
       "targetLow": 400.0,
-      "targetAverage": 563.35,
+      "targetAverage": 563.84,
       "targetHigh": 870.0,
       "keyNews": "7/6 -1.0%(386.74달러)로 랠리 속 숨고르기, 프리마켓은 +1.3%(391.61달러) 반등. 현재가가 목표가 하단(400달러)도 하회 → 평균목표가(561달러) 대비 안전마진 약 31%로 메가캡 중 최상위권. 애널 55명 Strong Buy(1.3). 정규장 분할 관점 최우선 관찰, 7/29 실적이 분수령",
       "dataTime": "美 직전 종가 (자동)",
@@ -643,7 +643,7 @@
       "afterHoursPrice": null,
       "changePercent": 0.84,
       "targetLow": 230.0,
-      "targetAverage": 325.81,
+      "targetAverage": 324.94,
       "targetHigh": 400.0,
       "keyNews": "7/6 +0.6%(244.16달러), 프리마켓 +1.0%(246.5달러). AWS 성장·클라우드 수요가 동력. 애널 62명 Strong Buy(1.3)·평균목표가(312.9달러) 대비 안전마진 약 22%. 급등하지 않아 밸류 부담이 상대적으로 적은 메가캡 — 7/29 실적 주목, 분할 관점 유효",
       "dataTime": "美 직전 종가 (자동)",
@@ -920,7 +920,7 @@
       "afterHoursPrice": null,
       "changePercent": 2.53,
       "targetLow": 125.0,
-      "targetAverage": 397.87,
+      "targetAverage": 396.62,
       "targetHigh": 600.0,
       "keyNews": "7/6 +6.7%(419.77달러) 급등, 프리마켓 -0.8% 되돌림. 7/22 2Q 실적을 앞두고 기대 선반영 중이나 현재가가 평균목표가(423.4달러)에 사실상 도달해 안전마진 약 1% — 실적 전 추격은 위험/보상이 나쁜 베팅. 월가 'Buy' 2.3등급, PER 382배 밸류 부담 유의",
       "dataTime": "美 직전 종가 (자동)",
