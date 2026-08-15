@@ -1,6 +1,6 @@
 {
   "title": "나만의 월스트리트",
-  "generatedAt": "2026. 8. 15. 오전 7:20 KST",
+  "generatedAt": "2026. 8. 15. 오후 9:49 KST",
   "oneLineConclusion": "토요일 브리핑 — S&P500 7,786 (-0.17%), 나스닥 (-0.28%), 다우 (-0.20%). 삼성전자 274,500원 (+2.43%), 엔비디아 (-0.12%). 원/달러 1,416원. 강세: 에너지·유틸리티. 약세: 여스케어·기술.",
   "economicCalendar": {
     "note": "※ 일정·날짜는 예정(추정) 기준이며 변동될 수 있습니다. 자동 갱신됩니다.",
@@ -262,21 +262,21 @@
   "macroIndicators": [
     {
       "name": "원/달러",
-      "value": "1,416",
+      "value": "1,412",
       "direction": "down",
-      "note": "전일比 -0.1%"
+      "note": "전일比 -0.4%"
     },
     {
       "name": "금",
-      "value": "$4,432",
-      "direction": "up",
-      "note": "+1.2%"
+      "value": "$4,380",
+      "direction": "flat",
+      "note": "+0.0%"
     },
     {
       "name": "은",
       "value": "$65",
       "direction": "up",
-      "note": "+1.0%"
+      "note": "+1.3%"
     },
     {
       "name": "VIX",
@@ -578,7 +578,7 @@
       "afterHoursPrice": null,
       "changePercent": -1.1,
       "targetLow": 126.0,
-      "targetAverage": 257.29,
+      "targetAverage": 256.91,
       "targetHigh": 400.0,
       "keyNews": "7/6 +1.6%(249.27달러)였으나 프리마켓 -5.0%(236.9달러)로 급락 — 변동성이 가장 극심한 이름 중 하나. 현재가가 평균목표가(249.3달러)에 정확히 도달해 안전마진 0% — 애널 41명 Strong Buy(1.4)에도 가격 매력은 소진, 추격보다 비중·손절선 우선",
       "dataTime": "美 직전 종가 (자동)",
@@ -643,8 +643,8 @@
       "afterHoursPrice": null,
       "changePercent": -0.98,
       "targetLow": 230.0,
-      "targetAverage": 326.82,
-      "targetHigh": 405.0,
+      "targetAverage": 325.19,
+      "targetHigh": 400.0,
       "keyNews": "7/6 +0.6%(244.16달러), 프리마켓 +1.0%(246.5달러). AWS 성장·클라우드 수요가 동력. 애널 62명 Strong Buy(1.3)·평균목표가(312.9달러) 대비 안전마진 약 22%. 급등하지 않아 밸류 부담이 상대적으로 적은 메가캡 — 7/29 실적 주목, 분할 관점 유효",
       "dataTime": "美 직전 종가 (자동)",
       "nameEn": "Amazon"
@@ -691,7 +691,7 @@
       "afterHoursPrice": null,
       "changePercent": 0.66,
       "targetLow": 210000,
-      "targetAverage": 303074,
+      "targetAverage": 304346,
       "targetHigh": 400000,
       "keyNews": "7/7 +0.3%(19만7200원) — 코스피 -4.91% 폭락장에서 유일하게 오른 방어주 면모. 반도체 쏠림의 반대편 피난처로 자금이 유입된 모습. 현재가가 목표가 하단(23.7만 원)을 크게 하회(안전마진 약 35%)하는 낙폭과대 구간이며 52주 저점(19만300원) 부근 지지 확인 — 순환매 지속 여부 주목",
       "dataTime": "韓 직전 종가 (자동)"
@@ -806,7 +806,7 @@
       "afterHoursPrice": null,
       "changePercent": -0.87,
       "targetLow": 42.5,
-      "targetAverage": 78.48,
+      "targetAverage": 79.66,
       "targetHigh": 108.0,
       "keyNews": "7/6 -5.3%(80.64달러)로 상승장 속 나홀로 하락, 프리마켓도 -2.7%(78.5달러). 공매도 잔고가 유통주식의 21%로 수급 취약. 현재가가 평균목표가(81.5달러)에 근접해 안전마진 약 1% — 위성-스마트폰 직접통신 스토리는 유효하나 추격 매수 강한 주의",
       "dataTime": "美 직전 종가 (자동)",
@@ -888,7 +888,7 @@
       "afterHoursPrice": null,
       "changePercent": -1.05,
       "targetLow": 9.0,
-      "targetAverage": 16.39,
+      "targetAverage": 16.83,
       "targetHigh": 24.0,
       "keyNews": "7/6 +4.8%(17.82달러) 반등했으나 현재가가 평균목표가(18.6달러)에 근접해 상단 여력 제한적. 공매도 비중이 유통주식의 38%에 달하는 초고변동주, 월가 'Hold'(2.8) — 관망 유지",
       "dataTime": "美 직전 종가 (자동)",
