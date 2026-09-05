@@ -1,6 +1,6 @@
 {
   "title": "나만의 월스트리트",
-  "generatedAt": "2026. 9. 5. 오전 8:43 KST",
+  "generatedAt": "2026. 9. 5. 오후 11:57 KST",
   "oneLineConclusion": "토요일 브리핑 — S&P500 7,719 (-0.37%), 나스닥 (-0.35%), 다우 (-0.52%). 삼성전자 255,500원 (+2.20%), 엔비디아 (+0.69%). 원/달러 1,346원. 강세: 기술·유틸리티. 약세: 커뮤니케이션·경기소비재.",
   "economicCalendar": {
     "note": "※ 일정·날짜는 예정(추정) 기준이며 변동될 수 있습니다. 자동 갱신됩니다.",
@@ -262,21 +262,21 @@
   "macroIndicators": [
     {
       "name": "원/달러",
-      "value": "1,346",
+      "value": "1,351",
       "direction": "down",
-      "note": "전일比 -0.8%"
+      "note": "전일比 -0.4%"
     },
     {
       "name": "금",
-      "value": "$4,477",
+      "value": "$4,430",
       "direction": "down",
-      "note": "-0.8%"
+      "note": "-1.9%"
     },
     {
       "name": "은",
-      "value": "$67",
+      "value": "$66",
       "direction": "down",
-      "note": "-0.6%"
+      "note": "-1.7%"
     },
     {
       "name": "VIX",
@@ -452,7 +452,7 @@
       "afterHoursPrice": null,
       "changePercent": 2.2,
       "targetLow": 210000,
-      "targetAverage": 472719,
+      "targetAverage": 472178,
       "targetHigh": 725000,
       "keyNews": "7/7 -6.9%(29만6000원) — 사상 최대 실적(영업익 세계 1위)에도 셀온·외인 매도·모건스탠리 비중축소 보고서에 폭락. 평균목표가(47만 원) 대비 안전마진 약 37%로 재확대, 애널 37명 Strong Buy(1.4). 실적이 확인된 급락이므로 투매 자제, 신규는 분할·소액. 자사주 3,445억 성과급 처분은 오버행 우려 미미. 7/31 확정실적 확인",
       "dataTime": "韓 직전 종가 (자동)"
@@ -467,7 +467,7 @@
       "afterHoursPrice": null,
       "changePercent": 3.2,
       "targetLow": 1535000,
-      "targetAverage": 3213393,
+      "targetAverage": 3189709,
       "targetHigh": 5300000,
       "keyNews": "7/7 -6.1%(220만1000원)로 삼성과 동반 급락. HBM 1위 지위·애널 37명 Strong Buy(1.4)는 그대로이고 평균목표가(317.6만 원) 대비 안전마진 약 31%가 다시 열림. 급락은 레버리지 청산·수급 성격이 커 투매 자제, 조정 시 분할 관점. 7/24 2Q 실적이 분수령",
       "dataTime": "韓 직전 종가 (자동)"
@@ -494,7 +494,7 @@
       "sector": "반도체",
       "market": "US",
       "currency": "USD",
-      "closePrice": 357.89,
+      "closePrice": 357.9,
       "afterHoursPrice": null,
       "changePercent": 0.4,
       "targetLow": 215.88,
@@ -691,7 +691,7 @@
       "afterHoursPrice": null,
       "changePercent": 2.89,
       "targetLow": 210000,
-      "targetAverage": 303074,
+      "targetAverage": 302704,
       "targetHigh": 400000,
       "keyNews": "7/7 +0.3%(19만7200원) — 코스피 -4.91% 폭락장에서 유일하게 오른 방어주 면모. 반도체 쏠림의 반대편 피난처로 자금이 유입된 모습. 현재가가 목표가 하단(23.7만 원)을 크게 하회(안전마진 약 35%)하는 낙폭과대 구간이며 52주 저점(19만300원) 부근 지지 확인 — 순환매 지속 여부 주목",
       "dataTime": "韓 직전 종가 (자동)"
@@ -840,7 +840,7 @@
       "afterHoursPrice": null,
       "changePercent": 0.0,
       "targetLow": 100000,
-      "targetAverage": 127429,
+      "targetAverage": 127551,
       "targetHigh": 177000,
       "keyNews": "7/7 -4.6%(8만1600원)로 급락장에 동반 하락. 현재가가 목표가 하단(10만 원)마저 크게 하회해 평균목표가(14.2만 원) 대비 안전마진 약 43%로 종목 중 최대. 애널 20명 Strong Buy(1.5). 원전·SMR·데이터센터 전력 구조 스토리는 유효 — 지수 진정 시 분할매수 관점 매력(고변동 유의)",
       "dataTime": "韓 직전 종가 (자동)"
@@ -905,7 +905,7 @@
       "afterHoursPrice": null,
       "changePercent": 0.0,
       "targetLow": 463129,
-      "targetAverage": 660692,
+      "targetAverage": 655692,
       "targetHigh": 900000,
       "keyNews": "7/7 -4.5%(47만9500원)로 지수 급락에 동반 하락, 현재가가 목표가 하단(50.9만 원)을 다시 하회하는 낙폭과대 구간. 평균목표가(74.9만 원) 대비 안전마진 약 36%. 원/달러 1,513원 급락(원화 강세)은 수출주엔 단기 역풍이나 외국인 복귀 촉매가 되면 수급엔 우호적 — 반등 국면 1순위 관찰",
       "dataTime": "韓 직전 종가 (자동)"
