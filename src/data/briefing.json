@@ -1,7 +1,7 @@
 {
   "title": "나만의 월스트리트",
-  "generatedAt": "2026. 9. 7. 오전 8:29 KST",
-  "oneLineConclusion": "월요일 브리핑 — S&P500 7,719 (-0.38%), 나스닥 (-0.29%), 다우 (-0.51%). 삼성전자 255,500원 (+2.20%), 엔비디아 (+0.32%). 원/달러 1,351원. 강세: 기술·유틸리티. 약세: 커뮤니케이션·경기소비재.",
+  "generatedAt": "2026. 9. 8. 오전 2:38 KST",
+  "oneLineConclusion": "화요일 브리핑 — S&P500 7,719 (-0.38%), 나스닥 (-0.29%), 다우 (-0.51%). 삼성전자 270,000원 (+5.68%), 엔비디아 (+0.32%). 원/달러 1,345원. 강세: 기술·유틸리티. 약세: 커뮤니케이션·경기소비재.",
   "economicCalendar": {
     "note": "※ 일정·날짜는 예정(추정) 기준이며 변동될 수 있습니다. 자동 갱신됩니다.",
     "months": [
@@ -163,7 +163,7 @@
     ]
   },
   "usMarketCap": {
-    "asOf": "美 직전 종가 기준 (자동·2026-09-04)",
+    "asOf": "美 직전 종가 기준 (자동·2026-09-07)",
     "items": [
       {
         "rank": 1,
@@ -262,27 +262,27 @@
   "macroIndicators": [
     {
       "name": "원/달러",
-      "value": "1,346",
-      "direction": "flat",
-      "note": "전일比 -0.0%"
+      "value": "1,345",
+      "direction": "down",
+      "note": "전일比 -0.1%"
     },
     {
       "name": "금",
       "value": "$4,477",
-      "direction": "flat",
-      "note": "+0.0%"
+      "direction": "down",
+      "note": "-0.8%"
     },
     {
       "name": "은",
       "value": "$67",
-      "direction": "flat",
-      "note": "+0.0%"
+      "direction": "down",
+      "note": "-0.7%"
     },
     {
       "name": "VIX",
-      "value": "14.5",
+      "value": "15.3",
       "direction": "up",
-      "note": "+1.5%"
+      "note": "+5.4%"
     },
     {
       "name": "美10년물",
@@ -448,9 +448,9 @@
       "sector": "반도체",
       "market": "KR",
       "currency": "KRW",
-      "closePrice": 255500,
+      "closePrice": 270000,
       "afterHoursPrice": null,
-      "changePercent": 2.2,
+      "changePercent": 5.68,
       "targetLow": 210000,
       "targetAverage": 472178,
       "targetHigh": 725000,
@@ -463,11 +463,11 @@
       "sector": "반도체",
       "market": "KR",
       "currency": "KRW",
-      "closePrice": 1647000,
+      "closePrice": 1783000,
       "afterHoursPrice": null,
-      "changePercent": 3.2,
+      "changePercent": 8.26,
       "targetLow": 1535000,
-      "targetAverage": 3189709,
+      "targetAverage": 3197604,
       "targetHigh": 5300000,
       "keyNews": "7/7 -6.1%(220만1000원)로 삼성과 동반 급락. HBM 1위 지위·애널 37명 Strong Buy(1.4)는 그대로이고 평균목표가(317.6만 원) 대비 안전마진 약 31%가 다시 열림. 급락은 레버리지 청산·수급 성격이 커 투매 자제, 조정 시 분할 관점. 7/24 2Q 실적이 분수령",
       "dataTime": "韓 직전 종가 (자동)"
@@ -687,9 +687,9 @@
       "sector": "커뮤니케이션",
       "market": "KR",
       "currency": "KRW",
-      "closePrice": 213500,
+      "closePrice": 218000,
       "afterHoursPrice": null,
-      "changePercent": 2.89,
+      "changePercent": 2.11,
       "targetLow": 210000,
       "targetAverage": 302704,
       "targetHigh": 400000,
@@ -836,9 +836,9 @@
       "sector": "산업/원전",
       "market": "KR",
       "currency": "KRW",
-      "closePrice": 79200,
+      "closePrice": 87900,
       "afterHoursPrice": null,
-      "changePercent": 0.0,
+      "changePercent": 10.98,
       "targetLow": 100000,
       "targetAverage": 127551,
       "targetHigh": 177000,
@@ -888,7 +888,7 @@
       "afterHoursPrice": null,
       "changePercent": 1.82,
       "targetLow": 8.0,
-      "targetAverage": 16.33,
+      "targetAverage": 16.0,
       "targetHigh": 24.0,
       "keyNews": "7/6 +4.8%(17.82달러) 반등했으나 현재가가 평균목표가(18.6달러)에 근접해 상단 여력 제한적. 공매도 비중이 유통주식의 38%에 달하는 초고변동주, 월가 'Hold'(2.8) — 관망 유지",
       "dataTime": "美 직전 종가 (자동)",
@@ -901,9 +901,9 @@
       "sector": "임의소비",
       "market": "KR",
       "currency": "KRW",
-      "closePrice": 383500,
+      "closePrice": 393000,
       "afterHoursPrice": null,
-      "changePercent": 0.0,
+      "changePercent": 2.48,
       "targetLow": 463129,
       "targetAverage": 655692,
       "targetHigh": 900000,
