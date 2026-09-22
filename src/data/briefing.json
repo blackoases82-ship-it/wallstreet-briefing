@@ -1,7 +1,7 @@
 {
   "title": "나만의 월스트리트",
-  "generatedAt": "2026. 9. 22. 오전 9:35 KST",
-  "oneLineConclusion": "화요일 브리핑 — S&P500 7,763 (+1.47%), 나스닥 (+2.12%), 다우 (+0.68%). 삼성전자 274,000원 (+4.98%), 엔비디아 (+2.07%). 원/달러 1,374원. 강세: 커뮤니케이션·기술. 약세: 에너지·유틸리티.",
+  "generatedAt": "2026. 9. 23. 오전 1:43 KST",
+  "oneLineConclusion": "수요일 브리핑 — S&P500 7,759 (-0.06%), 나스닥 (+0.18%), 다우 (-0.44%). 삼성전자 276,500원 (+0.91%), 엔비디아 (+0.61%). 원/달러 1,359원. 강세: 필수소비재·여스케어. 약세: 금융·커뮤니케이션.",
   "economicCalendar": {
     "note": "※ 일정·날짜는 예정(추정) 기준이며 변동될 수 있습니다. 자동 갱신됩니다.",
     "months": [
@@ -163,130 +163,130 @@
     ]
   },
   "usMarketCap": {
-    "asOf": "美 직전 종가 기준 (자동·2026-09-21)",
+    "asOf": "美 직전 종가 기준 (자동·2026-09-22)",
     "items": [
       {
         "rank": 1,
         "ticker": "NVDA",
         "nameKo": "엔비디아",
-        "marketCap": "$5.49T",
-        "changePercent": 2.2
+        "marketCap": "$5.52T",
+        "changePercent": 0.6
       },
       {
         "rank": 2,
         "ticker": "GOOGL",
         "nameKo": "알파벳(구글)",
-        "marketCap": "$4.34T",
-        "changePercent": 1.2
+        "marketCap": "$4.29T",
+        "changePercent": -1.4
       },
       {
         "rank": 3,
         "ticker": "AAPL",
         "nameKo": "애플",
-        "marketCap": "$4.95T",
-        "changePercent": 1.2
+        "marketCap": "$5.00T",
+        "changePercent": 1.1
       },
       {
         "rank": 4,
         "ticker": "MSFT",
         "nameKo": "마이크로소프트",
-        "marketCap": "$3.72T",
-        "changePercent": 1.5
+        "marketCap": "$3.68T",
+        "changePercent": -1.1
       },
       {
         "rank": 5,
         "ticker": "AMZN",
         "nameKo": "아마존",
-        "marketCap": "$2.79T",
-        "changePercent": 1.7
+        "marketCap": "$2.74T",
+        "changePercent": -1.9
       },
       {
         "rank": 6,
         "ticker": "TSM",
         "nameKo": "TSMC",
-        "marketCap": "$2.31T",
-        "changePercent": 2.7
+        "marketCap": "$2.32T",
+        "changePercent": 0.1
       },
       {
         "rank": 7,
         "ticker": "AVGO",
         "nameKo": "브로드컴",
         "marketCap": "$1.73T",
-        "changePercent": 1.6
+        "changePercent": -0.6
       },
       {
         "rank": 8,
         "ticker": "TSLA",
         "nameKo": "테슬라",
-        "marketCap": "$1.48T",
-        "changePercent": 3.0
+        "marketCap": "$1.49T",
+        "changePercent": 0.5
       },
       {
         "rank": 9,
         "ticker": "META",
         "nameKo": "메타",
         "marketCap": "$1.89T",
-        "changePercent": 10.9
+        "changePercent": 0.2
       },
       {
         "rank": 10,
         "ticker": "BRK-B",
         "nameKo": "버크셔해서웨이",
-        "marketCap": "$1.07T",
-        "changePercent": -1.8
+        "marketCap": "$1.08T",
+        "changePercent": 0.4
       }
     ]
   },
   "marketIndexes": [
     {
       "name": "다우존스",
-      "value": "52,049",
-      "changePercent": 0.71
+      "value": "51,827",
+      "changePercent": -0.44
     },
     {
       "name": "S&P 500",
-      "value": "7,765",
-      "changePercent": 1.49
+      "value": "7,759",
+      "changePercent": -0.06
     },
     {
       "name": "나스닥",
-      "value": "27,122",
-      "changePercent": 2.26
+      "value": "27,171",
+      "changePercent": 0.18
     },
     {
       "name": "러셀 2000",
-      "value": "2,875",
-      "changePercent": 0.52
+      "value": "2,884",
+      "changePercent": 0.32
     }
   ],
   "macroIndicators": [
     {
       "name": "원/달러",
-      "value": "1,364",
+      "value": "1,359",
       "direction": "down",
-      "note": "전일比 -0.8%"
+      "note": "전일比 -1.1%"
     },
     {
       "name": "금",
-      "value": "$4,397",
-      "direction": "flat",
-      "note": "+0.0%"
+      "value": "$4,364",
+      "direction": "down",
+      "note": "-0.3%"
     },
     {
       "name": "은",
-      "value": "$67",
-      "direction": "up",
-      "note": "+0.5%"
+      "value": "$66",
+      "direction": "down",
+      "note": "-0.3%"
     },
     {
       "name": "VIX",
-      "value": "14.9",
-      "direction": "up",
-      "note": "+0.4%"
+      "value": "14.3",
+      "direction": "down",
+      "note": "-4.0%"
     },
     {
       "name": "美10년물",
-      "value": "4.96%",
+      "value": "4.98%",
       "direction": "flat"
     },
     {
@@ -299,38 +299,38 @@
   "sectorRotation": {
     "strong": [
       {
-        "sector": "커뮤니케이션(XLC)",
-        "changePercent": 3.2
-      },
-      {
-        "sector": "기술(XLK)",
-        "changePercent": 2.6
-      },
-      {
-        "sector": "경기소비재(XLY)",
-        "changePercent": 0.8
+        "sector": "필수소비재(XLP)",
+        "changePercent": 1.0
       },
       {
         "sector": "여스케어(XLV)",
-        "changePercent": 0.3
+        "changePercent": 0.7
+      },
+      {
+        "sector": "에너지(XLE)",
+        "changePercent": 0.2
+      },
+      {
+        "sector": "기술(XLK)",
+        "changePercent": 0.1
       }
     ],
     "weak": [
       {
-        "sector": "에너지(XLE)",
-        "changePercent": -2.8
-      },
-      {
-        "sector": "유틸리티(XLU)",
-        "changePercent": -1.4
-      },
-      {
-        "sector": "필수소비재(XLP)",
-        "changePercent": -1.0
-      },
-      {
         "sector": "금융(XLF)",
+        "changePercent": -1.7
+      },
+      {
+        "sector": "커뮤니케이션(XLC)",
+        "changePercent": -0.9
+      },
+      {
+        "sector": "산업재(XLI)",
         "changePercent": -0.1
+      },
+      {
+        "sector": "경기소비재(XLY)",
+        "changePercent": -0.0
       }
     ]
   },
@@ -448,9 +448,9 @@
       "sector": "반도체",
       "market": "KR",
       "currency": "KRW",
-      "closePrice": 280250,
+      "closePrice": 276500,
       "afterHoursPrice": null,
-      "changePercent": 2.75,
+      "changePercent": 0.91,
       "targetLow": 290000,
       "targetAverage": 475850,
       "targetHigh": 725000,
@@ -463,9 +463,9 @@
       "sector": "반도체",
       "market": "KR",
       "currency": "KRW",
-      "closePrice": 1927000,
+      "closePrice": 1840000,
       "afterHoursPrice": null,
-      "changePercent": 3.38,
+      "changePercent": -1.5,
       "targetLow": 1535000,
       "targetAverage": 3184026,
       "targetHigh": 5300000,
@@ -478,9 +478,9 @@
       "sector": "반도체",
       "market": "US",
       "currency": "USD",
-      "closePrice": 227.38,
+      "closePrice": 228.68,
       "afterHoursPrice": null,
-      "changePercent": 2.18,
+      "changePercent": 0.61,
       "targetLow": 180.0,
       "targetAverage": 327.7,
       "targetHigh": 515.0,
@@ -494,9 +494,9 @@
       "sector": "반도체",
       "market": "US",
       "currency": "USD",
-      "closePrice": 362.66,
+      "closePrice": 362.33,
       "afterHoursPrice": null,
-      "changePercent": 1.6,
+      "changePercent": -0.6,
       "targetLow": 215.88,
       "targetAverage": 531.85,
       "targetHigh": 715.0,
@@ -510,9 +510,9 @@
       "sector": "반도체",
       "market": "US",
       "currency": "USD",
-      "closePrice": 401.85,
+      "closePrice": 410.26,
       "afterHoursPrice": null,
-      "changePercent": 4.38,
+      "changePercent": 1.53,
       "targetLow": 414.77,
       "targetAverage": 545.93,
       "targetHigh": 633.0,
@@ -526,9 +526,9 @@
       "sector": "반도체",
       "market": "US",
       "currency": "USD",
-      "closePrice": 445.14,
+      "closePrice": 447.16,
       "afterHoursPrice": null,
-      "changePercent": 2.72,
+      "changePercent": 0.14,
       "targetLow": 440.0,
       "targetAverage": 552.26,
       "targetHigh": 700.0,
@@ -542,9 +542,9 @@
       "sector": "반도체",
       "market": "US",
       "currency": "USD",
-      "closePrice": 121.78,
+      "closePrice": 121.37,
       "afterHoursPrice": null,
-      "changePercent": 11.66,
+      "changePercent": -2.0,
       "targetLow": 75.0,
       "targetAverage": 116.37,
       "targetHigh": 200.0,
@@ -558,9 +558,9 @@
       "sector": "반도체",
       "market": "US",
       "currency": "USD",
-      "closePrice": 194.23,
+      "closePrice": 196.24,
       "afterHoursPrice": null,
-      "changePercent": 9.07,
+      "changePercent": 0.24,
       "targetLow": 100.0,
       "targetAverage": 194.13,
       "targetHigh": 400.0,
@@ -574,9 +574,9 @@
       "sector": "반도체",
       "market": "US",
       "currency": "USD",
-      "closePrice": 257.38,
+      "closePrice": 262.95,
       "afterHoursPrice": null,
-      "changePercent": 5.75,
+      "changePercent": 1.29,
       "targetLow": 210.0,
       "targetAverage": 289.56,
       "targetHigh": 400.0,
@@ -590,11 +590,11 @@
       "sector": "반도체",
       "market": "US",
       "currency": "USD",
-      "closePrice": 1766.64,
+      "closePrice": 1881.64,
       "afterHoursPrice": null,
-      "changePercent": -1.74,
+      "changePercent": 5.93,
       "targetLow": 1000.0,
-      "targetAverage": 2125.09,
+      "targetAverage": 2136.54,
       "targetHigh": 3600.0,
       "keyNews": "",
       "dataTime": "美 직전 종가 (자동)",
@@ -607,11 +607,11 @@
       "sector": "기술",
       "market": "US",
       "currency": "USD",
-      "closePrice": 501.61,
+      "closePrice": 495.93,
       "afterHoursPrice": null,
-      "changePercent": 1.54,
-      "targetLow": 400.0,
-      "targetAverage": 574.57,
+      "changePercent": -1.11,
+      "targetLow": 440.0,
+      "targetAverage": 575.34,
       "targetHigh": 870.0,
       "keyNews": "7/6 -1.0%(386.74달러)로 랠리 속 숨고르기, 프리마켓은 +1.3%(391.61달러) 반등. 현재가가 목표가 하단(400달러)도 하회 → 평균목표가(561달러) 대비 안전마진 약 31%로 메가캡 중 최상위권. 애널 55명 Strong Buy(1.3). 정규장 분할 관점 최우선 관찰, 7/29 실적이 분수령",
       "dataTime": "美 직전 종가 (자동)",
@@ -623,11 +623,11 @@
       "sector": "커뮤니케이션",
       "market": "US",
       "currency": "USD",
-      "closePrice": 741.25,
+      "closePrice": 741.78,
       "afterHoursPrice": null,
-      "changePercent": 10.87,
+      "changePercent": 0.24,
       "targetLow": 580.0,
-      "targetAverage": 755.28,
+      "targetAverage": 758.07,
       "targetHigh": 1000.0,
       "keyNews": "7/6 +3.0%(600.29달러)로 600달러 회복 — 잉여 컴퓨팅 임대(자체 클라우드) 신사업 기대 지속, 'SpaceX의 길을 따르나' 분석도 등장. 현재가가 목표가 하단(664달러)을 여전히 하회 → 안전마진 약 28%. 애널 58명 Strong Buy(1.3). 지난주 급등분 소화 중이므로 추격보단 조정 시 분할, 7/29 실적 주목",
       "dataTime": "美 직전 종가 (자동)",
@@ -639,11 +639,11 @@
       "sector": "임의소비",
       "market": "US",
       "currency": "USD",
-      "closePrice": 258.45,
+      "closePrice": 254.1,
       "afterHoursPrice": null,
-      "changePercent": 1.69,
+      "changePercent": -1.94,
       "targetLow": 230.0,
-      "targetAverage": 328.22,
+      "targetAverage": 329.2,
       "targetHigh": 405.0,
       "keyNews": "7/6 +0.6%(244.16달러), 프리마켓 +1.0%(246.5달러). AWS 성장·클라우드 수요가 동력. 애널 62명 Strong Buy(1.3)·평균목표가(312.9달러) 대비 안전마진 약 22%. 급등하지 않아 밸류 부담이 상대적으로 적은 메가캡 — 7/29 실적 주목, 분할 관점 유효",
       "dataTime": "美 직전 종가 (자동)",
@@ -655,9 +655,9 @@
       "sector": "커뮤니케이션",
       "market": "US",
       "currency": "USD",
-      "closePrice": 354.97,
+      "closePrice": 350.86,
       "afterHoursPrice": null,
-      "changePercent": 1.18,
+      "changePercent": -1.5,
       "targetLow": 340.0,
       "targetAverage": 429.46,
       "targetHigh": 515.0,
@@ -671,9 +671,9 @@
       "sector": "기술",
       "market": "US",
       "currency": "USD",
-      "closePrice": 338.98,
+      "closePrice": 342.5,
       "afterHoursPrice": null,
-      "changePercent": 1.25,
+      "changePercent": 1.12,
       "targetLow": 215.0,
       "targetAverage": 328.22,
       "targetHigh": 405.0,
@@ -687,9 +687,9 @@
       "sector": "커뮤니케이션",
       "market": "KR",
       "currency": "KRW",
-      "closePrice": 203000,
+      "closePrice": 201000,
       "afterHoursPrice": null,
-      "changePercent": 3.15,
+      "changePercent": 1.57,
       "targetLow": 210000,
       "targetAverage": 300500,
       "targetHigh": 400000,
@@ -702,9 +702,9 @@
       "sector": "기술",
       "market": "US",
       "currency": "USD",
-      "closePrice": 183.09,
+      "closePrice": 183.5,
       "afterHoursPrice": null,
-      "changePercent": 3.22,
+      "changePercent": 0.26,
       "targetLow": 80.0,
       "targetAverage": 196.84,
       "targetHigh": 255.0,
@@ -719,9 +719,9 @@
       "sector": "기술",
       "market": "US",
       "currency": "USD",
-      "closePrice": 148.56,
+      "closePrice": 148.84,
       "afterHoursPrice": null,
-      "changePercent": 0.68,
+      "changePercent": -0.16,
       "targetLow": 110.0,
       "targetAverage": 237.97,
       "targetHigh": 400.0,
@@ -735,9 +735,9 @@
       "sector": "기술",
       "market": "US",
       "currency": "USD",
-      "closePrice": 231.93,
+      "closePrice": 232.0,
       "afterHoursPrice": null,
-      "changePercent": 0.76,
+      "changePercent": 0.26,
       "targetLow": 174.0,
       "targetAverage": 245.35,
       "targetHigh": 350.0,
@@ -751,9 +751,9 @@
       "sector": "양자컴퓨팅",
       "market": "US",
       "currency": "USD",
-      "closePrice": 16.53,
+      "closePrice": 16.33,
       "afterHoursPrice": null,
-      "changePercent": 5.02,
+      "changePercent": -1.55,
       "targetLow": 18.0,
       "targetAverage": 28.81,
       "targetHigh": 40.0,
@@ -768,9 +768,9 @@
       "sector": "양자컴퓨팅",
       "market": "US",
       "currency": "USD",
-      "closePrice": 40.51,
+      "closePrice": 40.25,
       "afterHoursPrice": null,
-      "changePercent": 3.82,
+      "changePercent": -1.53,
       "targetLow": 49.0,
       "targetAverage": 69.25,
       "targetHigh": 100.0,
@@ -785,9 +785,9 @@
       "sector": "우주",
       "market": "US",
       "currency": "USD",
-      "closePrice": 69.89,
+      "closePrice": 71.78,
       "afterHoursPrice": null,
-      "changePercent": 8.44,
+      "changePercent": -0.14,
       "targetLow": 64.0,
       "targetAverage": 109.37,
       "targetHigh": 150.0,
@@ -802,9 +802,9 @@
       "sector": "우주/통신",
       "market": "US",
       "currency": "USD",
-      "closePrice": 61.89,
+      "closePrice": 63.49,
       "afterHoursPrice": null,
-      "changePercent": 5.34,
+      "changePercent": 2.15,
       "targetLow": 42.5,
       "targetAverage": 79.61,
       "targetHigh": 108.0,
@@ -836,7 +836,7 @@
       "sector": "산업/원전",
       "market": "KR",
       "currency": "KRW",
-      "closePrice": 86300,
+      "closePrice": 86500,
       "afterHoursPrice": null,
       "changePercent": 1.41,
       "targetLow": 100000,
@@ -851,9 +851,9 @@
       "sector": "유틸리티/원전",
       "market": "US",
       "currency": "USD",
-      "closePrice": 262.11,
+      "closePrice": 265.11,
       "afterHoursPrice": null,
-      "changePercent": 2.48,
+      "changePercent": 0.8,
       "targetLow": 290.0,
       "targetAverage": 348.55,
       "targetHigh": 441.0,
@@ -867,9 +867,9 @@
       "sector": "에너지",
       "market": "US",
       "currency": "USD",
-      "closePrice": 272.89,
+      "closePrice": 275.61,
       "afterHoursPrice": null,
-      "changePercent": 2.19,
+      "changePercent": 0.59,
       "targetLow": 97.0,
       "targetAverage": 280.24,
       "targetHigh": 390.0,
@@ -884,9 +884,9 @@
       "sector": "에너지",
       "market": "US",
       "currency": "USD",
-      "closePrice": 7.39,
+      "closePrice": 7.2,
       "afterHoursPrice": null,
-      "changePercent": 1.79,
+      "changePercent": -2.7,
       "targetLow": 3.0,
       "targetAverage": 10.11,
       "targetHigh": 23.0,
@@ -901,11 +901,11 @@
       "sector": "임의소비",
       "market": "KR",
       "currency": "KRW",
-      "closePrice": 365500,
+      "closePrice": 360500,
       "afterHoursPrice": null,
-      "changePercent": 1.95,
-      "targetLow": 410000,
-      "targetAverage": 647254,
+      "changePercent": 0.42,
+      "targetLow": 400000,
+      "targetAverage": 641504,
       "targetHigh": 900000,
       "keyNews": "7/7 -4.5%(47만9500원)로 지수 급락에 동반 하락, 현재가가 목표가 하단(50.9만 원)을 다시 하회하는 낙폭과대 구간. 평균목표가(74.9만 원) 대비 안전마진 약 36%. 원/달러 1,513원 급락(원화 강세)은 수출주엔 단기 역풍이나 외국인 복귀 촉매가 되면 수급엔 우호적 — 반등 국면 1순위 관찰",
       "dataTime": "韓 직전 종가 (자동)"
@@ -916,9 +916,9 @@
       "sector": "임의소비",
       "market": "US",
       "currency": "USD",
-      "closePrice": 375.3,
+      "closePrice": 377.23,
       "afterHoursPrice": null,
-      "changePercent": 3.05,
+      "changePercent": 0.52,
       "targetLow": 125.0,
       "targetAverage": 396.94,
       "targetHigh": 600.0,
@@ -933,11 +933,11 @@
       "sector": "에너지/AI",
       "market": "US",
       "currency": "USD",
-      "closePrice": 47.23,
+      "closePrice": 47.92,
       "afterHoursPrice": null,
-      "changePercent": 1.46,
-      "targetLow": 43.0,
-      "targetAverage": 80.21,
+      "changePercent": 1.05,
+      "targetLow": 40.0,
+      "targetAverage": 77.97,
       "targetHigh": 131.0,
       "keyNews": "7/6 +13.1%(43.91달러) 폭등 — AI 데이터센터 전환 기대 재점화. 프리마켓 -2.3% 되돌림. 평균목표가(80.93달러) 대비 안전마진 약 46%로 넓으나 공매도 잔고가 유통주식의 18%가 넘는 초고변동주 — 하루 ±10%가 일상이므로 소액·분할 외 접근 금지",
       "dataTime": "美 직전 종가 (자동)",
