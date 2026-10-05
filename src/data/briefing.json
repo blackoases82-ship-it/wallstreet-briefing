@@ -1,6 +1,6 @@
 {
   "title": "나만의 월스트리트",
-  "generatedAt": "2026. 10. 5. 오전 1:43 KST",
+  "generatedAt": "2026. 10. 5. 오전 9:26 KST",
   "oneLineConclusion": "월요일 브리핑 — S&P500 7,723 (+0.73%), 나스닥 (+1.19%), 다우 (+0.49%). 삼성전자 276,000원 (+0.00%), 엔비디아 (+1.06%). 원/달러 1,343원. 강세: 경기소비재·기술. 약세: 필수소비재·금융.",
   "economicCalendar": {
     "note": "※ 일정·날짜는 예정(추정) 기준이며 변동될 수 있습니다. 자동 갱신됩니다.",
@@ -262,21 +262,21 @@
   "macroIndicators": [
     {
       "name": "원/달러",
-      "value": "1,343",
-      "direction": "down",
-      "note": "전일比 -1.3%"
+      "value": "1,344",
+      "direction": "up",
+      "note": "전일比 +0.1%"
     },
     {
       "name": "금",
-      "value": "$4,162",
-      "direction": "down",
-      "note": "-1.0%"
+      "value": "$4,178",
+      "direction": "up",
+      "note": "+0.4%"
     },
     {
       "name": "은",
-      "value": "$60",
-      "direction": "down",
-      "note": "-1.7%"
+      "value": "$61",
+      "direction": "up",
+      "note": "+1.3%"
     },
     {
       "name": "VIX",
