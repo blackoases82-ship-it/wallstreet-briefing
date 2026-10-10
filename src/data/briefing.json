@@ -1,7 +1,7 @@
 {
   "title": "나만의 월스트리트",
-  "generatedAt": "2026. 10. 10. 오전 10:31 KST",
-  "oneLineConclusion": "토요일 브리핑 — S&P500 7,811 (+0.59%), 나스닥 (+0.59%), 다우 (+0.87%). 삼성전자 262,000원 (-2.42%), 엔비디아 (-0.39%). 원/달러 1,343원. 강세: 여스케어·산업재. 약세: 커뮤니케이션·에너지.",
+  "generatedAt": "2026. 10. 11. 오전 2:13 KST",
+  "oneLineConclusion": "일요일 브리핑 — S&P500 7,812 (+0.59%), 나스닥 (+0.64%), 다우 (+0.83%). 삼성전자 262,000원 (-2.42%), 엔비디아 (-0.52%). 원/달러 1,341원. 강세: 여스케어·경기소비재. 약세: 커뮤니케이션·에너지.",
   "economicCalendar": {
     "note": "※ 일정·날짜는 예정(추정) 기준이며 변동될 수 있습니다. 자동 갱신됩니다.",
     "months": [
@@ -262,21 +262,21 @@
   "macroIndicators": [
     {
       "name": "원/달러",
-      "value": "1,340",
+      "value": "1,341",
       "direction": "down",
       "note": "전일比 -0.1%"
     },
     {
       "name": "금",
-      "value": "$4,220",
+      "value": "$4,216",
       "direction": "up",
-      "note": "+0.4%"
+      "note": "+0.3%"
     },
     {
       "name": "은",
       "value": "$61",
       "direction": "up",
-      "note": "+1.1%"
+      "note": "+0.4%"
     },
     {
       "name": "VIX",
@@ -452,7 +452,7 @@
       "afterHoursPrice": null,
       "changePercent": -2.42,
       "targetLow": 290000,
-      "targetAverage": 478628,
+      "targetAverage": 478906,
       "targetHigh": 725000,
       "keyNews": "7/7 -6.9%(29만6000원) — 사상 최대 실적(영업익 세계 1위)에도 셀온·외인 매도·모건스탠리 비중축소 보고서에 폭락. 평균목표가(47만 원) 대비 안전마진 약 37%로 재확대, 애널 37명 Strong Buy(1.4). 실적이 확인된 급락이므로 투매 자제, 신규는 분할·소액. 자사주 3,445억 성과급 처분은 오버행 우려 미미. 7/31 확정실적 확인",
       "dataTime": "韓 직전 종가 (자동)"
@@ -706,8 +706,8 @@
       "afterHoursPrice": null,
       "changePercent": 5.17,
       "targetLow": 80.0,
-      "targetAverage": 199.84,
-      "targetHigh": 255.0,
+      "targetAverage": 203.35,
+      "targetHigh": 265.0,
       "keyNews": "7/6 +2.5%(132.54달러)로 엔비디아 파트너십 모멘텀 지속, 프리마켓도 +1.3%. 평균목표가(183.1달러) 대비 안전마진 약 28%이나 PER 149배 초고밸류·변동성 극심. 월가 등급도 'Buy'(1.8)로 반도체 대형주보다 낮음 — 재료 소멸 시 되돌림이 큰 유형이므로 추격 금지, 비중·손절선 우선",
       "dataTime": "美 직전 종가 (자동)",
       "nameEn": "Palantir",
@@ -739,7 +739,7 @@
       "afterHoursPrice": null,
       "changePercent": 0.23,
       "targetLow": 174.0,
-      "targetAverage": 240.59,
+      "targetAverage": 240.56,
       "targetHigh": 297.0,
       "keyNews": "7/6 +3.5%(299.52달러)로 300달러 목전, 프리마켓도 +1.2%. 하이브리드 클라우드·AI·양자 테마가 동력이나 현재가가 평균목표가(293.9달러)를 넘어서 안전마진 소진 — 7/22 실적 확인 전 추격 자제",
       "dataTime": "美 직전 종가 (자동)",
@@ -789,7 +789,7 @@
       "afterHoursPrice": null,
       "changePercent": -0.28,
       "targetLow": 64.0,
-      "targetAverage": 109.15,
+      "targetAverage": 106.57,
       "targetHigh": 150.0,
       "keyNews": "7/6 -7.3%(93.09달러)로 100달러선 붕괴, 프리마켓도 -2.2%(91달러). SpaceX 나스닥100 편입으로 우주 섹터 내 자금 이동 경계감. 평균목표가(114.1달러) 대비 안전마진 약 18%·월가 'Buy'(1.5)이나 변동성 극심 — 뉴트론 발사체 일정 확인 전 소액·분할 외 금지",
       "dataTime": "美 직전 종가 (자동)",
@@ -871,7 +871,7 @@
       "afterHoursPrice": null,
       "changePercent": 2.82,
       "targetLow": 97.0,
-      "targetAverage": 283.78,
+      "targetAverage": 284.74,
       "targetHigh": 390.0,
       "keyNews": "7/6 +8.9%(295.05달러) 급등 — 1년 수익률 +1,012%의 극단적 랠리. 프리마켓 -3.8% 되돌림. 현재가가 평균목표가(280.9달러)를 상회해 안전마진 마이너스 — 데이터센터 전력 테마의 대표 과열주로 추격은 강한 주의",
       "dataTime": "美 직전 종가 (자동)",
@@ -905,7 +905,7 @@
       "afterHoursPrice": null,
       "changePercent": -3.42,
       "targetLow": 378000,
-      "targetAverage": 630504,
+      "targetAverage": 624566,
       "targetHigh": 900000,
       "keyNews": "7/7 -4.5%(47만9500원)로 지수 급락에 동반 하락, 현재가가 목표가 하단(50.9만 원)을 다시 하회하는 낙폭과대 구간. 평균목표가(74.9만 원) 대비 안전마진 약 36%. 원/달러 1,513원 급락(원화 강세)은 수출주엔 단기 역풍이나 외국인 복귀 촉매가 되면 수급엔 우호적 — 반등 국면 1순위 관찰",
       "dataTime": "韓 직전 종가 (자동)"
@@ -920,7 +920,7 @@
       "afterHoursPrice": null,
       "changePercent": 2.05,
       "targetLow": 128.11,
-      "targetAverage": 392.42,
+      "targetAverage": 396.57,
       "targetHigh": 600.0,
       "keyNews": "7/6 +6.7%(419.77달러) 급등, 프리마켓 -0.8% 되돌림. 7/22 2Q 실적을 앞두고 기대 선반영 중이나 현재가가 평균목표가(423.4달러)에 사실상 도달해 안전마진 약 1% — 실적 전 추격은 위험/보상이 나쁜 베팅. 월가 'Buy' 2.3등급, PER 382배 밸류 부담 유의",
       "dataTime": "美 직전 종가 (자동)",
