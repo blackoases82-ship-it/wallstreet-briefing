@@ -1,6 +1,6 @@
 {
   "title": "나만의 월스트리트",
-  "generatedAt": "2026. 11. 2. 오전 2:50 KST",
+  "generatedAt": "2026. 11. 2. 오전 10:16 KST",
   "oneLineConclusion": "월요일 브리핑 — S&P500 7,580 (-1.83%), 나스닥 (-2.87%), 다우 (-1.09%). 삼성전자 225,000원 (-3.02%), 엔비디아 (-2.62%). 원/달러 1,333원. 강세: 에너지·유틸리티. 약세: 기술·산업재.",
   "economicCalendar": {
     "note": "※ 일정·날짜는 예정(추정) 기준이며 변동될 수 있습니다. 자동 갱신됩니다.",
@@ -262,21 +262,21 @@
   "macroIndicators": [
     {
       "name": "원/달러",
-      "value": "1,333",
-      "direction": "down",
-      "note": "전일比 -0.4%"
+      "value": "1,338",
+      "direction": "up",
+      "note": "전일比 +0.4%"
     },
     {
       "name": "금",
-      "value": "$3,899",
-      "direction": "down",
-      "note": "-2.6%"
+      "value": "$3,920",
+      "direction": "up",
+      "note": "+0.5%"
     },
     {
       "name": "은",
-      "value": "$49",
-      "direction": "down",
-      "note": "-4.0%"
+      "value": "$50",
+      "direction": "up",
+      "note": "+1.7%"
     },
     {
       "name": "VIX",
@@ -448,9 +448,9 @@
       "sector": "반도체",
       "market": "KR",
       "currency": "KRW",
-      "closePrice": 225000,
+      "closePrice": 221500,
       "afterHoursPrice": null,
-      "changePercent": -3.02,
+      "changePercent": -0.34,
       "targetLow": 290000,
       "targetAverage": 480103,
       "targetHigh": 690000,
@@ -463,9 +463,9 @@
       "sector": "반도체",
       "market": "KR",
       "currency": "KRW",
-      "closePrice": 1418000,
+      "closePrice": 1424000,
       "afterHoursPrice": null,
-      "changePercent": -7.74,
+      "changePercent": 1.42,
       "targetLow": 1575000,
       "targetAverage": 3157409,
       "targetHigh": 4700000,
@@ -687,9 +687,9 @@
       "sector": "커뮤니케이션",
       "market": "KR",
       "currency": "KRW",
-      "closePrice": 172300,
+      "closePrice": 176200,
       "afterHoursPrice": null,
-      "changePercent": -1.32,
+      "changePercent": 2.74,
       "targetLow": 200000,
       "targetAverage": 287778,
       "targetHigh": 400000,
@@ -836,9 +836,9 @@
       "sector": "산업/원전",
       "market": "KR",
       "currency": "KRW",
-      "closePrice": 54800,
+      "closePrice": 54600,
       "afterHoursPrice": null,
-      "changePercent": -2.84,
+      "changePercent": 1.87,
       "targetLow": 80000,
       "targetAverage": 112504,
       "targetHigh": 160000,
@@ -901,9 +901,9 @@
       "sector": "임의소비",
       "market": "KR",
       "currency": "KRW",
-      "closePrice": 282000,
+      "closePrice": 286000,
       "afterHoursPrice": null,
-      "changePercent": -3.42,
+      "changePercent": 3.06,
       "targetLow": 320000,
       "targetAverage": 530972,
       "targetHigh": 840000,
