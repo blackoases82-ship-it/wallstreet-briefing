@@ -1,7 +1,7 @@
 {
   "title": "나만의 월스트리트",
-  "generatedAt": "2026. 11. 8. 오전 10:05 KST",
-  "oneLineConclusion": "일요일 브리핑 — S&P500 7,377 (+0.27%), 나스닥 (+1.04%), 다우 (-0.46%). 삼성전자 188,700원 (-5.60%), 엔비디아 (+3.32%). 원/달러 1,356원. 강세: 기술·산업재. 약세: 필수소비재·에너지.",
+  "generatedAt": "2026. 11. 9. 오전 2:50 KST",
+  "oneLineConclusion": "월요일 브리핑 — S&P500 7,377 (+0.27%), 나스닥 (+1.04%), 다우 (-0.46%). 삼성전자 188,700원 (-5.60%), 엔비디아 (+3.32%). 원/달러 1,364원. 강세: 기술·산업재. 약세: 필수소비재·에너지.",
   "economicCalendar": {
     "note": "※ 일정·날짜는 예정(추정) 기준이며 변동될 수 있습니다. 자동 갱신됩니다.",
     "months": [
@@ -262,9 +262,9 @@
   "macroIndicators": [
     {
       "name": "원/달러",
-      "value": "1,356",
-      "direction": "flat",
-      "note": "전일比 +0.0%"
+      "value": "1,364",
+      "direction": "up",
+      "note": "전일比 +0.6%"
     },
     {
       "name": "금",
@@ -276,7 +276,7 @@
       "name": "은",
       "value": "$52",
       "direction": "up",
-      "note": "+0.5%"
+      "note": "+0.8%"
     },
     {
       "name": "VIX",
@@ -497,8 +497,8 @@
       "closePrice": 293.69,
       "afterHoursPrice": null,
       "changePercent": 0.75,
-      "targetLow": 215.88,
-      "targetAverage": 526.81,
+      "targetLow": 400.0,
+      "targetAverage": 533.42,
       "targetHigh": 660.0,
       "keyNews": "7/6 +3.7%(373.90달러) — 애플과 2031년까지 커스텀 칩 공급 계약 연장 호재. 다만 프리마켓 -2.9%(363달러) 되돌림. OpenAI 추론칩 등 커스텀 실리콘 스토리에 애플 계약의 매출 가시성까지 더해져 애널 45명 Strong Buy(1.3)·안전마진 약 29% — 낙폭과대 반도체 최선호 유지, 정규장 분할로",
       "dataTime": "美 직전 종가 (자동)",
@@ -514,7 +514,7 @@
       "afterHoursPrice": null,
       "changePercent": 3.44,
       "targetLow": 475.0,
-      "targetAverage": 586.95,
+      "targetAverage": 589.55,
       "targetHigh": 700.0,
       "keyNews": "7/6 +1.2%(442.27달러), 프리마켓 +0.5%. EDA(설계자동화) 구조적 수요는 유효하고 평균목표가(563.7달러) 대비 안전마진 약 21%. 52주 저점(376달러) 대비 회복 중인 낙폭과대 관찰군",
       "dataTime": "美 직전 종가 (자동)",
@@ -562,8 +562,8 @@
       "afterHoursPrice": null,
       "changePercent": 6.23,
       "targetLow": 100.0,
-      "targetAverage": 191.11,
-      "targetHigh": 400.0,
+      "targetAverage": 185.79,
+      "targetHigh": 320.0,
       "keyNews": "7/6 +5.8%(186.48달러) 급등 — 데이터센터 칩 진출 기대. 프리마켓 -2.7% 되돌림. 평균목표가(215.4달러) 대비 안전마진 약 13%이나 월가 'Hold'(2.5) 등급이 발목 — 급등 직후 추격은 신중",
       "dataTime": "美 직전 종가 (자동)",
       "nameEn": "Qualcomm"
@@ -592,7 +592,7 @@
       "currency": "USD",
       "closePrice": 835.06,
       "afterHoursPrice": null,
-      "changePercent": 3.09,
+      "changePercent": 3.19,
       "targetLow": 870.0,
       "targetAverage": 2047.38,
       "targetHigh": 3000.0,
@@ -755,7 +755,7 @@
       "afterHoursPrice": null,
       "changePercent": 21.13,
       "targetLow": 17.3,
-      "targetAverage": 27.69,
+      "targetAverage": 26.69,
       "targetHigh": 40.0,
       "keyNews": "7/6 +0.1%(17.96달러)로 보합. 현재가가 목표가 하단(20달러)도 하회해 안전마진(평균목표가 29.65달러 대비 약 39%)은 넓으나, 매출 1,000만 달러에 시총 60억 달러라는 극단적 밸류의 초고변동주 — 안전마진 숫자를 믿고 비중을 키울 종목이 아님",
       "dataTime": "美 직전 종가 (자동)",
@@ -772,7 +772,7 @@
       "afterHoursPrice": null,
       "changePercent": 20.95,
       "targetLow": 40.0,
-      "targetAverage": 60.27,
+      "targetAverage": 56.3,
       "targetHigh": 75.0,
       "keyNews": "7/6 -0.5%(48.87달러)로 상승장에서 소외, 50달러선 하회. 애널 13명 Strong Buy(1.4)·평균목표가(68.79달러) 대비 안전마진 약 29%이나 매출 대비 시총 97배의 초고밸류 — 실적으로 증명되기 전까진 소액 원칙",
       "dataTime": "美 직전 종가 (자동)",
@@ -937,7 +937,7 @@
       "afterHoursPrice": null,
       "changePercent": 17.04,
       "targetLow": 23.0,
-      "targetAverage": 64.87,
+      "targetAverage": 64.08,
       "targetHigh": 139.0,
       "keyNews": "7/6 +13.1%(43.91달러) 폭등 — AI 데이터센터 전환 기대 재점화. 프리마켓 -2.3% 되돌림. 평균목표가(80.93달러) 대비 안전마진 약 46%로 넓으나 공매도 잔고가 유통주식의 18%가 넘는 초고변동주 — 하루 ±10%가 일상이므로 소액·분할 외 접근 금지",
       "dataTime": "美 직전 종가 (자동)",
