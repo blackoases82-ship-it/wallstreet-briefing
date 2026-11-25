@@ -1,6 +1,6 @@
 {
   "title": "나만의 월스트리트",
-  "generatedAt": "2026. 11. 25. 오전 7:13 KST",
+  "generatedAt": "2026. 11. 25. 오후 1:46 KST",
   "oneLineConclusion": "수요일 브리핑 — S&P500 7,201 (-0.49%), 나스닥 (-1.49%), 다우 (+0.84%). 삼성전자 189,400원 (+5.87%), 엔비디아 (-5.98%). 원/달러 1,341원. 강세: 여스케어·필수소비재. 약세: 기술·산업재.",
   "economicCalendar": {
     "note": "※ 일정·날짜는 예정(추정) 기준이며 변동될 수 있습니다. 자동 갱신됩니다.",
@@ -262,21 +262,21 @@
   "macroIndicators": [
     {
       "name": "원/달러",
-      "value": "1,341",
-      "direction": "down",
-      "note": "전일比 -0.1%"
+      "value": "1,343",
+      "direction": "up",
+      "note": "전일比 +0.1%"
     },
     {
       "name": "금",
-      "value": "$3,555",
+      "value": "$3,548",
       "direction": "down",
-      "note": "-2.1%"
+      "note": "-2.3%"
     },
     {
       "name": "은",
       "value": "$41",
       "direction": "down",
-      "note": "-4.1%"
+      "note": "-4.4%"
     },
     {
       "name": "VIX",
@@ -448,11 +448,11 @@
       "sector": "반도체",
       "market": "KR",
       "currency": "KRW",
-      "closePrice": 189400,
+      "closePrice": 172600,
       "afterHoursPrice": null,
-      "changePercent": 5.87,
-      "targetLow": 290000,
-      "targetAverage": 465286,
+      "changePercent": -9.82,
+      "targetLow": 213000,
+      "targetAverage": 459029,
       "targetHigh": 690000,
       "keyNews": "7/7 -6.9%(29만6000원) — 사상 최대 실적(영업익 세계 1위)에도 셀온·외인 매도·모건스탠리 비중축소 보고서에 폭락. 평균목표가(47만 원) 대비 안전마진 약 37%로 재확대, 애널 37명 Strong Buy(1.4). 실적이 확인된 급락이므로 투매 자제, 신규는 분할·소액. 자사주 3,445억 성과급 처분은 오버행 우려 미미. 7/31 확정실적 확인",
       "dataTime": "韓 직전 종가 (자동)"
@@ -463,11 +463,11 @@
       "sector": "반도체",
       "market": "KR",
       "currency": "KRW",
-      "closePrice": 1158000,
+      "closePrice": 1052000,
       "afterHoursPrice": null,
-      "changePercent": 5.56,
+      "changePercent": -10.24,
       "targetLow": 1575000,
-      "targetAverage": 3003050,
+      "targetAverage": 2977665,
       "targetHigh": 4700000,
       "keyNews": "7/7 -6.1%(220만1000원)로 삼성과 동반 급락. HBM 1위 지위·애널 37명 Strong Buy(1.4)는 그대로이고 평균목표가(317.6만 원) 대비 안전마진 약 31%가 다시 열림. 급락은 레버리지 청산·수급 성격이 커 투매 자제, 조정 시 분할 관점. 7/24 2Q 실적이 분수령",
       "dataTime": "韓 직전 종가 (자동)"
@@ -687,9 +687,9 @@
       "sector": "커뮤니케이션",
       "market": "KR",
       "currency": "KRW",
-      "closePrice": 156100,
+      "closePrice": 160500,
       "afterHoursPrice": null,
-      "changePercent": 3.86,
+      "changePercent": 2.56,
       "targetLow": 190000,
       "targetAverage": 272964,
       "targetHigh": 390000,
@@ -836,11 +836,11 @@
       "sector": "산업/원전",
       "market": "KR",
       "currency": "KRW",
-      "closePrice": 42850,
+      "closePrice": 40300,
       "afterHoursPrice": null,
-      "changePercent": 7.12,
-      "targetLow": 80000,
-      "targetAverage": 110599,
+      "changePercent": -6.06,
+      "targetLow": 53000,
+      "targetAverage": 107981,
       "targetHigh": 160000,
       "keyNews": "7/7 -4.6%(8만1600원)로 급락장에 동반 하락. 현재가가 목표가 하단(10만 원)마저 크게 하회해 평균목표가(14.2만 원) 대비 안전마진 약 43%로 종목 중 최대. 애널 20명 Strong Buy(1.5). 원전·SMR·데이터센터 전력 구조 스토리는 유효 — 지수 진정 시 분할매수 관점 매력(고변동 유의)",
       "dataTime": "韓 직전 종가 (자동)"
@@ -888,7 +888,7 @@
       "afterHoursPrice": null,
       "changePercent": -5.31,
       "targetLow": 4.0,
-      "targetAverage": 7.7,
+      "targetAverage": 7.5,
       "targetHigh": 15.0,
       "keyNews": "7/6 +4.8%(17.82달러) 반등했으나 현재가가 평균목표가(18.6달러)에 근접해 상단 여력 제한적. 공매도 비중이 유통주식의 38%에 달하는 초고변동주, 월가 'Hold'(2.8) — 관망 유지",
       "dataTime": "美 직전 종가 (자동)",
@@ -901,9 +901,9 @@
       "sector": "임의소비",
       "market": "KR",
       "currency": "KRW",
-      "closePrice": 275000,
+      "closePrice": 271000,
       "afterHoursPrice": null,
-      "changePercent": 10.89,
+      "changePercent": -1.99,
       "targetLow": 280000,
       "targetAverage": 509940,
       "targetHigh": 840000,
