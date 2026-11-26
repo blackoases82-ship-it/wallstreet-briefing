@@ -1,7 +1,7 @@
 {
   "title": "나만의 월스트리트",
-  "generatedAt": "2026. 11. 26. 오후 12:57 KST",
-  "oneLineConclusion": "목요일 브리핑 — S&P500 7,183 (-0.27%), 나스닥 (-0.63%), 다우 (+0.31%). 삼성전자 170,700원 (-10.82%), 엔비디아 (-2.22%). 원/달러 1,343원. 강세: 산업재·커뮤니케이션. 약세: 여스케어·기술.",
+  "generatedAt": "2026. 11. 27. 오전 6:17 KST",
+  "oneLineConclusion": "금요일 브리핑 — S&P500 7,183 (-0.27%), 나스닥 (-0.63%), 다우 (+0.31%). 삼성전자 171,300원 (+0.06%), 엔비디아 (-2.22%). 원/달러 1,343원. 강세: 산업재·커뮤니케이션. 약세: 여스케어·기술.",
   "economicCalendar": {
     "note": "※ 일정·날짜는 예정(추정) 기준이며 변동될 수 있습니다. 자동 갱신됩니다.",
     "months": [
@@ -163,7 +163,7 @@
     ]
   },
   "usMarketCap": {
-    "asOf": "美 직전 종가 기준 (자동·2026-11-25)",
+    "asOf": "美 직전 종가 기준 (자동·2026-11-26)",
     "items": [
       {
         "rank": 1,
@@ -263,26 +263,26 @@
     {
       "name": "원/달러",
       "value": "1,343",
-      "direction": "flat",
-      "note": "전일比 -0.0%"
+      "direction": "down",
+      "note": "전일比 -0.1%"
     },
     {
       "name": "금",
-      "value": "$3,608",
+      "value": "$3,593",
       "direction": "up",
-      "note": "+1.7%"
+      "note": "+1.2%"
     },
     {
       "name": "은",
       "value": "$42",
       "direction": "up",
-      "note": "+3.5%"
+      "note": "+2.9%"
     },
     {
       "name": "VIX",
-      "value": "28.3",
-      "direction": "up",
-      "note": "+7.3%"
+      "value": "26.8",
+      "direction": "down",
+      "note": "-5.4%"
     },
     {
       "name": "美10년물",
@@ -448,9 +448,9 @@
       "sector": "반도체",
       "market": "KR",
       "currency": "KRW",
-      "closePrice": 173100,
+      "closePrice": 171300,
       "afterHoursPrice": null,
-      "changePercent": 1.11,
+      "changePercent": 0.06,
       "targetLow": 213000,
       "targetAverage": 455167,
       "targetHigh": 690000,
@@ -463,9 +463,9 @@
       "sector": "반도체",
       "market": "KR",
       "currency": "KRW",
-      "closePrice": 1066000,
+      "closePrice": 1053000,
       "afterHoursPrice": null,
-      "changePercent": 3.0,
+      "changePercent": 1.74,
       "targetLow": 1575000,
       "targetAverage": 2977665,
       "targetHigh": 4700000,
@@ -594,7 +594,7 @@
       "afterHoursPrice": null,
       "changePercent": -4.61,
       "targetLow": 85.0,
-      "targetAverage": 243.36,
+      "targetAverage": 243.38,
       "targetHigh": 375.0,
       "keyNews": "",
       "dataTime": "美 직전 종가 (자동)",
@@ -687,9 +687,9 @@
       "sector": "커뮤니케이션",
       "market": "KR",
       "currency": "KRW",
-      "closePrice": 159900,
+      "closePrice": 160200,
       "afterHoursPrice": null,
-      "changePercent": 0.53,
+      "changePercent": 0.72,
       "targetLow": 190000,
       "targetAverage": 273552,
       "targetHigh": 390000,
@@ -836,9 +836,9 @@
       "sector": "산업/원전",
       "market": "KR",
       "currency": "KRW",
-      "closePrice": 40850,
+      "closePrice": 40500,
       "afterHoursPrice": null,
-      "changePercent": 2.38,
+      "changePercent": 1.5,
       "targetLow": 53000,
       "targetAverage": 107981,
       "targetHigh": 160000,
@@ -855,7 +855,7 @@
       "afterHoursPrice": null,
       "changePercent": -4.32,
       "targetLow": 240.0,
-      "targetAverage": 340.38,
+      "targetAverage": 339.68,
       "targetHigh": 399.0,
       "keyNews": "7/6 +2.8%(245.87달러)로 52주 저점권(228.63달러)에서 반등. 현재가가 목표가 하단(296달러)도 크게 하회 → 안전마진 약 31%. 원전·데이터센터 전력 구조 수요는 유효, 월가 'Buy' 1.5등급 — 낙폭과대 유틸리티로 분할 관점 관찰",
       "dataTime": "美 직전 종가 (자동)",
@@ -888,8 +888,8 @@
       "afterHoursPrice": null,
       "changePercent": 16.54,
       "targetLow": 4.0,
-      "targetAverage": 6.61,
-      "targetHigh": 13.0,
+      "targetAverage": 6.46,
+      "targetHigh": 11.0,
       "keyNews": "7/6 +4.8%(17.82달러) 반등했으나 현재가가 평균목표가(18.6달러)에 근접해 상단 여력 제한적. 공매도 비중이 유통주식의 38%에 달하는 초고변동주, 월가 'Hold'(2.8) — 관망 유지",
       "dataTime": "美 직전 종가 (자동)",
       "nameEn": "Fluence Energy",
@@ -901,11 +901,11 @@
       "sector": "임의소비",
       "market": "KR",
       "currency": "KRW",
-      "closePrice": 260000,
+      "closePrice": 259000,
       "afterHoursPrice": null,
-      "changePercent": -3.88,
-      "targetLow": 280000,
-      "targetAverage": 509940,
+      "changePercent": -4.25,
+      "targetLow": 260000,
+      "targetAverage": 505101,
       "targetHigh": 840000,
       "keyNews": "7/7 -4.5%(47만9500원)로 지수 급락에 동반 하락, 현재가가 목표가 하단(50.9만 원)을 다시 하회하는 낙폭과대 구간. 평균목표가(74.9만 원) 대비 안전마진 약 36%. 원/달러 1,513원 급락(원화 강세)은 수출주엔 단기 역풍이나 외국인 복귀 촉매가 되면 수급엔 우호적 — 반등 국면 1순위 관찰",
       "dataTime": "韓 직전 종가 (자동)"
